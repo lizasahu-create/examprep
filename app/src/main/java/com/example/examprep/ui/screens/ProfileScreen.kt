@@ -8,81 +8,63 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.Logout
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.examprep.model.UserProgress
+import com.example.examprep.model.AppThemeMode
+import com.example.examprep.model.ExamAttemptDoc
+import com.example.examprep.model.UiState
 import com.example.examprep.ui.components.PaperCard
-import com.example.examprep.ui.theme.*
+import com.example.examprep.ui.theme.LocalExamFeedbackColors
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ProfileScreen(
-    userProgress: UserProgress,
-    isAdminUser: Boolean,
-    onAdminToggle: (Boolean) -> Unit,
-    onNavigateToAdmin: () -> Unit,
-    onLogout: () -> Unit
+    displayName: String,
+    email: String?,
+    themeMode: AppThemeMode,
+    examAttemptsState: UiState<List<ExamAttemptDoc>>,
+    onThemeModeSelected: (AppThemeMode) -> Unit,
+    onSignOutClick: () -> Unit
 ) {
-    var notificationsEnabled by remember { mutableStateOf(true) }
-    var showProgressDialog by remember { mutableStateOf(false) }
-    var showAboutDialog by remember { mutableStateOf(false) }
+    val feedbackColors = LocalExamFeedbackColors.current
+    var showSignOutDialog by remember { mutableStateOf(false) }
 
-    if (showProgressDialog) {
+    if (showSignOutDialog) {
         AlertDialog(
-            onDismissRequest = { showProgressDialog = false },
-            title = { Text("My Preparation Progress", fontWeight = FontWeight.Bold, color = PrimaryNavy) },
-            text = {
-                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text("• Total Mock Tests: ${userProgress.totalTests}")
-                    Text("• Completed Tests: ${userProgress.completedTests}")
-                    Text("• Overall Accuracy: ${userProgress.accuracyPercent}%")
-                    Text("• Study Streak: ${userProgress.streakDays} Days")
-                    Spacer(modifier = Modifier.height(4.dp))
-                    Text(
-                        "Recommendation: Focus on Odisha GK and Mathematics Sectional papers to boost your accuracy to 90%+.",
-                        fontSize = 12.sp,
-                        color = TextMuted
-                    )
-                }
+            onDismissRequest = { showSignOutDialog = false },
+            title = {
+                Text(
+                    "Sign Out",
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.primary
+                )
             },
+            text = { Text("Sign out of your Google account?") },
             confirmButton = {
-                TextButton(onClick = { showProgressDialog = false }) {
-                    Text("Done", color = PrimaryNavy)
+                TextButton(
+                    onClick = {
+                        showSignOutDialog = false
+                        onSignOutClick()
+                    }
+                ) {
+                    Text("Sign Out", color = MaterialTheme.colorScheme.error, fontWeight = FontWeight.Bold)
                 }
             },
-            containerColor = PaperCard,
-            shape = RoundedCornerShape(16.dp)
-        )
-    }
-
-    if (showAboutDialog) {
-        AlertDialog(
-            onDismissRequest = { showAboutDialog = false },
-            title = { Text("About ExamPrep", fontWeight = FontWeight.Bold, color = PrimaryNavy) },
-            text = {
-                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Text("Version 1.0.0 (Ladybug Starter)")
-                    Text("ExamPrep is a comprehensive competitive exam preparation platform featuring timed MCQ exams, sectional study sheets, and previous year papers with a clean paper aesthetic.")
-                    Spacer(modifier = Modifier.height(6.dp))
-                    Text("Created for student success.", fontSize = 12.sp, color = TextMuted)
+            dismissButton = {
+                TextButton(onClick = { showSignOutDialog = false }) {
+                    Text("Cancel", color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             },
-            confirmButton = {
-                TextButton(onClick = { showAboutDialog = false }) {
-                    Text("Close", color = PrimaryNavy)
-                }
-            },
-            containerColor = PaperCard,
+            containerColor = MaterialTheme.colorScheme.surface,
             shape = RoundedCornerShape(16.dp)
         )
     }
@@ -91,12 +73,18 @@ fun ProfileScreen(
         topBar = {
             TopAppBar(
                 title = {
-                    Text("Profile & Settings", fontWeight = FontWeight.Bold, color = PrimaryNavy)
+                    Text(
+                        "Profile",
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.primary
+                    )
                 },
-                colors = TopAppBarDefaults.topAppBarColors(containerColor = PaperBackground)
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.background
+                )
             )
         },
-        containerColor = PaperBackground
+        containerColor = MaterialTheme.colorScheme.background
     ) { innerPadding ->
         Column(
             modifier = Modifier
@@ -107,10 +95,9 @@ fun ProfileScreen(
                 .testTag("profile_screen"),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            // Student Profile Card matching Mockup #11
+            // Google User Account Card
             PaperCard(
                 modifier = Modifier.fillMaxWidth(),
-                backgroundColor = PaperCard,
                 elevation = 2.dp
             ) {
                 Row(
@@ -119,16 +106,16 @@ fun ProfileScreen(
                 ) {
                     Box(
                         modifier = Modifier
-                            .size(60.dp)
+                            .size(58.dp)
                             .clip(CircleShape)
-                            .background(PrimaryNavy),
+                            .background(MaterialTheme.colorScheme.primary),
                         contentAlignment = Alignment.Center
                     ) {
                         Icon(
                             imageVector = Icons.Default.Person,
-                            contentDescription = "Avatar",
-                            tint = Color.White,
-                            modifier = Modifier.size(34.dp)
+                            contentDescription = "Profile Avatar",
+                            tint = MaterialTheme.colorScheme.onPrimary,
+                            modifier = Modifier.size(32.dp)
                         )
                     }
 
@@ -136,127 +123,152 @@ fun ProfileScreen(
 
                     Column {
                         Text(
-                            text = if (isAdminUser) "Admin User" else userProgress.studentName,
+                            text = displayName,
                             fontSize = 18.sp,
                             fontWeight = FontWeight.Bold,
-                            color = TextDark
+                            color = MaterialTheme.colorScheme.onSurface
                         )
-                        Spacer(modifier = Modifier.height(3.dp))
-                        Text(
-                            text = if (isAdminUser) "admin@gmail.com" else userProgress.email,
-                            fontSize = 13.sp,
-                            color = TextMuted
-                        )
-                        Spacer(modifier = Modifier.height(3.dp))
-                        Text(
-                            text = if (isAdminUser) "Role: Administrator" else "Student • Aspirant",
-                            fontSize = 11.sp,
-                            color = AccentOrange,
-                            fontWeight = FontWeight.SemiBold
-                        )
+                        if (!email.isNullOrBlank()) {
+                            Spacer(modifier = Modifier.height(3.dp))
+                            Text(
+                                text = email,
+                                fontSize = 13.sp,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
                     }
                 }
             }
 
-            // Menu Items List
-            PaperCard(
-                modifier = Modifier.fillMaxWidth(),
-                backgroundColor = PaperCard,
-                elevation = 1.dp
-            ) {
-                ProfileMenuItem(
-                    icon = Icons.Default.Analytics,
-                    title = "My Progress",
-                    onClick = { showProgressDialog = true }
-                )
+            // Theme Mode Switcher
+            Text(
+                text = "Appearance",
+                fontSize = 15.sp,
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.primary
+            )
+            ThemeModeSelectorBar(
+                selectedMode = themeMode,
+                onModeSelected = onThemeModeSelected
+            )
 
-                HorizontalDivider(color = PaperBorder)
+            // Exam Attempt History from Firestore
+            Text(
+                text = "Recent Mock Exams",
+                fontSize = 15.sp,
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.primary
+            )
 
-                ProfileMenuItem(
-                    icon = Icons.Default.AdminPanelSettings,
-                    title = "Admin Dashboard Panel",
-                    subtitle = if (isAdminUser) "Active" else "Switch to Admin mode",
-                    onClick = {
-                        if (!isAdminUser) onAdminToggle(true)
-                        onNavigateToAdmin()
+            when (examAttemptsState) {
+                is UiState.Loading -> {
+                    PaperCard(modifier = Modifier.fillMaxWidth()) {
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(12.dp),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                        }
                     }
-                )
+                }
 
-                HorizontalDivider(color = PaperBorder)
+                is UiState.Error -> {
+                    PaperCard(modifier = Modifier.fillMaxWidth()) {
+                        Text(
+                            text = examAttemptsState.message,
+                            fontSize = 13.sp,
+                            color = MaterialTheme.colorScheme.error
+                        )
+                    }
+                }
 
+                is UiState.Success -> {
+                    val attempts = examAttemptsState.data
+                    if (attempts.isEmpty()) {
+                        PaperCard(modifier = Modifier.fillMaxWidth()) {
+                            Text(
+                                text = "No completed timed exams yet.",
+                                fontSize = 13.sp,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                    } else {
+                        attempts.take(10).forEach { attempt ->
+                            val acc = if (attempt.totalQuestions > 0L) {
+                                ((attempt.correctCount * 100L) / attempt.totalQuestions).toInt()
+                            } else 0
+                            PaperCard(modifier = Modifier.fillMaxWidth()) {
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Column(modifier = Modifier.weight(1f)) {
+                                        Text(
+                                            text = attempt.setHeading,
+                                            fontSize = 14.sp,
+                                            fontWeight = FontWeight.SemiBold,
+                                            color = MaterialTheme.colorScheme.onSurface
+                                        )
+                                        Spacer(modifier = Modifier.height(3.dp))
+                                        Text(
+                                            text = "Score: ${attempt.correctCount}/${attempt.totalQuestions} • Wrong: ${attempt.incorrectCount}",
+                                            fontSize = 12.sp,
+                                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                                        )
+                                    }
+                                    Text(
+                                        text = "$acc%",
+                                        fontSize = 16.sp,
+                                        fontWeight = FontWeight.Bold,
+                                        color = feedbackColors.correct
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Sign Out Card
+            PaperCard(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .testTag("sign_out_button"),
+                onClick = { showSignOutDialog = true }
+            ) {
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(vertical = 12.dp),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
+                        .defaultMinSize(minHeight = 48.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween
                 ) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Icon(Icons.Default.Notifications, contentDescription = null, tint = PrimaryNavy)
-                        Spacer(modifier = Modifier.width(14.dp))
-                        Text("Notifications", fontSize = 15.sp, color = TextDark)
+                        Icon(
+                            imageVector = Icons.AutoMirrored.Filled.Logout,
+                            contentDescription = "Sign Out",
+                            tint = MaterialTheme.colorScheme.error
+                        )
+                        Spacer(modifier = Modifier.width(12.dp))
+                        Text(
+                            text = "Sign Out",
+                            fontSize = 15.sp,
+                            fontWeight = FontWeight.SemiBold,
+                            color = MaterialTheme.colorScheme.error
+                        )
                     }
-                    Switch(
-                        checked = notificationsEnabled,
-                        onCheckedChange = { notificationsEnabled = it },
-                        colors = SwitchDefaults.colors(checkedThumbColor = PrimaryNavy, checkedTrackColor = Color(0xFFD4E1F8))
+                    Icon(
+                        imageVector = Icons.Default.ChevronRight,
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 }
-
-                HorizontalDivider(color = PaperBorder)
-
-                ProfileMenuItem(
-                    icon = Icons.Default.Info,
-                    title = "About App",
-                    onClick = { showAboutDialog = true }
-                )
-
-                HorizontalDivider(color = PaperBorder)
-
-                ProfileMenuItem(
-                    icon = Icons.Default.ExitToApp,
-                    title = "Logout",
-                    titleColor = ErrorRed,
-                    iconTint = ErrorRed,
-                    onClick = onLogout
-                )
             }
 
             Spacer(modifier = Modifier.height(24.dp))
         }
-    }
-}
-
-@Composable
-fun ProfileMenuItem(
-    icon: ImageVector,
-    title: String,
-    subtitle: String? = null,
-    titleColor: Color = TextDark,
-    iconTint: Color = PrimaryNavy,
-    onClick: () -> Unit
-) {
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clickable(onClick = onClick)
-            .padding(vertical = 14.dp),
-        horizontalArrangement = Arrangement.SpaceBetween,
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier.weight(1f)
-        ) {
-            Icon(imageVector = icon, contentDescription = null, tint = iconTint)
-            Spacer(modifier = Modifier.width(14.dp))
-            Column {
-                Text(text = title, fontSize = 15.sp, fontWeight = FontWeight.Medium, color = titleColor)
-                if (subtitle != null) {
-                    Text(text = subtitle, fontSize = 11.sp, color = TextMuted)
-                }
-            }
-        }
-        Icon(Icons.Default.ChevronRight, contentDescription = null, tint = TextMuted)
     }
 }

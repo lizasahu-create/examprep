@@ -1,22 +1,45 @@
 package com.example.examprep.ui.theme
 
 import android.app.Activity
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.SideEffect
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
+import com.example.examprep.model.AppThemeMode
 
-private val LightColorScheme = lightColorScheme(
+@Immutable
+data class ExamFeedbackColors(
+    val correct: Color,
+    val correctContainer: Color,
+    val wrong: Color,
+    val wrongContainer: Color,
+    val selectedBorder: Color,
+    val selectedContainer: Color
+)
+
+val LocalExamFeedbackColors = staticCompositionLocalOf {
+    ExamFeedbackColors(
+        correct = SuccessGreen,
+        correctContainer = SuccessGreenLight,
+        wrong = ErrorRed,
+        wrongContainer = ErrorRedLight,
+        selectedBorder = PrimaryNavy,
+        selectedContainer = Color(0xFFEAF0FA)
+    )
+}
+
+private val PaperColorScheme = lightColorScheme(
     primary = PrimaryNavy,
     onPrimary = Color.White,
-    primaryContainer = PrimaryNavyLight,
-    onPrimaryContainer = Color.White,
+    primaryContainer = Color(0xFFE5ECF8),
+    onPrimaryContainer = PrimaryNavyDark,
     secondary = AccentOrange,
     onSecondary = Color.White,
     secondaryContainer = AccentOrangeLight,
@@ -39,41 +62,76 @@ private val LightColorScheme = lightColorScheme(
 )
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Color(0xFF6E94DF),
-    onPrimary = Color(0xFF0F1E38),
-    primaryContainer = PrimaryNavy,
-    onPrimaryContainer = Color.White,
-    secondary = Color(0xFFFFB27D),
-    onSecondary = Color(0xFF4A2800),
-    background = Color(0xFF141923),
-    onBackground = Color(0xFFEDE8E0),
-    surface = Color(0xFF1D2432),
-    onSurface = Color(0xFFEDE8E0),
-    surfaceVariant = Color(0xFF263042),
-    onSurfaceVariant = Color(0xFFB5BDCA),
-    outline = Color(0xFF374357)
+    primary = DarkPrimary,
+    onPrimary = Color(0xFF0A1936),
+    primaryContainer = DarkPrimaryContainer,
+    onPrimaryContainer = Color(0xFFDCE7FF),
+    secondary = DarkAccentOrange,
+    onSecondary = Color(0xFF3A1C00),
+    secondaryContainer = DarkAccentContainer,
+    onSecondaryContainer = Color(0xFFFFD8B8),
+    tertiary = SuccessGreenDarkText,
+    onTertiary = Color(0xFF06291A),
+    tertiaryContainer = SuccessGreenDarkBg,
+    onTertiaryContainer = SuccessGreenDarkText,
+    background = DarkBackground,
+    onBackground = DarkTextPrimary,
+    surface = DarkCard,
+    onSurface = DarkTextPrimary,
+    surfaceVariant = DarkCardAlt,
+    onSurfaceVariant = DarkTextMuted,
+    outline = DarkBorder,
+    error = ErrorRedDarkText,
+    onError = Color(0xFF3F0A0A),
+    errorContainer = ErrorRedDarkBg,
+    onErrorContainer = ErrorRedDarkText
 )
 
 @Composable
 fun ExamPrepTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
+    themeMode: AppThemeMode = AppThemeMode.PAPER,
     content: @Composable () -> Unit
 ) {
-    val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
+    val isDark = themeMode == AppThemeMode.DARK
+    val colorScheme = if (isDark) DarkColorScheme else PaperColorScheme
+    val feedbackColors = if (isDark) {
+        ExamFeedbackColors(
+            correct = SuccessGreenDarkText,
+            correctContainer = SuccessGreenDarkBg,
+            wrong = ErrorRedDarkText,
+            wrongContainer = ErrorRedDarkBg,
+            selectedBorder = DarkPrimary,
+            selectedContainer = DarkPrimaryContainer
+        )
+    } else {
+        ExamFeedbackColors(
+            correct = SuccessGreen,
+            correctContainer = SuccessGreenLight,
+            wrong = ErrorRed,
+            wrongContainer = ErrorRedLight,
+            selectedBorder = PrimaryNavy,
+            selectedContainer = Color(0xFFEAF0FA)
+        )
+    }
+
     val view = LocalView.current
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as? Activity)?.window
             if (window != null) {
-                window.statusBarColor = colorScheme.primary.toArgb()
-                WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = false
+                WindowCompat.getInsetsController(window, view).apply {
+                    isAppearanceLightStatusBars = !isDark
+                    isAppearanceLightNavigationBars = !isDark
+                }
             }
         }
     }
 
-    MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
-        content = content
-    )
+    CompositionLocalProvider(LocalExamFeedbackColors provides feedbackColors) {
+        MaterialTheme(
+            colorScheme = colorScheme,
+            typography = Typography,
+            content = content
+        )
+    }
 }

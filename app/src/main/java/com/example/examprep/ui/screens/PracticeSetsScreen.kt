@@ -7,40 +7,35 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Assignment
-import androidx.compose.material.icons.filled.ChevronRight
-import androidx.compose.material.icons.filled.PlayArrow
-import androidx.compose.material.icons.filled.Timer
+import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.examprep.model.PracticeSet
+import com.example.examprep.model.ExamCategory
 import com.example.examprep.ui.components.PaperCard
-import com.example.examprep.ui.theme.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PracticeSetsScreen(
-    sets: List<PracticeSet>,
+    categories: List<ExamCategory>,
     onBackClick: () -> Unit,
-    onStartSet: (PracticeSet) -> Unit
+    onCategoryClick: (ExamCategory) -> Unit
 ) {
-    val featuredSet = sets.firstOrNull()
-
     Scaffold(
         topBar = {
             TopAppBar(
                 title = {
                     Text(
-                        "Practice Set",
+                        text = "Practice Mock",
                         fontWeight = FontWeight.Bold,
-                        color = PrimaryNavy
+                        color = MaterialTheme.colorScheme.primary
                     )
                 },
                 navigationIcon = {
@@ -51,186 +46,101 @@ fun PracticeSetsScreen(
                         Icon(
                             imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                             contentDescription = "Back",
-                            tint = PrimaryNavy
+                            tint = MaterialTheme.colorScheme.primary
                         )
                     }
                 },
-                colors = TopAppBarDefaults.topAppBarColors(containerColor = PaperBackground)
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.background
+                )
             )
         },
-        containerColor = PaperBackground
+        containerColor = MaterialTheme.colorScheme.background
     ) { innerPadding ->
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
                 .padding(horizontal = 20.dp)
-                .testTag("practice_sets_list"),
-            verticalArrangement = Arrangement.spacedBy(16.dp)
+                .testTag("practice_sets_screen"),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+            contentPadding = PaddingValues(top = 8.dp, bottom = 24.dp)
         ) {
-            // Featured Set Card matching Mockup #4
-            if (featuredSet != null) {
-                item {
-                    Spacer(modifier = Modifier.height(4.dp))
-                    PaperCard(
-                        modifier = Modifier.fillMaxWidth(),
-                        backgroundColor = PaperCard,
-                        elevation = 2.dp
-                    ) {
-                        Text(
-                            text = featuredSet.title,
-                            fontSize = 18.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = PrimaryNavy
-                        )
-
-                        Spacer(modifier = Modifier.height(6.dp))
-
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(14.dp)
-                        ) {
-                            Text(
-                                text = "Total Questions: ${featuredSet.totalQuestions}",
-                                fontSize = 13.sp,
-                                color = TextMuted
-                            )
-                            Text(
-                                text = "•",
-                                color = TextMuted
-                            )
-                            Text(
-                                text = "Time: ${featuredSet.durationMinutes} mins",
-                                fontSize = 13.sp,
-                                color = TextMuted
-                            )
-                        }
-
-                        Spacer(modifier = Modifier.height(16.dp))
-
-                        Button(
-                            onClick = { onStartSet(featuredSet) },
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(46.dp)
-                                .testTag("start_test_featured_button"),
-                            shape = RoundedCornerShape(10.dp),
-                            colors = ButtonDefaults.buttonColors(containerColor = PrimaryNavy)
-                        ) {
-                            Icon(
-                                imageVector = Icons.Default.PlayArrow,
-                                contentDescription = null,
-                                tint = Color.White,
-                                modifier = Modifier.size(18.dp)
-                            )
-                            Spacer(modifier = Modifier.width(6.dp))
-                            Text(
-                                "Start Test",
-                                fontWeight = FontWeight.Bold,
-                                fontSize = 15.sp,
-                                color = Color.White
-                            )
-                        }
-                    }
-                }
+            items(categories, key = { it.id }) { category ->
+                CategoryListItemCard(
+                    title = category.name,
+                    icon = practiceCategoryIcon(category.id),
+                    testTag = "practice_category_${category.id}",
+                    onClick = { onCategoryClick(category) }
+                )
             }
+        }
+    }
+}
 
-            // Available Practice Sets Header
-            item {
-                Spacer(modifier = Modifier.height(8.dp))
+private fun practiceCategoryIcon(categoryId: String): ImageVector = when (categoryId) {
+    "practice_full_length" -> Icons.Default.Assignment
+    "practice_gk" -> Icons.Default.Public
+    "practice_math_reasoning" -> Icons.Default.Calculate
+    "practice_odia_english" -> Icons.Default.Translate
+    else -> Icons.Default.Timer
+}
+
+@Composable
+internal fun CategoryListItemCard(
+    title: String,
+    icon: ImageVector,
+    testTag: String,
+    onClick: () -> Unit
+) {
+    PaperCard(
+        modifier = Modifier
+            .fillMaxWidth()
+            .testTag(testTag),
+        elevation = 2.dp,
+        onClick = onClick
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .defaultMinSize(minHeight = 48.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.weight(1f)
+            ) {
+                Box(
+                    modifier = Modifier
+                        .size(44.dp)
+                        .clip(RoundedCornerShape(12.dp))
+                        .background(MaterialTheme.colorScheme.primaryContainer),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = icon,
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.size(22.dp)
+                    )
+                }
+
+                Spacer(modifier = Modifier.width(14.dp))
+
                 Text(
-                    text = "Available Practice Sets",
+                    text = title,
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Bold,
-                    color = PrimaryNavy
+                    color = MaterialTheme.colorScheme.onSurface
                 )
             }
 
-            items(sets) { practiceSet ->
-                PaperCard(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .testTag("practice_set_item_${practiceSet.id}"),
-                    backgroundColor = PaperCard,
-                    elevation = 1.dp,
-                    onClick = { onStartSet(practiceSet) }
-                ) {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.SpaceBetween
-                    ) {
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier.weight(1f)
-                        ) {
-                            Box(
-                                modifier = Modifier
-                                    .size(42.dp)
-                                    .background(
-                                        color = Color(0xFFF1EFEA),
-                                        shape = RoundedCornerShape(10.dp)
-                                    ),
-                                contentAlignment = Alignment.Center
-                            ) {
-                                Icon(
-                                    imageVector = Icons.Default.Assignment,
-                                    contentDescription = null,
-                                    tint = PrimaryNavy,
-                                    modifier = Modifier.size(20.dp)
-                                )
-                            }
-
-                            Spacer(modifier = Modifier.width(12.dp))
-
-                            Column {
-                                Text(
-                                    text = practiceSet.title,
-                                    fontSize = 15.sp,
-                                    fontWeight = FontWeight.SemiBold,
-                                    color = TextDark
-                                )
-                                Spacer(modifier = Modifier.height(3.dp))
-                                Row(
-                                    verticalAlignment = Alignment.CenterVertically,
-                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                                ) {
-                                    Text(
-                                        text = "${practiceSet.totalQuestions} Questions",
-                                        fontSize = 12.sp,
-                                        color = TextMuted
-                                    )
-                                    Text(text = "|", fontSize = 11.sp, color = TextMuted)
-                                    Row(verticalAlignment = Alignment.CenterVertically) {
-                                        Icon(
-                                            imageVector = Icons.Default.Timer,
-                                            contentDescription = null,
-                                            tint = TextMuted,
-                                            modifier = Modifier.size(12.dp)
-                                        )
-                                        Spacer(modifier = Modifier.width(3.dp))
-                                        Text(
-                                            text = "${practiceSet.durationMinutes} mins",
-                                            fontSize = 12.sp,
-                                            color = TextMuted
-                                        )
-                                    }
-                                }
-                            }
-                        }
-
-                        Icon(
-                            imageVector = Icons.Default.ChevronRight,
-                            contentDescription = "Open",
-                            tint = TextMuted
-                        )
-                    }
-                }
-            }
-
-            item {
-                Spacer(modifier = Modifier.height(24.dp))
-            }
+            Icon(
+                imageVector = Icons.Default.ChevronRight,
+                contentDescription = "Open $title",
+                tint = MaterialTheme.colorScheme.onSurfaceVariant
+            )
         }
     }
 }

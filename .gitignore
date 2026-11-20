@@ -1,0 +1,7 @@
+.gradle/
+build/
+app/build/
+local.properties
+*-debug.log
+firestore-debug.log
+firebase-debug.log

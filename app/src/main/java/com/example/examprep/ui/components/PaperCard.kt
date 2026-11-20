@@ -14,13 +14,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.examprep.ui.theme.*
 
 @Composable
 fun PaperCard(
     modifier: Modifier = Modifier,
-    backgroundColor: Color = PaperCard,
-    borderColor: Color = PaperBorder,
+    backgroundColor: Color = MaterialTheme.colorScheme.surface,
+    borderColor: Color = MaterialTheme.colorScheme.outline,
     cornerRadius: Dp = 16.dp,
     elevation: Dp = 1.dp,
     onClick: (() -> Unit)? = null,
@@ -63,8 +62,8 @@ fun PaperCard(
 @Composable
 fun TagBadge(
     text: String,
-    backgroundColor: Color = PaperCardAlt,
-    textColor: Color = PrimaryNavy,
+    backgroundColor: Color = MaterialTheme.colorScheme.surfaceVariant,
+    textColor: Color = MaterialTheme.colorScheme.primary,
     modifier: Modifier = Modifier
 ) {
     Box(

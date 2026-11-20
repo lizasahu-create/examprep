@@ -1,71 +1,80 @@
 package com.example.examprep.model
 
-data class Question(
-    val id: String,
-    val subject: String,
-    val questionText: String,
-    val options: List<String>,
-    val correctIndex: Int,
-    val explanation: String
-)
+import androidx.annotation.Keep
+import com.google.firebase.Timestamp
+import com.google.firebase.firestore.DocumentId
+import com.google.firebase.firestore.IgnoreExtraProperties
+import com.google.firebase.firestore.ServerTimestamp
 
-data class PracticeSet(
-    val id: String,
-    val title: String,
-    val category: String,
-    val totalQuestions: Int,
-    val durationMinutes: Int,
-    val questions: List<Question>
-)
+enum class AppThemeMode {
+    PAPER,
+    DARK;
 
-data class SectionalSubject(
+    companion object {
+        fun fromString(raw: String?): AppThemeMode =
+            entries.firstOrNull { it.name.equals(raw, ignoreCase = true) } ?: PAPER
+    }
+}
+
+enum class CategoryType(val displayTitle: String) {
+    PRACTICE("Practice Mock"),
+    SECTIONAL("Sectional"),
+    PYQ("PYQ"),
+    OTHER("Other")
+}
+
+data class ExamCategory(
     val id: String,
     val name: String,
-    val pagesCount: Int,
-    val description: String,
-    val topics: List<String>,
-    val studyNotes: List<StudyNote>
+    val sectionType: CategoryType
 )
 
-data class StudyNote(
-    val id: String,
-    val title: String,
-    val content: String,
-    val formulasOrHighlights: List<String>,
-    val practiceQuestion: String? = null,
-    val practiceAnswer: String? = null
+// --- Firestore Models (Type-safe, @Keep, @IgnoreExtraProperties, no-arg defaults) ---
+
+@Keep
+@IgnoreExtraProperties
+data class UserProfileDoc(
+    @DocumentId val id: String = "",
+    val userId: String = "",
+    val displayName: String = "",
+    val email: String? = null,
+    val themeMode: String = AppThemeMode.PAPER.name,
+    @ServerTimestamp val createdAt: Timestamp? = null,
+    @ServerTimestamp val updatedAt: Timestamp? = null
 )
 
-data class PreviousYearPaper(
-    val id: String,
-    val examName: String,
-    val year: Int,
-    val pagesCount: Int,
-    val paperType: String,
-    val overview: String,
-    val questionsSnapshot: List<String>
+@Keep
+@IgnoreExtraProperties
+data class ExamAttemptDoc(
+    @DocumentId val id: String = "",
+    val userId: String = "",
+    val setId: String = "",
+    val setHeading: String = "",
+    val category: String = CategoryType.PRACTICE.name,
+    val totalQuestions: Long = 0L,
+    val correctCount: Long = 0L,
+    val incorrectCount: Long = 0L,
+    val skippedCount: Long = 0L,
+    val timeTakenSeconds: Long = 0L,
+    @ServerTimestamp val createdAt: Timestamp? = null
 )
 
-data class UserProgress(
-    val studentName: String = "Student",
-    val email: String = "student@example.com",
-    val totalTests: Int = 5,
-    val completedTests: Int = 2,
-    val accuracyPercent: Int = 85,
-    val streakDays: Int = 4,
-    val bookmarkedIds: Set<String> = emptySet()
+@Keep
+@IgnoreExtraProperties
+data class SetProgressDoc(
+    @DocumentId val id: String = "",
+    val userId: String = "",
+    val setHeading: String = "",
+    val category: String = CategoryType.SECTIONAL.name,
+    val answeredCount: Long = 0L,
+    val correctCount: Long = 0L,
+    val totalQuestions: Long = 0L,
+    @ServerTimestamp val createdAt: Timestamp? = null,
+    @ServerTimestamp val updatedAt: Timestamp? = null
 )
 
-data class AdminMetric(
-    val totalQuestions: Int = 1250,
-    val practiceSets: Int = 12,
-    val sectionalPdfs: Int = 11,
-    val pyqFiles: Int = 15
-)
-
-data class AdminActivityLog(
-    val id: String,
-    val date: String,
-    val activity: String,
-    val user: String
-)
+sealed interface UiState<out T> {
+    data object Loading : UiState<Nothing>
+    data class Success<T>(val data: T) : UiState<T>
+    data class Error(val message: String) : UiState<Nothing>
+}

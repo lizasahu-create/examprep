@@ -1,0 +1,173 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Authenticated user profile and theme mode preferences (PAPER or DARK).",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Firebase Auth UID of the owner."
+        },
+        "displayName": {
+          "type": "string",
+          "description": "Display name from Google Sign-In."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "User email address from Google Sign-In (private to owner)."
+        },
+        "themeMode": {
+          "type": "string",
+          "enum": ["PAPER", "DARK"],
+          "description": "Selected app theme mode."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the profile was created (FieldValue.serverTimestamp())."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp of the last update (FieldValue.serverTimestamp())."
+        }
+      },
+      "required": ["userId", "displayName", "themeMode", "createdAt", "updatedAt"]
+    },
+    "ExamAttempt": {
+      "title": "ExamAttempt",
+      "description": "Completed timed MCQ practice/mock exam attempt and score analysis.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Firebase Auth UID of the owner."
+        },
+        "setId": {
+          "type": "string",
+          "description": "Unique identifier of the PDF question set."
+        },
+        "setHeading": {
+          "type": "string",
+          "description": "Heading extracted from the PDF question set."
+        },
+        "category": {
+          "type": "string",
+          "enum": ["PRACTICE", "SECTIONAL", "PYQ", "OTHER"],
+          "description": "Category folder of the question set."
+        },
+        "totalQuestions": {
+          "type": "integer",
+          "description": "Total number of MCQ questions in the set."
+        },
+        "correctCount": {
+          "type": "integer",
+          "description": "Number of correctly answered questions."
+        },
+        "incorrectCount": {
+          "type": "integer",
+          "description": "Number of incorrectly answered questions."
+        },
+        "skippedCount": {
+          "type": "integer",
+          "description": "Number of unanswered questions."
+        },
+        "timeTakenSeconds": {
+          "type": "integer",
+          "description": "Elapsed exam duration in seconds."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when the attempt was submitted (FieldValue.serverTimestamp())."
+        }
+      },
+      "required": [
+        "userId",
+        "setId",
+        "setHeading",
+        "category",
+        "totalQuestions",
+        "correctCount",
+        "incorrectCount",
+        "skippedCount",
+        "timeTakenSeconds",
+        "createdAt"
+      ]
+    },
+    "SetProgress": {
+      "title": "SetProgress",
+      "description": "Per-set MCQ practice progress for Sectional and PYQ sets.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Firebase Auth UID of the owner."
+        },
+        "setHeading": {
+          "type": "string",
+          "description": "Heading extracted from the PDF question set."
+        },
+        "category": {
+          "type": "string",
+          "enum": ["SECTIONAL", "PYQ", "OTHER"],
+          "description": "Category folder of the question set."
+        },
+        "answeredCount": {
+          "type": "integer",
+          "description": "Number of questions answered so far."
+        },
+        "correctCount": {
+          "type": "integer",
+          "description": "Number of questions answered correctly."
+        },
+        "totalQuestions": {
+          "type": "integer",
+          "description": "Total number of questions in the set."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp when progress record was created (FieldValue.serverTimestamp())."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp of the last progress update (FieldValue.serverTimestamp())."
+        }
+      },
+      "required": [
+        "userId",
+        "setHeading",
+        "category",
+        "answeredCount",
+        "correctCount",
+        "totalQuestions",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": {
+        "$ref": "#/entities/UserProfile"
+      },
+      "description": "Owner-only user profile and theme preferences."
+    },
+    "/users/{userId}/exam_attempts/{attemptId}": {
+      "schema": {
+        "$ref": "#/entities/ExamAttempt"
+      },
+      "description": "Owner-only history of completed timed MCQ exam attempts."
+    },
+    "/users/{userId}/set_progress/{setId}": {
+      "schema": {
+        "$ref": "#/entities/SetProgress"
+      },
+      "description": "Owner-only instant-feedback MCQ progress for Sectional and PYQ sets."
+    }
+  }
+}

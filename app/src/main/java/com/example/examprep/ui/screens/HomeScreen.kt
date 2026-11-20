@@ -1,5 +1,6 @@
 package com.example.examprep.ui.screens
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -10,7 +11,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -20,255 +21,172 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.examprep.model.UserProgress
+import com.example.examprep.data.CategoryCatalog
+import com.example.examprep.model.AppThemeMode
+import com.example.examprep.model.ExamAttemptDoc
+import com.example.examprep.model.UiState
 import com.example.examprep.ui.components.PaperCard
-import com.example.examprep.ui.theme.*
 
 @Composable
 fun HomeScreen(
-    userProgress: UserProgress,
+    studentName: String,
+    themeMode: AppThemeMode,
+    examAttemptsState: UiState<List<ExamAttemptDoc>>,
+    onThemeModeSelected: (AppThemeMode) -> Unit,
     onNavigateToPractice: () -> Unit,
     onNavigateToSectional: () -> Unit,
-    onNavigateToPyq: () -> Unit,
-    onNavigateToAdmin: () -> Unit,
-    isAdminUser: Boolean
+    onNavigateToPyq: () -> Unit
 ) {
-    var showNotificationDialog by remember { mutableStateOf(false) }
+    val practiceCount = CategoryCatalog.practiceMockCategories.size
+    val sectionalCount = CategoryCatalog.sectionalCategories.size
+    val pyqCount = CategoryCatalog.pyqCategories.size
 
-    if (showNotificationDialog) {
-        AlertDialog(
-            onDismissRequest = { showNotificationDialog = false },
-            title = {
-                Text(
-                    text = "ExamPrep Notifications",
-                    fontWeight = FontWeight.Bold,
-                    color = PrimaryNavy
-                )
-            },
-            text = {
-                Column {
-                    Text("🔔 Daily GK Mock Test is live! Test your prep.", fontSize = 14.sp)
-                    Spacer(modifier = Modifier.height(8.dp))
-                    Text("📄 New OPSC Prelims 2022 notes & answer keys uploaded.", fontSize = 14.sp)
-                    Spacer(modifier = Modifier.height(8.dp))
-                    Text("⭐ 4-Day Study Streak maintained! Keep it up.", fontSize = 14.sp)
-                }
-            },
-            confirmButton = {
-                TextButton(onClick = { showNotificationDialog = false }) {
-                    Text("Close", color = PrimaryNavy)
-                }
-            },
-            containerColor = PaperCard,
-            shape = RoundedCornerShape(16.dp)
-        )
-    }
+    val attempts = (examAttemptsState as? UiState.Success)?.data.orEmpty()
+    val totalTestsTaken = attempts.size
+    val totalCorrect = attempts.sumOf { it.correctCount }
+    val totalQuestionsAttempted = attempts.sumOf { it.totalQuestions }
+    val accuracyPercent = if (totalQuestionsAttempted > 0L) {
+        ((totalCorrect * 100L) / totalQuestionsAttempted).toInt()
+    } else 0
 
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(PaperBackground)
+            .background(MaterialTheme.colorScheme.background)
             .statusBarsPadding()
             .verticalScroll(rememberScrollState())
             .padding(horizontal = 20.dp, vertical = 16.dp)
             .testTag("home_screen")
     ) {
-        // Top Header
+        // Top Header with Brand
         Row(
             modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(
-                    modifier = Modifier
-                        .size(38.dp)
-                        .clip(CircleShape)
-                        .background(PrimaryNavy),
-                    contentAlignment = Alignment.Center
-                ) {
-                    Icon(
-                        imageVector = Icons.Default.School,
-                        contentDescription = "Logo",
-                        tint = AccentOrange,
-                        modifier = Modifier.size(22.dp)
-                    )
-                }
-                Spacer(modifier = Modifier.width(10.dp))
-                Text(
-                    text = "ExamPrep",
-                    fontSize = 22.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = PrimaryNavy
+            Box(
+                modifier = Modifier
+                    .size(40.dp)
+                    .clip(CircleShape)
+                    .background(MaterialTheme.colorScheme.primary),
+                contentAlignment = Alignment.Center
+            ) {
+                Icon(
+                    imageVector = Icons.Default.School,
+                    contentDescription = "ExamPrep Logo",
+                    tint = MaterialTheme.colorScheme.secondary,
+                    modifier = Modifier.size(22.dp)
                 )
             }
-
-            IconButton(
-                onClick = { showNotificationDialog = true },
-                modifier = Modifier.testTag("notification_button")
-            ) {
-                BadgedBox(
-                    badge = {
-                        Badge(containerColor = AccentOrange) {
-                            Text("3", color = Color.White)
-                        }
-                    }
-                ) {
-                    Icon(
-                        imageVector = Icons.Default.Notifications,
-                        contentDescription = "Notifications",
-                        tint = PrimaryNavy
-                    )
-                }
-            }
-        }
-
-        Spacer(modifier = Modifier.height(20.dp))
-
-        // Greeting Section
-        Column {
+            Spacer(modifier = Modifier.width(10.dp))
             Text(
-                text = "Hello, ${userProgress.studentName}!",
-                fontSize = 24.sp,
+                text = "ExamPrep",
+                fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
-                color = TextDark
-            )
-            Spacer(modifier = Modifier.height(4.dp))
-            Text(
-                text = "Keep going, your goals are close!",
-                fontSize = 14.sp,
-                color = TextMuted
+                color = MaterialTheme.colorScheme.primary
             )
         }
 
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(16.dp))
 
-        // Action Cards (Practice Set, Sectional Questions, PYQ Section)
-        HomeActionCard(
-            title = "Practice Set",
-            subtitle = "Timed MCQ Exam",
-            icon = Icons.Default.Assignment,
-            iconTint = PrimaryNavy,
-            iconBg = Color(0xFFE8EEF8),
-            badge = "5 Sets Available",
-            testTag = "home_card_practice",
-            onClick = onNavigateToPractice
-        )
-
-        Spacer(modifier = Modifier.height(14.dp))
-
-        HomeActionCard(
-            title = "Sectional Questions",
-            subtitle = "Subject-wise Question Sheet",
-            icon = Icons.Default.MenuBook,
-            iconTint = AccentOrange,
-            iconBg = Color(0xFFFFF2E8),
-            badge = "11 Subjects",
-            testTag = "home_card_sectional",
-            onClick = onNavigateToSectional
-        )
-
-        Spacer(modifier = Modifier.height(14.dp))
-
-        HomeActionCard(
-            title = "PYQ Section",
-            subtitle = "Previous Year Questions",
-            icon = Icons.Default.HistoryEdu,
-            iconTint = SuccessGreen,
-            iconBg = Color(0xFFEAF9F0),
-            badge = "6 Papers",
-            testTag = "home_card_pyq",
-            onClick = onNavigateToPyq
-        )
-
-        if (isAdminUser) {
-            Spacer(modifier = Modifier.height(14.dp))
-            HomeActionCard(
-                title = "Admin Dashboard",
-                subtitle = "Manage Questions, Upload Sets & Stats",
-                icon = Icons.Default.AdminPanelSettings,
-                iconTint = Color(0xFF7C3AED),
-                iconBg = Color(0xFFF3E8FF),
-                badge = "Admin Demo",
-                testTag = "home_card_admin",
-                onClick = onNavigateToAdmin
-            )
-        }
-
-        Spacer(modifier = Modifier.height(28.dp))
-
-        // Quick Stats Title
+        // Greeting
         Text(
-            text = "Quick Stats",
-            fontSize = 18.sp,
+            text = "Hello, $studentName!",
+            fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
-            color = PrimaryNavy
+            color = MaterialTheme.colorScheme.onBackground
+        )
+
+        Spacer(modifier = Modifier.height(14.dp))
+
+        // Paper Mode / Dark Mode Toggle right on Home Page
+        ThemeModeSelectorBar(
+            selectedMode = themeMode,
+            onModeSelected = onThemeModeSelected
+        )
+
+        Spacer(modifier = Modifier.height(22.dp))
+
+        // Core Category Sections
+        Text(
+            text = "Categories",
+            fontSize = 17.sp,
+            fontWeight = FontWeight.Bold,
+            color = MaterialTheme.colorScheme.primary
         )
 
         Spacer(modifier = Modifier.height(12.dp))
 
-        // Stats Row matching Mockup #3
+        HomeCategoryCard(
+            title = "Practice Mock",
+            subtitle = "Full Length, GK, Math & Reasoning, Odia & English",
+            icon = Icons.Default.Timer,
+            iconTint = MaterialTheme.colorScheme.primary,
+            iconBg = MaterialTheme.colorScheme.primaryContainer,
+            badge = "$practiceCount Categories",
+            testTag = "home_card_practice",
+            onClick = onNavigateToPractice
+        )
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        HomeCategoryCard(
+            title = "Sectional",
+            subtitle = "Computer, Economics, English, Geography, History & more",
+            icon = Icons.Default.MenuBook,
+            iconTint = MaterialTheme.colorScheme.secondary,
+            iconBg = MaterialTheme.colorScheme.secondaryContainer,
+            badge = "$sectionalCount Categories",
+            testTag = "home_card_sectional",
+            onClick = onNavigateToSectional
+        )
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        HomeCategoryCard(
+            title = "PYQ",
+            subtitle = "OSSSC, OSSC, OPSC",
+            icon = Icons.Default.HistoryEdu,
+            iconTint = MaterialTheme.colorScheme.tertiary,
+            iconBg = MaterialTheme.colorScheme.tertiaryContainer,
+            badge = "$pyqCount Categories",
+            testTag = "home_card_pyq",
+            onClick = onNavigateToPyq
+        )
+
+        Spacer(modifier = Modifier.height(24.dp))
+
+        // Exam Performance Summary from Firestore
+        Text(
+            text = "Your Performance",
+            fontSize = 17.sp,
+            fontWeight = FontWeight.Bold,
+            color = MaterialTheme.colorScheme.primary
+        )
+
+        Spacer(modifier = Modifier.height(12.dp))
+
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             StatBox(
                 modifier = Modifier.weight(1f),
-                title = "Total Tests",
-                value = "${userProgress.totalTests}",
-                accentColor = PrimaryNavy
+                title = "Exams Taken",
+                value = "$totalTestsTaken",
+                accentColor = MaterialTheme.colorScheme.primary
             )
             StatBox(
                 modifier = Modifier.weight(1f),
-                title = "Completed",
-                value = "${userProgress.completedTests}",
-                accentColor = AccentOrange
+                title = "Correct",
+                value = "$totalCorrect",
+                accentColor = MaterialTheme.colorScheme.tertiary
             )
             StatBox(
                 modifier = Modifier.weight(1f),
                 title = "Accuracy",
-                value = "${userProgress.accuracyPercent}%",
-                accentColor = SuccessGreen
+                value = "$accuracyPercent%",
+                accentColor = MaterialTheme.colorScheme.secondary
             )
-        }
-
-        Spacer(modifier = Modifier.height(20.dp))
-
-        // Daily Challenge Card
-        PaperCard(
-            modifier = Modifier.fillMaxWidth(),
-            backgroundColor = PaperCardAlt
-        ) {
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.SpaceBetween
-            ) {
-                Column(modifier = Modifier.weight(1f)) {
-                    Text(
-                        text = "Daily Revision Sprint 🎯",
-                        fontSize = 15.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = PrimaryNavy
-                    )
-                    Spacer(modifier = Modifier.height(4.dp))
-                    Text(
-                        text = "10 high-yield questions on General Knowledge & Indian Polity.",
-                        fontSize = 12.sp,
-                        color = TextMuted,
-                        lineHeight = 16.sp
-                    )
-                }
-                Spacer(modifier = Modifier.width(12.dp))
-                Button(
-                    onClick = onNavigateToPractice,
-                    shape = RoundedCornerShape(10.dp),
-                    colors = ButtonDefaults.buttonColors(containerColor = AccentOrange),
-                    contentPadding = PaddingValues(horizontal = 14.dp, vertical = 8.dp)
-                ) {
-                    Text("Start", fontWeight = FontWeight.Bold, fontSize = 13.sp)
-                }
-            }
         }
 
         Spacer(modifier = Modifier.height(24.dp))
@@ -276,7 +194,85 @@ fun HomeScreen(
 }
 
 @Composable
-fun HomeActionCard(
+fun ThemeModeSelectorBar(
+    selectedMode: AppThemeMode,
+    onModeSelected: (AppThemeMode) -> Unit
+) {
+    Surface(
+        modifier = Modifier
+            .fillMaxWidth()
+            .testTag("theme_mode_selector"),
+        shape = RoundedCornerShape(14.dp),
+        color = MaterialTheme.colorScheme.surfaceVariant,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline)
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(4.dp),
+            horizontalArrangement = Arrangement.spacedBy(4.dp)
+        ) {
+            ThemeModeChip(
+                label = "Paper Mode",
+                icon = Icons.Default.WbSunny,
+                selected = selectedMode == AppThemeMode.PAPER,
+                modifier = Modifier
+                    .weight(1f)
+                    .testTag("paper_mode_button"),
+                onClick = { onModeSelected(AppThemeMode.PAPER) }
+            )
+            ThemeModeChip(
+                label = "Dark Mode",
+                icon = Icons.Default.DarkMode,
+                selected = selectedMode == AppThemeMode.DARK,
+                modifier = Modifier
+                    .weight(1f)
+                    .testTag("dark_mode_button"),
+                onClick = { onModeSelected(AppThemeMode.DARK) }
+            )
+        }
+    }
+}
+
+@Composable
+private fun ThemeModeChip(
+    label: String,
+    icon: ImageVector,
+    selected: Boolean,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit
+) {
+    val bgColor = if (selected) MaterialTheme.colorScheme.primary else Color.Transparent
+    val contentColor = if (selected) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurfaceVariant
+
+    Row(
+        modifier = modifier
+            .height(48.dp)
+            .clip(RoundedCornerShape(10.dp))
+            .background(bgColor)
+            .clickable(onClick = onClick)
+            .padding(horizontal = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.Center
+    ) {
+        Icon(
+            imageVector = icon,
+            contentDescription = label,
+            tint = contentColor,
+            modifier = Modifier.size(18.dp)
+        )
+        Spacer(modifier = Modifier.width(8.dp))
+        Text(
+            text = label,
+            fontSize = 14.sp,
+            fontWeight = if (selected) FontWeight.Bold else FontWeight.Medium,
+            color = contentColor
+        )
+    }
+}
+
+@Composable
+fun HomeCategoryCard(
     title: String,
     subtitle: String,
     icon: ImageVector,
@@ -324,16 +320,18 @@ fun HomeActionCard(
                         text = title,
                         fontSize = 16.sp,
                         fontWeight = FontWeight.Bold,
-                        color = TextDark
+                        color = MaterialTheme.colorScheme.onSurface
                     )
                     Spacer(modifier = Modifier.height(2.dp))
                     Text(
                         text = subtitle,
-                        fontSize = 13.sp,
-                        color = TextMuted
+                        fontSize = 12.sp,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 }
             }
+
+            Spacer(modifier = Modifier.width(8.dp))
 
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Box(
@@ -349,11 +347,11 @@ fun HomeActionCard(
                         fontWeight = FontWeight.SemiBold
                     )
                 }
-                Spacer(modifier = Modifier.width(6.dp))
+                Spacer(modifier = Modifier.width(4.dp))
                 Icon(
                     imageVector = Icons.Default.ChevronRight,
-                    contentDescription = null,
-                    tint = TextMuted
+                    contentDescription = "Open $title",
+                    tint = MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }
         }
@@ -369,7 +367,6 @@ fun StatBox(
 ) {
     PaperCard(
         modifier = modifier,
-        backgroundColor = PaperCard,
         elevation = 1.dp
     ) {
         Column(
@@ -387,7 +384,7 @@ fun StatBox(
                 text = title,
                 fontSize = 12.sp,
                 fontWeight = FontWeight.Medium,
-                color = TextMuted
+                color = MaterialTheme.colorScheme.onSurfaceVariant
             )
         }
     }

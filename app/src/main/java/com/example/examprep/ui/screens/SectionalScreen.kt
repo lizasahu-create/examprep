@@ -1,6 +1,5 @@
 package com.example.examprep.ui.screens
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -10,31 +9,29 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.examprep.model.SectionalSubject
+import com.example.examprep.model.ExamCategory
 import com.example.examprep.ui.components.PaperCard
-import com.example.examprep.ui.theme.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SectionalScreen(
-    subjects: List<SectionalSubject>,
+    categories: List<ExamCategory>,
     onBackClick: () -> Unit,
-    onSubjectClick: (SectionalSubject) -> Unit
+    onCategoryClick: (ExamCategory) -> Unit
 ) {
     var searchQuery by remember { mutableStateOf("") }
 
-    val filteredSubjects = remember(searchQuery, subjects) {
-        if (searchQuery.isBlank()) subjects
-        else subjects.filter {
-            it.name.contains(searchQuery, ignoreCase = true) ||
-                    it.description.contains(searchQuery, ignoreCase = true)
+    val filteredCategories = remember(categories, searchQuery) {
+        if (searchQuery.isBlank()) {
+            categories
+        } else {
+            categories.filter { it.name.contains(searchQuery.trim(), ignoreCase = true) }
         }
     }
 
@@ -43,9 +40,9 @@ fun SectionalScreen(
             TopAppBar(
                 title = {
                     Text(
-                        "Sectional Questions",
+                        text = "Sectional",
                         fontWeight = FontWeight.Bold,
-                        color = PrimaryNavy
+                        color = MaterialTheme.colorScheme.primary
                     )
                 },
                 navigationIcon = {
@@ -56,136 +53,107 @@ fun SectionalScreen(
                         Icon(
                             imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                             contentDescription = "Back",
-                            tint = PrimaryNavy
+                            tint = MaterialTheme.colorScheme.primary
                         )
                     }
                 },
-                colors = TopAppBarDefaults.topAppBarColors(containerColor = PaperBackground)
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.background
+                )
             )
         },
-        containerColor = PaperBackground
+        containerColor = MaterialTheme.colorScheme.background
     ) { innerPadding ->
-        LazyColumn(
+        Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
                 .padding(horizontal = 20.dp)
-                .testTag("sectional_list"),
-            verticalArrangement = Arrangement.spacedBy(12.dp)
+                .testTag("sectional_screen")
         ) {
-            item {
-                OutlinedTextField(
-                    value = searchQuery,
-                    onValueChange = { searchQuery = it },
-                    placeholder = { Text("Search subjects (e.g. Mathematics, Polity...)") },
-                    leadingIcon = {
-                        Icon(Icons.Default.Search, contentDescription = null, tint = PrimaryNavy)
-                    },
-                    trailingIcon = {
-                        if (searchQuery.isNotBlank()) {
-                            IconButton(onClick = { searchQuery = "" }) {
-                                Icon(Icons.Default.Clear, contentDescription = "Clear", tint = TextMuted)
-                            }
-                        }
-                    },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 4.dp)
-                        .testTag("sectional_search_input"),
-                    shape = RoundedCornerShape(12.dp),
-                    singleLine = true,
-                    colors = OutlinedTextFieldDefaults.colors(
-                        focusedBorderColor = PrimaryNavy,
-                        unfocusedBorderColor = PaperBorder,
-                        focusedContainerColor = PaperCard,
-                        unfocusedContainerColor = PaperCard
+            OutlinedTextField(
+                value = searchQuery,
+                onValueChange = { searchQuery = it },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 8.dp)
+                    .testTag("sectional_search_input"),
+                placeholder = {
+                    Text(
+                        text = "Search categories...",
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
-                )
-            }
-
-            items(filteredSubjects) { subject ->
-                PaperCard(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .testTag("sectional_item_${subject.id}"),
-                    backgroundColor = PaperCard,
-                    elevation = 1.dp,
-                    onClick = { onSubjectClick(subject) }
-                ) {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.SpaceBetween
-                    ) {
-                        Row(
-                            verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier.weight(1f)
+                },
+                leadingIcon = {
+                    Icon(
+                        imageVector = Icons.Default.Search,
+                        contentDescription = "Search",
+                        tint = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                },
+                trailingIcon = {
+                    if (searchQuery.isNotEmpty()) {
+                        IconButton(
+                            onClick = { searchQuery = "" },
+                            modifier = Modifier.testTag("sectional_search_clear")
                         ) {
-                            Box(
-                                modifier = Modifier
-                                    .size(42.dp)
-                                    .background(
-                                        color = when (subject.id) {
-                                            "math" -> Color(0xFFE8EEF8)
-                                            "odia" -> Color(0xFFFFF2E8)
-                                            "english" -> Color(0xFFEAF9F0)
-                                            "polity" -> Color(0xFFF3E8FF)
-                                            "history" -> Color(0xFFFEECEE)
-                                            else -> Color(0xFFF6F3EB)
-                                        },
-                                        shape = RoundedCornerShape(10.dp)
-                                    ),
-                                contentAlignment = Alignment.Center
-                            ) {
-                                Icon(
-                                    imageVector = when (subject.id) {
-                                        "math" -> Icons.Default.Calculate
-                                        "odia", "english" -> Icons.Default.Translate
-                                        "reasoning" -> Icons.Default.Psychology
-                                        "history" -> Icons.Default.AccountBalance
-                                        "geography" -> Icons.Default.Public
-                                        "economics" -> Icons.Default.TrendingUp
-                                        "polity" -> Icons.Default.Gavel
-                                        "science" -> Icons.Default.Science
-                                        "computer" -> Icons.Default.Computer
-                                        else -> Icons.Default.MenuBook
-                                    },
-                                    contentDescription = null,
-                                    tint = PrimaryNavy,
-                                    modifier = Modifier.size(20.dp)
-                                )
-                            }
-
-                            Spacer(modifier = Modifier.width(14.dp))
-
-                            Column {
-                                Text(
-                                    text = subject.name,
-                                    fontSize = 15.sp,
-                                    fontWeight = FontWeight.SemiBold,
-                                    color = TextDark
-                                )
-                                Spacer(modifier = Modifier.height(2.dp))
-                                Text(
-                                    text = "PDF • ${subject.pagesCount} Pages",
-                                    fontSize = 12.sp,
-                                    color = TextMuted
-                                )
-                            }
+                            Icon(
+                                imageVector = Icons.Default.Close,
+                                contentDescription = "Clear search",
+                                tint = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
                         }
+                    }
+                },
+                singleLine = true,
+                shape = RoundedCornerShape(14.dp),
+                colors = OutlinedTextFieldDefaults.colors(
+                    focusedContainerColor = MaterialTheme.colorScheme.surface,
+                    unfocusedContainerColor = MaterialTheme.colorScheme.surface,
+                    focusedBorderColor = MaterialTheme.colorScheme.primary,
+                    unfocusedBorderColor = MaterialTheme.colorScheme.outline
+                )
+            )
 
-                        Icon(
-                            imageVector = Icons.Default.ChevronRight,
-                            contentDescription = "Open",
-                            tint = TextMuted
+            Spacer(modifier = Modifier.height(6.dp))
+
+            if (filteredCategories.isEmpty()) {
+                PaperCard(modifier = Modifier.fillMaxWidth()) {
+                    Text(
+                        text = "No matching categories.",
+                        fontSize = 14.sp,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            } else {
+                LazyColumn(
+                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                    contentPadding = PaddingValues(top = 4.dp, bottom = 24.dp)
+                ) {
+                    items(filteredCategories, key = { it.id }) { category ->
+                        CategoryListItemCard(
+                            title = category.name,
+                            icon = sectionalCategoryIcon(category.id),
+                            testTag = "sectional_category_${category.id}",
+                            onClick = { onCategoryClick(category) }
                         )
                     }
                 }
             }
-
-            item {
-                Spacer(modifier = Modifier.height(24.dp))
-            }
         }
     }
+}
+
+private fun sectionalCategoryIcon(categoryId: String): ImageVector = when (categoryId) {
+    "sectional_computer" -> Icons.Default.Computer
+    "sectional_economics" -> Icons.Default.AccountBalance
+    "sectional_english" -> Icons.Default.Abc
+    "sectional_geography" -> Icons.Default.Terrain
+    "sectional_history" -> Icons.Default.HistoryEdu
+    "sectional_math" -> Icons.Default.Calculate
+    "sectional_odia" -> Icons.Default.Translate
+    "sectional_odisha_gk" -> Icons.Default.LocationOn
+    "sectional_polity" -> Icons.Default.Gavel
+    "sectional_reasoning" -> Icons.Default.Psychology
+    else -> Icons.Default.MenuBook
 }

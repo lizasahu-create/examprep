@@ -1,60 +1,63 @@
 package com.example.examprep
 
-import com.example.examprep.data.ExamPrepRepository
-import org.junit.Assert.*
+import com.example.examprep.data.CategoryCatalog
+import com.example.examprep.model.CategoryType
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class ExamPrepRepositoryTest {
 
     @Test
-    fun testPracticeSetsInitialization() {
-        val sets = ExamPrepRepository.practiceSets
-        assertTrue("Practice sets should not be empty", sets.isNotEmpty())
-        val gkSet = sets.find { it.category == "General Knowledge" }
-        assertNotNull("GK set must exist", gkSet)
-        assertTrue("GK set should have questions", gkSet!!.questions.isNotEmpty())
-    }
-
-    @Test
-    fun testSectionalSubjectsCount() {
-        val subjects = ExamPrepRepository.sectionalSubjects
-        assertEquals("There must be 11 sectional subjects matching design mockup", 11, subjects.size)
-        val names = subjects.map { it.name }
-        assertTrue(names.contains("Mathematics"))
-        assertTrue(names.contains("Odia"))
-        assertTrue(names.contains("English"))
-        assertTrue(names.contains("Reasoning"))
-        assertTrue(names.contains("History"))
-        assertTrue(names.contains("Geography"))
-        assertTrue(names.contains("Economics"))
-        assertTrue(names.contains("Polity"))
-        assertTrue(names.contains("Science"))
-        assertTrue(names.contains("Computer"))
-        assertTrue(names.contains("Odisha GK"))
-    }
-
-    @Test
-    fun testPyqPapersAvailable() {
-        val papers = ExamPrepRepository.pyqPapers
-        assertTrue("PYQ papers list should contain at least 5 verified papers", papers.size >= 5)
-        val upsc = papers.find { it.examName.contains("UPSC") }
-        assertNotNull("UPSC PYQ must be present", upsc)
-        val opsc = papers.find { it.examName.contains("OPSC") }
-        assertNotNull("OPSC PYQ must be present", opsc)
-    }
-
-    @Test
-    fun testAdminAddQuestion() {
-        val initialCount = ExamPrepRepository.adminMetrics.totalQuestions
-        ExamPrepRepository.addNewQuestion(
-            subject = "Science",
-            question = "What is the powerhouse of the cell?",
-            options = listOf("Nucleus", "Mitochondria", "Ribosome", "Chloroplast"),
-            correctIndex = 1,
-            explanation = "Mitochondria generate most of the chemical energy needed to power the cell's biochemical reactions."
+    fun testPracticeMockCategories() {
+        val categories = CategoryCatalog.practiceMockCategories
+        assertEquals(4, categories.size)
+        assertEquals(
+            listOf("Full Length", "GK", "Math and Reasoning", "Odia and English"),
+            categories.map { it.name }
         )
-        assertEquals("Metric question count should increment", initialCount + 1, ExamPrepRepository.adminMetrics.totalQuestions)
-        val latestLog = ExamPrepRepository.adminActivityLogs.first()
-        assertTrue("Latest activity log should reflect added question", latestLog.activity.contains("Science"))
+        assertTrue(categories.all { it.sectionType == CategoryType.PRACTICE })
+    }
+
+    @Test
+    fun testSectionalCategories() {
+        val categories = CategoryCatalog.sectionalCategories
+        assertEquals(10, categories.size)
+        assertEquals(
+            listOf(
+                "Computer",
+                "Economics",
+                "English",
+                "Geography",
+                "History",
+                "Math",
+                "Odia",
+                "Odisha GK",
+                "Polity",
+                "Reasoning"
+            ),
+            categories.map { it.name }
+        )
+        assertTrue(categories.all { it.sectionType == CategoryType.SECTIONAL })
+    }
+
+    @Test
+    fun testPyqCategories() {
+        val categories = CategoryCatalog.pyqCategories
+        assertEquals(3, categories.size)
+        assertEquals(
+            listOf("OSSSC", "OSSC", "OPSC"),
+            categories.map { it.name }
+        )
+        assertTrue(categories.all { it.sectionType == CategoryType.PYQ })
+    }
+
+    @Test
+    fun testAllCategoryIdsAreUnique() {
+        val allCategories = CategoryCatalog.practiceMockCategories +
+            CategoryCatalog.sectionalCategories +
+            CategoryCatalog.pyqCategories
+        assertEquals(17, allCategories.size)
+        assertEquals(allCategories.size, allCategories.map { it.id }.toSet().size)
     }
 }

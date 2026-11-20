@@ -1,0 +1,149 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Global safety net: deny all reads and writes by default
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Reusable hardened helpers
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    // Validation helper for UserProfile
+    function isValidUserProfile(data) {
+      return data.userId is string && data.userId.size() >= 1 && data.userId.size() <= 128 &&
+             data.userId == request.auth.uid &&
+             data.displayName is string && data.displayName.size() >= 1 && data.displayName.size() <= 100 &&
+             (!('email' in data) || data.email == null || (data.email is string && data.email.size() <= 200)) &&
+             data.themeMode is string && data.themeMode in ['PAPER', 'DARK'] &&
+             data.createdAt is timestamp && data.createdAt <= request.time &&
+             data.updatedAt is timestamp && data.updatedAt <= request.time;
+    }
+
+    // Validation helper for ExamAttempt
+    function isValidExamAttempt(data) {
+      return data.userId is string && data.userId.size() >= 1 && data.userId.size() <= 128 &&
+             data.userId == request.auth.uid &&
+             data.setId is string && data.setId.size() >= 1 && data.setId.size() <= 128 &&
+             data.setHeading is string && data.setHeading.size() >= 1 && data.setHeading.size() <= 200 &&
+             data.category is string && data.category in ['PRACTICE', 'SECTIONAL', 'PYQ', 'OTHER'] &&
+             data.totalQuestions is int && data.totalQuestions >= 1 && data.totalQuestions <= 1000 &&
+             data.correctCount is int && data.correctCount >= 0 && data.correctCount <= data.totalQuestions &&
+             data.incorrectCount is int && data.incorrectCount >= 0 && data.incorrectCount <= data.totalQuestions &&
+             data.skippedCount is int && data.skippedCount >= 0 && data.skippedCount <= data.totalQuestions &&
+             data.correctCount + data.incorrectCount + data.skippedCount == data.totalQuestions &&
+             data.timeTakenSeconds is int && data.timeTakenSeconds >= 0 && data.timeTakenSeconds <= 86400 &&
+             data.createdAt is timestamp && data.createdAt <= request.time;
+    }
+
+    // Validation helper for SetProgress
+    function isValidSetProgress(data) {
+      return data.userId is string && data.userId.size() >= 1 && data.userId.size() <= 128 &&
+             data.userId == request.auth.uid &&
+             data.setHeading is string && data.setHeading.size() >= 1 && data.setHeading.size() <= 200 &&
+             data.category is string && data.category in ['SECTIONAL', 'PYQ', 'OTHER'] &&
+             data.totalQuestions is int && data.totalQuestions >= 1 && data.totalQuestions <= 1000 &&
+             data.answeredCount is int && data.answeredCount >= 0 && data.answeredCount <= data.totalQuestions &&
+             data.correctCount is int && data.correctCount >= 0 && data.correctCount <= data.answeredCount &&
+             data.createdAt is timestamp && data.createdAt <= request.time &&
+             data.updatedAt is timestamp && data.updatedAt <= request.time;
+    }
+
+    // User profile and theme preferences (strictly owner-isolated)
+    match /users/{userId} {
+      allow get: if isOwner(userId) && isValidId(userId);
+      allow list: if false;
+
+      allow create: if isOwner(userId) &&
+                       isValidId(userId) &&
+                       incoming().keys().hasAll(['userId', 'displayName', 'themeMode', 'createdAt', 'updatedAt']) &&
+                       incoming().keys().hasOnly(['userId', 'displayName', 'email', 'themeMode', 'createdAt', 'updatedAt']) &&
+                       isValidUserProfile(incoming());
+
+      allow update: if isOwner(userId) &&
+                       isValidId(userId) &&
+                       isValidUserProfile(incoming()) &&
+                       incoming().userId == existing().userId &&
+                       incoming().createdAt == existing().createdAt &&
+                       incoming().diff(existing()).affectedKeys().hasOnly(['displayName', 'email', 'themeMode', 'updatedAt']);
+
+      allow delete: if isOwner(userId) && isValidId(userId);
+
+      // Completed timed MCQ exam attempts
+      match /exam_attempts/{attemptId} {
+        allow get: if isOwner(userId) && isValidId(attemptId);
+        allow list: if isOwner(userId);
+
+        allow create: if isOwner(userId) &&
+                         isValidId(attemptId) &&
+                         incoming().keys().hasAll([
+                           'userId', 'setId', 'setHeading', 'category',
+                           'totalQuestions', 'correctCount', 'incorrectCount',
+                           'skippedCount', 'timeTakenSeconds', 'createdAt'
+                         ]) &&
+                         incoming().keys().hasOnly([
+                           'userId', 'setId', 'setHeading', 'category',
+                           'totalQuestions', 'correctCount', 'incorrectCount',
+                           'skippedCount', 'timeTakenSeconds', 'createdAt'
+                         ]) &&
+                         isValidExamAttempt(incoming());
+
+        // Exam attempts are immutable once submitted
+        allow update: if false;
+        allow delete: if isOwner(userId) && isValidId(attemptId);
+      }
+
+      // Per-set MCQ progress for Sectional & PYQ
+      match /set_progress/{setId} {
+        allow get: if isOwner(userId) && isValidId(setId);
+        allow list: if isOwner(userId);
+
+        allow create: if isOwner(userId) &&
+                         isValidId(setId) &&
+                         incoming().keys().hasAll([
+                           'userId', 'setHeading', 'category',
+                           'answeredCount', 'correctCount', 'totalQuestions',
+                           'createdAt', 'updatedAt'
+                         ]) &&
+                         incoming().keys().hasOnly([
+                           'userId', 'setHeading', 'category',
+                           'answeredCount', 'correctCount', 'totalQuestions',
+                           'createdAt', 'updatedAt'
+                         ]) &&
+                         isValidSetProgress(incoming());
+
+        allow update: if isOwner(userId) &&
+                         isValidId(setId) &&
+                         isValidSetProgress(incoming()) &&
+                         incoming().userId == existing().userId &&
+                         incoming().createdAt == existing().createdAt &&
+                         incoming().diff(existing()).affectedKeys().hasOnly([
+                           'setHeading', 'category', 'answeredCount',
+                           'correctCount', 'totalQuestions', 'updatedAt'
+                         ]);
+
+        allow delete: if isOwner(userId) && isValidId(setId);
+      }
+    }
+  }
+}
