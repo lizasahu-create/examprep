@@ -1,0 +1,6 @@
+{
+  "name": "ExamPrep",
+  "description": "Exam preparation app featuring timed practice sets, sectional questions, PYQs, and study resources with a warm paper theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

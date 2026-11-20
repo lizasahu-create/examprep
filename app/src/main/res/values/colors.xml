@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_navy">#1E3A6D</color>
+    <color name="primary_navy_dark">#122342</color>
+    <color name="accent_orange">#FF8C42</color>
+    <color name="paper_background">#FBF9F5</color>
+</resources>
