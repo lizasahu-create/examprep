@@ -29,6 +29,97 @@ data class ExamCategory(
     val sectionType: CategoryType
 )
 
+// --- Bundled MCQ Question & Mock Set Models ---
+
+data class McqQuestion(
+    val number: Int,
+    val section: String = "",
+    val contextText: String? = null,
+    val imageAssetPath: String? = null,
+    val questionText: String,
+    val options: List<String>,
+    val correctIndex: Int
+)
+
+data class MockTestSetMeta(
+    val id: String,
+    val categoryId: String,
+    val title: String,
+    val subtitle: String,
+    val durationMinutes: Int,
+    val negativeMarking: Double,
+    val marksPerQuestion: Double,
+    val questionCount: Int,
+    val assetPath: String
+)
+
+data class MockTestSet(
+    val meta: MockTestSetMeta,
+    val questions: List<McqQuestion>
+)
+
+data class SectionScoreSummary(
+    val sectionName: String,
+    val total: Int,
+    val correct: Int,
+    val incorrect: Int,
+    val unattempted: Int
+)
+
+data class ExamResultSummary(
+    val set: MockTestSet,
+    val userAnswers: Map<Int, Int>, // questionIndex -> selectedOptionIndex (0..3)
+    val timeTakenSeconds: Int
+) {
+    val totalQuestions: Int = set.questions.size
+
+    val correctCount: Int = set.questions.indices.count { idx ->
+        userAnswers[idx] == set.questions[idx].correctIndex
+    }
+
+    val incorrectCount: Int = set.questions.indices.count { idx ->
+        val selected = userAnswers[idx]
+        selected != null && selected != set.questions[idx].correctIndex
+    }
+
+    val unattemptedCount: Int = totalQuestions - correctCount - incorrectCount
+
+    val attemptedCount: Int = correctCount + incorrectCount
+
+    val maxScore: Double = totalQuestions * set.meta.marksPerQuestion
+
+    val rawScore: Double =
+        (correctCount * set.meta.marksPerQuestion) - (incorrectCount * set.meta.negativeMarking)
+
+    val accuracyPercent: Int = if (attemptedCount > 0) {
+        ((correctCount * 100.0) / attemptedCount).toInt()
+    } else 0
+
+    val sectionBreakdown: List<SectionScoreSummary> = set.questions
+        .mapIndexed { idx, q -> idx to q }
+        .groupBy { (_, q) -> q.section.ifBlank { "General" } }
+        .map { (secName, pairs) ->
+            var c = 0
+            var w = 0
+            var u = 0
+            for ((idx, q) in pairs) {
+                val sel = userAnswers[idx]
+                when {
+                    sel == null -> u++
+                    sel == q.correctIndex -> c++
+                    else -> w++
+                }
+            }
+            SectionScoreSummary(
+                sectionName = secName,
+                total = pairs.size,
+                correct = c,
+                incorrect = w,
+                unattempted = u
+            )
+        }
+}
+
 // --- Firestore Models (Type-safe, @Keep, @IgnoreExtraProperties, no-arg defaults) ---
 
 @Keep

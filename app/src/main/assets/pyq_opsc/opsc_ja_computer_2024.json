@@ -1,0 +1,462 @@
+{
+  "id": "opsc_ja_computer_2024",
+  "categoryId": "pyq_opsc",
+  "title": "OPSC Junior Assistant (JA) 2024 — Basic Computer Skills",
+  "subtitle": "Paper-III (Q.51–100) • 50 MCQs • 100 Marks • Official PYQ",
+  "durationMinutes": 60,
+  "negativeMarking": 0.5,
+  "marksPerQuestion": 2.0,
+  "questionCount": 50,
+  "questions": [
+    {
+      "number": 1,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS PowerPoint presentations, the designs regulate the layout and formatting for the slide. These are commonly known as :",
+      "options": ["Blueprints", "Placeholders", "Templates", "Design Plates"],
+      "correctIndex": 2
+    },
+    {
+      "number": 2,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Handout Master consists of placeholders for all of these except the:",
+      "options": ["title", "slide number", "header", "footer"],
+      "correctIndex": 0
+    },
+    {
+      "number": 3,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of these PowerPoint features would allow any user to create a given simple presentation quicker?",
+      "options": ["Animations", "Chart Wizard", "Transition Wizard", "AutoContent Wizard"],
+      "correctIndex": 3
+    },
+    {
+      "number": 4,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The File that consists of readymade styles that we can easily use for our presentation is known as:",
+      "options": ["Pre formatting", "Template", "Wizard", "Auto Style"],
+      "correctIndex": 1
+    },
+    {
+      "number": 5,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the max Zoom percentage in MS PowerPoint?",
+      "options": ["400%", "300%", "200%", "100%"],
+      "correctIndex": 0
+    },
+    {
+      "number": 6,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A PowerPoint design template is stored in any file with ________ extensions.",
+      "options": [".pot", ".ptt", ".dtp", ".ppt"],
+      "correctIndex": 0
+    },
+    {
+      "number": 7,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of these options in PowerPoint would allow us to carry any set of slides from a given computer to another one?",
+      "options": ["Web and Go", "Pack and Go", "Save and Go", "Save As"],
+      "correctIndex": 1
+    },
+    {
+      "number": 8,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of these is a type of sound file?",
+      "options": ["DAT files", "LOG files", "DRV files", "WAV files"],
+      "correctIndex": 3
+    },
+    {
+      "number": 9,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In the current presentation, if we want to insert a new slide, we can choose which of these?",
+      "options": ["Ctrl + F", "Ctrl + O", "Ctrl + M", "Ctrl + N"],
+      "correctIndex": 2
+    },
+    {
+      "number": 10,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of these terms do we use when an image in a clip art changes the direction that it was originally facing?",
+      "options": ["Mirror", "Rotate", "Flip", "Group"],
+      "correctIndex": 1
+    },
+    {
+      "number": 11,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of these refers to the PowerPoint view used for displaying only the text (title and bullets)?",
+      "options": ["Slide sorter show", "Slide view", "Outline view", "Notes page view"],
+      "correctIndex": 2
+    },
+    {
+      "number": 12,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which toolbar provides various options in different master views?",
+      "options": ["Standard toolbar", "Formatting toolbar", "Drawing toolbar", "Common tasks toolbar"],
+      "correctIndex": 3
+    },
+    {
+      "number": 13,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "We can find any and every command on the :",
+      "options": ["Menu bar", "Standard toolbar", "Formatting toolbar", "Drawing toolbar"],
+      "correctIndex": 0
+    },
+    {
+      "number": 14,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of these features should one use when we want to type in the text box for notes?",
+      "options": ["Insert", "Slide shows", "Zoom", "Slide master"],
+      "correctIndex": 2
+    },
+    {
+      "number": 15,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of these is the page setup orientation by default of the slides in PowerPoint?",
+      "options": ["Landscape", "Portrait", "Vertical", "None of the above"],
+      "correctIndex": 0
+    },
+    {
+      "number": 16,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "From which of these menus can we access a Text Box, Picture, Chart etc.?",
+      "options": ["View", "Insert", "Edit", "File"],
+      "correctIndex": 1
+    },
+    {
+      "number": 17,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of these font effects is NOT available in the PowerPoint Font dialogue box?",
+      "options": ["Shadow", "Underline", "Strikethrough", "Emboss"],
+      "correctIndex": 2
+    },
+    {
+      "number": 18,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of these sections does a slide layout NOT have?",
+      "options": ["Lists", "Animations", "Titles", "Charts"],
+      "correctIndex": 1
+    },
+    {
+      "number": 19,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What do we use if we want to add texts in a given slide?",
+      "options": ["Comment Box", "Text Layer", "Note Box", "Text"],
+      "correctIndex": 3
+    },
+    {
+      "number": 20,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following is not an operating system?",
+      "options": ["Windows", "Linux", "Oracle", "DOS"],
+      "correctIndex": 2
+    },
+    {
+      "number": 21,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "When were MS Windows operating systems proposed?",
+      "options": ["1994", "1990", "1992", "1985"],
+      "correctIndex": 3
+    },
+    {
+      "number": 22,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following is the extension of Notepad?",
+      "options": [".txt", ".xls", ".ppt", ".bmp"],
+      "correctIndex": 0
+    },
+    {
+      "number": 23,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What else is a command interpreter called?",
+      "options": ["prompt", "kernel", "shell", "command"],
+      "correctIndex": 2
+    },
+    {
+      "number": 24,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the full name of FAT?",
+      "options": ["File attribute table", "File allocation table", "Font attribute table", "Format allocation table"],
+      "correctIndex": 1
+    },
+    {
+      "number": 25,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "BIOS is used?",
+      "options": ["By operating system", "By compiler", "By interpreter", "By application software"],
+      "correctIndex": 0
+    },
+    {
+      "number": 26,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "When you delete a file in your computer, where does it go?",
+      "options": ["Recycle bin", "Hard disk", "Taskbar", "None of these"],
+      "correctIndex": 0
+    },
+    {
+      "number": 27,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the full name of the DSM?",
+      "options": ["Direct System Module", "Direct System Memory", "Demoralized System Memory", "Distributed Shared Memory"],
+      "correctIndex": 3
+    },
+    {
+      "number": 28,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the fence register used for?",
+      "options": ["To disk protection", "To CPU protection", "To memory protection", "None of these"],
+      "correctIndex": 2
+    },
+    {
+      "number": 29,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Microsoft Access provides visual environment for design of ________.",
+      "options": ["tables", "reports", "forms", "all of them"],
+      "correctIndex": 3
+    },
+    {
+      "number": 30,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "By default, new table is displayed in ________ view.",
+      "options": ["Datasheet View", "Design View", "Report View", "Form View"],
+      "correctIndex": 0
+    },
+    {
+      "number": 31,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "________ is an alternate to datasheet view for design of table in MS Access.",
+      "options": ["Datasheet View", "Design View", "Report View", "Form View"],
+      "correctIndex": 1
+    },
+    {
+      "number": 32,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "An ordinary form for data entry in MS Access tables may be created using ________ menu.",
+      "options": ["Create>Form", "Create>Split Form", "Create>Multiple Items", "Create>Blank Form"],
+      "correctIndex": 0
+    },
+    {
+      "number": 33,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS Access, a form with data records at one half and entry format at the other half may be created using ________ menu.",
+      "options": ["Create>Form", "Create>Split Form", "Create>Multiple Items", "Create>Blank Form"],
+      "correctIndex": 1
+    },
+    {
+      "number": 34,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS Access, multiple rows of data may be created using ________ menu.",
+      "options": ["Create>Form", "Create>Split Form", "Create>Multiple Items", "Create>Blank Form"],
+      "correctIndex": 2
+    },
+    {
+      "number": 35,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS Access, blank form may be created using ________ menu.",
+      "options": ["Create>Form", "Create>Split Form", "Create>Multiple Items", "Create>Blank Form"],
+      "correctIndex": 3
+    },
+    {
+      "number": 36,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS Access, form may be created through a wizard using ________ menu.",
+      "options": ["Create>More Forms>Form Wizard", "Create>Split Form", "Create>Multiple Items", "Create>Blank Form"],
+      "correctIndex": 0
+    },
+    {
+      "number": 37,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS Access, data sheet may be created using ________ menu.",
+      "options": ["Create>More Forms>Form Wizard", "Create>More Forms>Data Sheet", "Create>More Forms>Modal Dialog", "Create>Blank Form"],
+      "correctIndex": 1
+    },
+    {
+      "number": 38,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS Access, form dialog may be created using ________ menu.",
+      "options": ["Create>More Forms>Form Wizard", "Create>More Forms>Data Sheet", "Create>More Forms>Modal Dialog", "Create>Blank Form"],
+      "correctIndex": 2
+    },
+    {
+      "number": 39,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS Access, form may be manually designed through available components (like textfield, datapicker, combo-box, etc.) using ________ menu.",
+      "options": ["Create>More Forms>Form Wizard", "Create>More Forms>Data Sheet", "Create>More Forms>Modal Dialog", "Create>Form Design"],
+      "correctIndex": 3
+    },
+    {
+      "number": 40,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS Access, default report may be created using ________ menu.",
+      "options": ["Create>Report", "Create>Blank Report", "Create>Report Wizard", "Create>Report Design"],
+      "correctIndex": 0
+    },
+    {
+      "number": 41,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS Access, blank report may be created using ________ menu.",
+      "options": ["Create>Report", "Create>Blank Report", "Create>Report Wizard", "Create>Report Design"],
+      "correctIndex": 1
+    },
+    {
+      "number": 42,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In MS Access, report may be created through wizard using ________ menu.",
+      "options": ["Create>Report", "Create>Blank Report", "Create>Report Wizard", "Create>Report Design"],
+      "correctIndex": 2
+    },
+    {
+      "number": 43,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In which tab wrap text feature is present in MS Excel 2007?",
+      "options": ["Formulas", "View", "Insert", "Home"],
+      "correctIndex": 3
+    },
+    {
+      "number": 44,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following identifies a cell in Excel?",
+      "options": ["Address", "Formula", "Name", "Label"],
+      "correctIndex": 0
+    },
+    {
+      "number": 45,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which term is used to join the selected cells in to one cell?",
+      "options": ["Filter", "Wrap", "Pivot", "Merge"],
+      "correctIndex": 3
+    },
+    {
+      "number": 46,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following Excel charts represents only one value for each variable?",
+      "options": ["Bar", "Pie", "Line", "Function"],
+      "correctIndex": 1
+    },
+    {
+      "number": 47,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A formula in Excel always begins with an ________.",
+      "options": ["Equal sign", "Colon", "Comma", "Space"],
+      "correctIndex": 0
+    },
+    {
+      "number": 48,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following option is provided by Office Button?",
+      "options": ["Open", "Save", "Print", "All of the above"],
+      "correctIndex": 3
+    },
+    {
+      "number": 49,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Where is Office Button located in MS Word?",
+      "options": ["Left Upper", "Left Bottom", "Right Upper", "Right Bottom"],
+      "correctIndex": 0
+    },
+    {
+      "number": 50,
+      "section": "Basic Computer Skills",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following option is NOT present in Office Button?",
+      "options": ["Prepare", "Send", "Publish", "None of the above"],
+      "correctIndex": 3
+    }
+  ]
+}

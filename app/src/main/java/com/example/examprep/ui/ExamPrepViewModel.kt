@@ -4,9 +4,14 @@ import android.content.SharedPreferences
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.examprep.data.QuestionAssetRepository
 import com.example.examprep.data.UserFirestoreRepository
 import com.example.examprep.model.AppThemeMode
+import com.example.examprep.model.CategoryType
 import com.example.examprep.model.ExamAttemptDoc
+import com.example.examprep.model.ExamResultSummary
+import com.example.examprep.model.MockTestSet
+import com.example.examprep.model.MockTestSetMeta
 import com.example.examprep.model.UiState
 import com.google.firebase.firestore.FirebaseFirestoreException
 import kotlinx.coroutines.CancellationException
@@ -21,6 +26,7 @@ import kotlinx.coroutines.launch
 
 class ExamPrepViewModel(
     private val userRepository: UserFirestoreRepository,
+    private val questionAssetRepository: QuestionAssetRepository,
     private val prefs: SharedPreferences,
     private val currentUserId: String,
     private val displayName: String,
@@ -31,6 +37,12 @@ class ExamPrepViewModel(
         AppThemeMode.fromString(prefs.getString(KEY_THEME_MODE, AppThemeMode.PAPER.name))
     )
     val themeMode: StateFlow<AppThemeMode> = _themeMode.asStateFlow()
+
+    private val _setsByCategory = MutableStateFlow<Map<String, List<MockTestSetMeta>>>(emptyMap())
+    val setsByCategory: StateFlow<Map<String, List<MockTestSetMeta>>> = _setsByCategory.asStateFlow()
+
+    private val _activeExamState = MutableStateFlow<UiState<MockTestSet>?>(null)
+    val activeExamState: StateFlow<UiState<MockTestSet>?> = _activeExamState.asStateFlow()
 
     val examAttempts: StateFlow<UiState<List<ExamAttemptDoc>>> = userRepository
         .observeExamAttempts(currentUserId)
@@ -52,6 +64,56 @@ class ExamPrepViewModel(
 
     init {
         initializeProfileAndTheme()
+        loadBundledCatalogs()
+    }
+
+    private fun loadBundledCatalogs() {
+        viewModelScope.launch {
+            runCatching {
+                questionAssetRepository.loadAllCategorySets()
+            }.onSuccess { setsMap ->
+                _setsByCategory.value = setsMap
+            }.onFailure { error ->
+                Log.e(TAG, "Failed to load bundled mock test catalogs", error)
+            }
+        }
+    }
+
+    fun getSetsForCategory(categoryId: String): List<MockTestSetMeta> {
+        return _setsByCategory.value[categoryId].orEmpty()
+    }
+
+    fun loadExamSet(meta: MockTestSetMeta) {
+        _activeExamState.value = UiState.Loading
+        viewModelScope.launch {
+            runCatching {
+                questionAssetRepository.loadMockTestSet(meta)
+            }.onSuccess { loadedSet ->
+                _activeExamState.value = UiState.Success(loadedSet)
+            }.onFailure { error ->
+                Log.e(TAG, "Failed to load mock test set ${meta.id}", error)
+                _activeExamState.value = UiState.Error("Unable to open this question paper.")
+            }
+        }
+    }
+
+    fun clearActiveExam() {
+        _activeExamState.value = null
+    }
+
+    fun recordPracticeExamAttempt(result: ExamResultSummary) {
+        viewModelScope.launch {
+            userRepository.saveExamAttempt(
+                setId = result.set.meta.id,
+                setHeading = result.set.meta.title,
+                category = CategoryType.PRACTICE,
+                totalQuestions = result.totalQuestions,
+                correctCount = result.correctCount,
+                incorrectCount = result.incorrectCount,
+                skippedCount = result.unattemptedCount,
+                timeTakenSeconds = result.timeTakenSeconds
+            )
+        }
     }
 
     private fun initializeProfileAndTheme() {

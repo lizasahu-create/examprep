@@ -25,6 +25,7 @@ import com.example.examprep.ui.components.PaperCard
 @Composable
 fun PracticeSetsScreen(
     categories: List<ExamCategory>,
+    setCountsByCategory: Map<String, Int> = emptyMap(),
     onBackClick: () -> Unit,
     onCategoryClick: (ExamCategory) -> Unit
 ) {
@@ -67,9 +68,11 @@ fun PracticeSetsScreen(
             contentPadding = PaddingValues(top = 8.dp, bottom = 24.dp)
         ) {
             items(categories, key = { it.id }) { category ->
+                val count = setCountsByCategory[category.id] ?: 0
                 CategoryListItemCard(
                     title = category.name,
                     icon = practiceCategoryIcon(category.id),
+                    badgeText = if (count > 0) "$count Sets" else null,
                     testTag = "practice_category_${category.id}",
                     onClick = { onCategoryClick(category) }
                 )
@@ -91,6 +94,7 @@ internal fun CategoryListItemCard(
     title: String,
     icon: ImageVector,
     testTag: String,
+    badgeText: String? = null,
     onClick: () -> Unit
 ) {
     PaperCard(
@@ -136,11 +140,29 @@ internal fun CategoryListItemCard(
                 )
             }
 
-            Icon(
-                imageVector = Icons.Default.ChevronRight,
-                contentDescription = "Open $title",
-                tint = MaterialTheme.colorScheme.onSurfaceVariant
-            )
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                if (!badgeText.isNullOrBlank()) {
+                    Box(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(6.dp))
+                            .background(MaterialTheme.colorScheme.primaryContainer)
+                            .padding(horizontal = 8.dp, vertical = 4.dp)
+                    ) {
+                        Text(
+                            text = badgeText,
+                            color = MaterialTheme.colorScheme.primary,
+                            fontSize = 11.sp,
+                            fontWeight = FontWeight.SemiBold
+                        )
+                    }
+                    Spacer(modifier = Modifier.width(6.dp))
+                }
+                Icon(
+                    imageVector = Icons.Default.ChevronRight,
+                    contentDescription = "Open $title",
+                    tint = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
         }
     }
 }

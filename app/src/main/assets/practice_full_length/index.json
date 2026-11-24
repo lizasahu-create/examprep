@@ -1,0 +1,323 @@
+{
+  "sets": [
+    {
+      "id": "mock_test_01",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 1 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_01.json"
+    },
+    {
+      "id": "mock_test_02",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 2 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_02.json"
+    },
+    {
+      "id": "mock_test_03",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 3 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_03.json"
+    },
+    {
+      "id": "mock_test_04",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 4 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_04.json"
+    },
+    {
+      "id": "mock_test_05",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 5 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_05.json"
+    },
+    {
+      "id": "mock_test_06",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 6 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_06.json"
+    },
+    {
+      "id": "mock_test_07",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 7 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_07.json"
+    },
+    {
+      "id": "mock_test_08",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 8 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_08.json"
+    },
+    {
+      "id": "mock_test_09",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 9 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_09.json"
+    },
+    {
+      "id": "mock_test_10",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 10 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_10.json"
+    },
+    {
+      "id": "mock_test_11",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 11 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_11.json"
+    },
+    {
+      "id": "mock_test_12",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 12 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_12.json"
+    },
+    {
+      "id": "mock_test_13",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 13 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_13.json"
+    },
+    {
+      "id": "mock_test_14",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 14 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_14.json"
+    },
+    {
+      "id": "mock_test_15",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST - 15 (FULL LENGTH)",
+      "subtitle": "100 Questions • 200 Marks",
+      "durationMinutes": 60,
+      "negativeMarking": 0.5,
+      "marksPerQuestion": 2.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/mock_test_15.json"
+    },
+    {
+      "id": "odisha_full_length_01",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — Odisha Recruitment Examinations — Practice Paper",
+      "subtitle": "Odisha Recruitment Examinations — Practice Paper",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.11,
+      "questionCount": 90,
+      "assetPath": "practice_full_length/odisha_full_length_01.json"
+    },
+    {
+      "id": "odisha_full_length_02",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — COMPREHENSIVE COMPETITIVE EXAMINATION PAPER",
+      "subtitle": "COMPREHENSIVE COMPETITIVE EXAMINATION PAPER",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_02.json"
+    },
+    {
+      "id": "odisha_full_length_03",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE PAPER III - ODISHA COMPETITIVE EXAMINATIONS",
+      "subtitle": "PRACTICE PAPER III - ODISHA COMPETITIVE EXAMINATIONS",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_03.json"
+    },
+    {
+      "id": "odisha_full_length_04",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE PAPER IV - ODISHA COMPETITIVE EXAMINATIONS",
+      "subtitle": "PRACTICE PAPER IV - ODISHA COMPETITIVE EXAMINATIONS",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_04.json"
+    },
+    {
+      "id": "odisha_full_length_05",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE SET SERIES - ODISHA STATE EXAMS",
+      "subtitle": "PRACTICE SET SERIES - ODISHA STATE EXAMS",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_05.json"
+    },
+    {
+      "id": "odisha_full_length_06",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE SET SERIES - VIDEO #2 CONTENT",
+      "subtitle": "PRACTICE SET SERIES - VIDEO #2 CONTENT",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.01,
+      "questionCount": 99,
+      "assetPath": "practice_full_length/odisha_full_length_06.json"
+    },
+    {
+      "id": "odisha_full_length_07",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE SET SERIES - VIDEO #3 CONTENT",
+      "subtitle": "PRACTICE SET SERIES - VIDEO #3 CONTENT",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_07.json"
+    },
+    {
+      "id": "odisha_full_length_08",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE SET SERIES - VIDEO #4 CONTENT",
+      "subtitle": "PRACTICE SET SERIES - VIDEO #4 CONTENT",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_08.json"
+    },
+    {
+      "id": "odisha_full_length_09",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE SET SERIES - VIDEO #5 CONTENT",
+      "subtitle": "PRACTICE SET SERIES - VIDEO #5 CONTENT",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_09.json"
+    },
+    {
+      "id": "odisha_full_length_10",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE SET SERIES - VIDEO #6 CONTENT",
+      "subtitle": "PRACTICE SET SERIES - VIDEO #6 CONTENT",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_10.json"
+    },
+    {
+      "id": "odisha_full_length_11",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE SET SERIES - VIDEO #7 CONTENT",
+      "subtitle": "PRACTICE SET SERIES - VIDEO #7 CONTENT",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_11.json"
+    },
+    {
+      "id": "odisha_full_length_12",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE SET SERIES - VIDEO #8 CONTENT",
+      "subtitle": "PRACTICE SET SERIES - VIDEO #8 CONTENT",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_12.json"
+    },
+    {
+      "id": "odisha_full_length_13",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE SET SERIES - VIDEO #9 CONTENT",
+      "subtitle": "PRACTICE SET SERIES - VIDEO #9 CONTENT",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_13.json"
+    },
+    {
+      "id": "odisha_full_length_14",
+      "categoryId": "practice_full_length",
+      "title": "MOCK TEST (FULL LENGTH) — PRACTICE SET SERIES - VIDEO #10 CONTENT",
+      "subtitle": "PRACTICE SET SERIES - VIDEO #10 CONTENT",
+      "durationMinutes": 120,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_full_length/odisha_full_length_14.json"
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "id": "opsc_aso_curated_pyq_50",
+  "categoryId": "pyq_opsc",
+  "title": "OPSC ASO Curated PYQ Compilation (2014–2025)",
+  "subtitle": "50 Verified Selected PYQs • English, GK, Math, Reasoning & Odia",
+  "durationMinutes": 45,
+  "negativeMarking": 0.25,
+  "marksPerQuestion": 1.0,
+  "questionCount": 50,
+  "questions": [
+    {
+      "number": 1,
+      "section": "English (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2015] The notice or announcement of a person's death in a newspaper or periodical is __________.",
+      "options": ["an advertisement", "a column", "a feature", "an obituary"],
+      "correctIndex": 3
+    },
+    {
+      "number": 2,
+      "section": "English (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2019] Let's go for a walk, __________? (Add the right question tag.)",
+      "options": ["Shall we?", "Can we?", "May we?", "Will we?"],
+      "correctIndex": 0
+    },
+    {
+      "number": 3,
+      "section": "English (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] It was ________ honour to meet the author.",
+      "options": ["a", "an", "the", "some"],
+      "correctIndex": 1
+    },
+    {
+      "number": 4,
+      "section": "English (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2019] (Active) Someone has picked my pocket. In passive voice, this will read:",
+      "options": ["My pocket was picked.", "Who has picked my pocket?", "Someone's pocket has been picked.", "My pocket has been picked."],
+      "correctIndex": 3
+    },
+    {
+      "number": 5,
+      "section": "English (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2015] \"Will you attend the meeting?\" he said. In reported speech this will be:",
+      "options": [
+        "He asked us whether we would attend the meeting.",
+        "We asked us whether he would attend the meeting.",
+        "He asked that if we will attend the meeting.",
+        "We asked if he will attend the meeting."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 6,
+      "section": "English (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] Identify the incorrect bracketed part: Neither the manager [nor] his assistant [were] aware of the new regulations, and this [caused] significant confusion [among] the staff.",
+      "options": ["nor", "were", "caused", "among"],
+      "correctIndex": 1
+    },
+    {
+      "number": 7,
+      "section": "English (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2019] The politician made false claims and called his honest colleagues corrupt, but when the facts became public, he had to eat his words. What does the last phrase here mean?",
+      "options": ["To say sorry for his mistake", "To confess the truth", "To take back what he said", "To swear a false oath"],
+      "correctIndex": 2
+    },
+    {
+      "number": 8,
+      "section": "English (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] Choose the word which is most opposite in meaning to the word SUBVERSION:",
+      "options": ["Destabilisation", "Clarity", "Compliance", "Sanity"],
+      "correctIndex": 2
+    },
+    {
+      "number": 9,
+      "section": "English (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] ________ had such data been accessible to researchers outside elite institutions.",
+      "options": ["Never before", "Before never", "Heretofore", "Hitherto"],
+      "correctIndex": 0
+    },
+    {
+      "number": 10,
+      "section": "English (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] Glutton is related to Eat as Garrulous is related to __________.",
+      "options": ["Walk", "Talk", "Laugh", "Travel"],
+      "correctIndex": 1
+    },
+    {
+      "number": 11,
+      "section": "General Knowledge (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2015] Galvanised iron sheets have a coating of :",
+      "options": ["Tin", "Lead", "Zinc", "Chromium"],
+      "correctIndex": 2
+    },
+    {
+      "number": 12,
+      "section": "General Knowledge (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] How many years does a non-permanent member serve in the UN Security Council?",
+      "options": ["One year", "Two years", "Three years", "Five years"],
+      "correctIndex": 1
+    },
+    {
+      "number": 13,
+      "section": "General Knowledge (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] Plant and animal species that exist only in a specific geographic region are called as",
+      "options": ["Endangered species", "Endemic species", "Epidemic species", "Vulnerable species"],
+      "correctIndex": 1
+    },
+    {
+      "number": 14,
+      "section": "General Knowledge (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2015] Decrease in a currency's value (relating to other major currency benchmark) due to the market forces is called :",
+      "options": ["Devaluation", "Deflation", "Appreciation", "Depreciation"],
+      "correctIndex": 3
+    },
+    {
+      "number": 15,
+      "section": "General Knowledge (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2019] Which battle did put an end to the French Challenge to British Supremacy in India?",
+      "options": ["Battle of Seringapatam", "Battle of Plassey", "Battle of Buxar", "Battle of Wandiwash"],
+      "correctIndex": 3
+    },
+    {
+      "number": 16,
+      "section": "General Knowledge (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2019] What is not correct with respect to Olive Ridley Sea Turtles?",
+      "options": [
+        "Gahirmatha is world's largest known nesting and breeding ground of such type of turtles.",
+        "Two other mass nesting beaches for such turtles in Odisha are located on the mouth of rivers Rushikulya and Daya.",
+        "The eggs of such turtles hatch at night and the hatchlings are highly sensitive to light.",
+        "These species are recognised as Vulnerable in the Red List of IUCN."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 17,
+      "section": "General Knowledge (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] What happens if the Rajya Sabha suggests Amendments to a money bill?",
+      "options": [
+        "The Lok Sabha is bound to accept them",
+        "The Lok Sabha may or may not accept them",
+        "The bill is sent to a Joint Session of both the Houses",
+        "The bill is automatically rejected"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 18,
+      "section": "General Knowledge (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] In Odisha State 'Hexadeltaic region' is named after",
+      "options": [
+        "Six deltaic districts of the State",
+        "Six coastal districts of the State",
+        "Six rivers of the State",
+        "Hexagonal shape of the region in the State"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 19,
+      "section": "General Knowledge (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] Match List-I with List-II and select the correct answer using the code given below:\nList-I (Tropical Cyclone) | List-II (Region/Country)\n(a) Baguio | (i) China\n(b) Cyclone | (ii) Philippines\n(c) Hurricane | (iii) Madagascar\n(d) Typhoon | (iv) USA\nCode: (a) (b) (c) (d)",
+      "options": ["(ii) (iii) (i) (iv)", "(ii) (iii) (iv) (i)", "(iii) (iv) (i) (ii)", "(iii) (iv) (ii) (i)"],
+      "correctIndex": 1
+    },
+    {
+      "number": 20,
+      "section": "General Knowledge (OPSC ASO 2015–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] Which one of the following Acts is wrongly matched?",
+      "options": [
+        "The First Factory Act - 1881",
+        "The Royal Titles Act - 1876",
+        "Repeal of the Vernacular Press Act - 1878",
+        "Calcutta Corporation Act - 1899"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 21,
+      "section": "Mathematics (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2014] A trader marks his goods at 40% above the cost price and allows a discount of 25%. What is his gain percent?",
+      "options": ["5", "15", "2", "65"],
+      "correctIndex": 0
+    },
+    {
+      "number": 22,
+      "section": "Mathematics (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2015] A steel wire is in the form of a circle of radius 28 cm. It is bent in the form of a square. The length of the side of the square is: (take π = 22/7)",
+      "options": ["44 cm", "11 cm", "28 cm", "None of the above"],
+      "correctIndex": 0
+    },
+    {
+      "number": 23,
+      "section": "Mathematics (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] If the angle of elevation of the top of tower from a point 20 m away from the foot is 45°, then find height of the tower:",
+      "options": ["40 m", "20 m", "30 m", "25 m"],
+      "correctIndex": 1
+    },
+    {
+      "number": 24,
+      "section": "Mathematics (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2015] How many spherical lead shots each having diameter 3 cm can be made from a cuboidal solid of dimensions 9 cm × 11 cm × 12 cm? (take π = 22/7)",
+      "options": ["81", "82", "83", "84"],
+      "correctIndex": 3
+    },
+    {
+      "number": 25,
+      "section": "Mathematics (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2019] In a class of 100 students there are 70 boys whose average marks in a single subject are 75. If the average mark of the complete class is 72, then the average mark of the girls is:",
+      "options": ["73", "65", "68", "74"],
+      "correctIndex": 1
+    },
+    {
+      "number": 26,
+      "section": "Mathematics (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2019] The difference between the simple and compound interest on Rs. 4,000 for 2 years at 10% per annum is:",
+      "options": ["Rs. 20", "Rs. 30", "Rs. 40", "Rs. 60"],
+      "correctIndex": 2
+    },
+    {
+      "number": 27,
+      "section": "Mathematics (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] If x is any number chosen from 1, 2, 3 and y is selected from the numbers 1, 4, 9, then P(xy < 9) = ?",
+      "options": ["2/3", "5/9", "7/9", "1/3"],
+      "correctIndex": 1
+    },
+    {
+      "number": 28,
+      "section": "Mathematics (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] Four milkmen rented a pasture. A grazed 24 cows for 3 months; B 10 cows for 5 months; C 35 cows for 4 months and D 21 cows for 3 months. If A's share of rent is Rs. 720, find the total rent of the field.",
+      "options": ["3245", "3260", "3360", "3250"],
+      "correctIndex": 3
+    },
+    {
+      "number": 29,
+      "section": "Mathematics (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2014] A motor boat whose speed is 18 km/h in still water takes 1 hour more to go 24 km upstream than to return downstream to the same spot. Then the speed of the stream is :",
+      "options": ["8 km/h", "24 km/h", "23 km/h", "6 km/h"],
+      "correctIndex": 3
+    },
+    {
+      "number": 30,
+      "section": "Mathematics (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] In a 100 m race, A runs at 8 km per hour. If A gives B a start of 4 m and still beats him by 15 seconds, what is the speed of B?",
+      "options": ["5.76 km/hr", "6.25 km/hr", "4.25 km/hr", "7.28 km/hr"],
+      "correctIndex": 0
+    },
+    {
+      "number": 31,
+      "section": "Reasoning (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2019] A is B's sister. C is B's mother. D is C's father. E is D's mother. Then, how is A related to D?",
+      "options": ["Grandfather", "Grandmother", "Daughter", "Granddaughter"],
+      "correctIndex": 3
+    },
+    {
+      "number": 32,
+      "section": "Reasoning (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2014] A man has Rs. 480 in the denominations of one rupee notes, five rupee notes and ten rupee notes. The number of each denomination is equal. What is the total number of notes that he has?",
+      "options": ["45", "75", "90", "120"],
+      "correctIndex": 2
+    },
+    {
+      "number": 33,
+      "section": "Reasoning (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] The average of the ages of three persons A, B and C is 45 years and the average age of A, C and D is 51 years. If the age of D is 56 years, what is the age of B?",
+      "options": ["35 years", "38 years", "36 years", "36.5 years"],
+      "correctIndex": 1
+    },
+    {
+      "number": 34,
+      "section": "Reasoning (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2014] Complete the series: 999, 730, 511, 344, 215, __.",
+      "options": ["123", "124", "125", "126"],
+      "correctIndex": 3
+    },
+    {
+      "number": 35,
+      "section": "Reasoning (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2015] Choose a correct sequence of ascending order of magnitude for 2¹², 3⁸, 4⁷, 10³ :",
+      "options": ["2¹², 3⁸, 10³, 4⁷", "10³, 2¹², 4⁷, 3⁸", "10³, 2¹², 3⁸, 4⁷", "10³, 4⁷, 2¹², 3⁸"],
+      "correctIndex": 2
+    },
+    {
+      "number": 36,
+      "section": "Reasoning (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2015] Each statement below has three segments. Choose the alternative where the third segment in a statement can be logically deduced using both the preceding two segments.\n(i) Some boys are tall; all tall persons are smart; some boys are smart.\n(ii) Some boys are tall; some boys are smart; boys are either tall or smart.",
+      "options": ["Only (i)", "Only (ii)", "Neither (i) nor (ii)", "None of the above"],
+      "correctIndex": 0
+    },
+    {
+      "number": 37,
+      "section": "Reasoning (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": "pyq_opsc/figures/aso_curated_q37_dice.png",
+      "questionText": "[OPSC ASO 2022] Three positions of a dice are given. Find out which number is found opposite the number 2 in the given cube?",
+      "options": ["6", "5", "3", "1"],
+      "correctIndex": 0
+    },
+    {
+      "number": 38,
+      "section": "Reasoning (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] David gets on the elevator at the 11th floor of a building and rides up at the rate of 57 floors per minute. At the same time, Albert gets on an elevator at the 51st floor of the same building and rides down at the rate of 63 floors per minute. If they continue travelling at these rates, then at which floor will their paths cross?",
+      "options": ["19", "28", "30", "37"],
+      "correctIndex": 2
+    },
+    {
+      "number": 39,
+      "section": "Reasoning (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] In a certain code language, 'VIRTUE' is coded as '201' and 'TRAGEDY' is coded as '218'. How will 'PROFANE' be coded in that language?",
+      "options": ["570", "342", "432", "456"],
+      "correctIndex": 1
+    },
+    {
+      "number": 40,
+      "section": "Reasoning (OPSC ASO 2014–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] There are seven persons A, B, C, D, E, F, and G. Each of them has different heights. C is shorter than only G. The number of persons taller than B is equal to the number of persons shorter than D. Neither A nor E is shortest. Who among the following is shortest?",
+      "options": ["G", "D", "B", "F"],
+      "correctIndex": 3
+    },
+    {
+      "number": 41,
+      "section": "Odia (OPSC ASO 2019–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2019] ଠିକ୍ ଶବ୍ଦ (ଉତ୍ତର) ଚିହ୍ନଟ କର ।",
+      "options": ["ଉତ୍ତରାୟନ", "ଉତରାୟନ", "ଉତରାୟଣ", "ଉତ୍ତରାୟଣ"],
+      "correctIndex": 3
+    },
+    {
+      "number": 42,
+      "section": "Odia (OPSC ASO 2019–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] ପରସ୍ପର ଅନ୍ୱୟର ଉପଯୋଗୀ ଦୁଇ ବା ତତୋଧିକ ଶବ୍ଦକୁ ଏକପଦରେ ପରିଣତ କରିବାର ନାମ ________ ।",
+      "options": ["ସନ୍ଧି", "ସମାସ ବାକ୍ୟ", "ପଦାନ୍ୱୟ", "ସମାସ"],
+      "correctIndex": 3
+    },
+    {
+      "number": 43,
+      "section": "Odia (OPSC ASO 2019–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] ସୀତା କହିଲେ, \"ହନୁମାନ ଏ ମୁଦ୍ରିକା ଗ୍ରହଣ କର\" – କେଉଁ ପ୍ରକାରର ବାକ୍ୟ ?",
+      "options": ["ପରୋକ୍ଷ ଉକ୍ତି ମୂଳକ ବାକ୍ୟ", "ପ୍ରତ୍ୟକ୍ଷ ଉକ୍ତି ମୂଳକ ବାକ୍ୟ", "ବିସ୍ମୟାତ୍ମକ ବାକ୍ୟ", "ପ୍ରଶ୍ନାତ୍ମକ ବାକ୍ୟ"],
+      "correctIndex": 1
+    },
+    {
+      "number": 44,
+      "section": "Odia (OPSC ASO 2019–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] 'ଶିକ୍ଷକ ଛାତ୍ରକୁ ପ୍ରଶ୍ନ ପଚାରିଲେ' – ଉକ୍ତ ବାକ୍ୟର ମୁଖ୍ୟ କର୍ମ ଚିହ୍ନଟ କର :",
+      "options": ["ପ୍ରଶ୍ନ", "ଛାତ୍ରକୁ", "ଶିକ୍ଷକ", "ପଚାରିଲେ"],
+      "correctIndex": 0
+    },
+    {
+      "number": 45,
+      "section": "Odia (OPSC ASO 2019–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC AG ASO 2025] 'ଆଜି ମୋର ଡେରିରେ ଖାଇବା ହେଲା' – ବାକ୍ୟଟି ଚିହ୍ନଟ କର ।",
+      "options": ["କର୍ମବାଚ୍ୟ ମୂଳକ ବାକ୍ୟ", "ଭାବବାଚ୍ୟ ମୂଳକ ବାକ୍ୟ", "କର୍ତ୍ତୃବାଚ୍ୟ ମୂଳକ ବାକ୍ୟ", "ବିବୃତିସୂଚକ ବାକ୍ୟ"],
+      "correctIndex": 1
+    },
+    {
+      "number": 46,
+      "section": "Odia (OPSC ASO 2019–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2019] 'ଖା' ଧାତୁରୁ 'ଖୁଆ' ________ ଧାତୁ ଗଠିତ ।",
+      "options": ["ନାମ", "ଏକକ", "ଯୌଗିକ", "ପ୍ରେରଣାର୍ଥକ"],
+      "correctIndex": 3
+    },
+    {
+      "number": 47,
+      "section": "Odia (OPSC ASO 2019–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] କେଉଁଟି ଜଟିଳ ବାକ୍ୟ ?",
+      "options": [
+        "ଯେ ସର୍ବଦା ସତ୍ୟ କହେ, ସେ ନିର୍ଭୟ ।",
+        "ସେ ତୁମକୁ ଗାଳିଦେଇଥିଲା । ସେ ଆସିଛି ।",
+        "ସେ ଧନୀ, ମାତ୍ର ସୁଖୀ ନୁହଁନ୍ତି ।",
+        "ସେ ପୁରୀ ଯାଉଥିବ କିମ୍ବା କଟକ ଯାଉଥିବ ।"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 48,
+      "section": "Odia (OPSC ASO 2019–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] 'ସେମାନେ ଖେଳିଥିବେ' – ଏହା କେଉଁ କାଳସୂଚକ ?",
+      "options": ["ସଂପନ୍ନ ଅତୀତ", "ଅସଂପନ୍ନ ଭବିଷ୍ୟତ", "ସଂପନ୍ନ ଭବିଷ୍ୟତ", "ସାଧାରଣ ଅତୀତ"],
+      "correctIndex": 2
+    },
+    {
+      "number": 49,
+      "section": "Odia (OPSC ASO 2019–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] 'କାର୍ତ୍ତିକେୟ' ଶବ୍ଦର ଶୁଦ୍ଧ ଗଠନ ରୂପ ଚିହ୍ନଟ କର :",
+      "options": ["କାର୍ତ୍ତିକ + ଏୟ", "କାର୍ତ୍ତିକ + ୟ", "କାର୍ତ୍ତି + କେୟ", "କୃତ୍ତିକା + ଏୟ"],
+      "correctIndex": 3
+    },
+    {
+      "number": 50,
+      "section": "Odia (OPSC ASO 2019–2025)",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "[OPSC ASO 2022] 'ତିନି ମାସର ଦରମା' – ଏହି ବାକ୍ୟରେ ବ୍ୟବହୃତ 'ମାସର' ପଦର ସମ୍ବନ୍ଧ ଦର୍ଶାଅ :",
+      "options": ["ନିର୍ଦ୍ଧାରଣ", "ବ୍ୟାପ୍ତି", "ବିଶେଷଣ", "କାର୍ଯ୍ୟକାରଣ"],
+      "correctIndex": 1
+    }
+  ]
+}

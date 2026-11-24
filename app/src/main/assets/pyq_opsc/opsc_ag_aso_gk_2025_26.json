@@ -1,0 +1,1087 @@
+{
+  "id": "opsc_ag_aso_gk_2025_26",
+  "categoryId": "pyq_opsc",
+  "title": "OPSC AG ASO 2025–26 — General Awareness",
+  "subtitle": "Paper-I • 100 MCQs • 100 Marks • Official PYQ",
+  "durationMinutes": 90,
+  "negativeMarking": 0.25,
+  "marksPerQuestion": 1.0,
+  "questionCount": 100,
+  "questions": [
+    {
+      "number": 1,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following Committees recommended the establishment of the National Stock Exchange (NSE) in India?",
+      "options": ["Narasimham Committee", "Rangarajan Committee", "Abid Hussain Committee", "Pherwani Committee"],
+      "correctIndex": 3
+    },
+    {
+      "number": 2,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which tax reform in India aimed to unify multiple indirect taxes into a single tax?",
+      "options": ["GST", "VAT", "Excise Duty", "Customs Duty"],
+      "correctIndex": 0
+    },
+    {
+      "number": 3,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which data is used to measure Multidimensional Poverty Index in India?",
+      "options": ["Human Development Index", "National Family Health Survey", "Gini Coefficient", "Poverty Gap Index"],
+      "correctIndex": 1
+    },
+    {
+      "number": 4,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which one of the following statements is INCORRECT?",
+      "options": [
+        "'Hindu' was founded by G. Subramania Iyer",
+        "'Young India' was published by Mahatma Gandhi",
+        "'Bombay Times' was founded by Sanjibani",
+        "'Amrita Bazar Patrika' was founded by Sisir Kumar Ghosh"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 5,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following is NOT a component of India's fiscal deficit?",
+      "options": ["Revenue Deficit", "Primary Deficit", "Monetary Deficit", "Effective Revenue Deficit"],
+      "correctIndex": 2
+    },
+    {
+      "number": 6,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which sector contributes the most to India's GDP as of 2024?",
+      "options": ["Agriculture", "Services", "Manufacturing", "Mining"],
+      "correctIndex": 1
+    },
+    {
+      "number": 7,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "World Water Day is celebrated every year on",
+      "options": ["23rd March", "22nd March", "22nd April", "21st March"],
+      "correctIndex": 1
+    },
+    {
+      "number": 8,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Plant and animal species that exist only in a specific geographic region are called as",
+      "options": ["Endangered species", "Endemic species", "Epidemic species", "Vulnerable species"],
+      "correctIndex": 1
+    },
+    {
+      "number": 9,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Mumps is an",
+      "options": [
+        "Contagious waterborne viral disease",
+        "Contagious airborne viral disease",
+        "Contagious waterborne bacterial disease",
+        "Contagious airborne bacterial disease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 10,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which country partnered with the Government of Odisha to launch the 'Net Zero Vision' for Bhubaneswar?",
+      "options": ["USA", "UK", "France", "Thailand"],
+      "correctIndex": 1
+    },
+    {
+      "number": 11,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A Joint State Public Service Commission can be created by",
+      "options": [
+        "An act of Parliament",
+        "A resolution of the Rajya Sabha",
+        "An order of the President",
+        "Acts of the concerned State Legislature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 12,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who founded the 'Central National Mohammedan Association (1877–78)'?",
+      "options": ["Abdul Latif Khan", "Sayyid Ahmed Khan", "Sayyid Amir Ali", "Muhammad Ali"],
+      "correctIndex": 2
+    },
+    {
+      "number": 13,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Match the following:\nList-I | List-II\ni. Communist Party of India | a. N. M. Joshi\nii. Servants of the People Society | b. Qazi Nazrul Islam\niii. Indian Trade Union Congress | c. Lala Lajpat Rai\niv. Labour Swaraj Party | d. M. N. Roy",
+      "options": [
+        "i-c, ii-d, iii-b, iv-a",
+        "i-a, ii-b, iii-c, iv-d",
+        "i-d, ii-c, iii-a, iv-b",
+        "i-c, ii-d, iii-a, iv-b"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 14,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following is an exclusive function of the Rajya Sabha in relation to the Lok Sabha?",
+      "options": [
+        "Electing the Vice-President",
+        "Creation of All India Services",
+        "Altering Boundary of States",
+        "Creation of new Legislative Council in States"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 15,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Arrange the mountain ranges from North to South:\nI. Devagiri\nII. Gandhamardan\nIII. Mahendragiri\nIV. Malyagiri",
+      "options": ["I, II, III, IV", "II, IV, III, I", "IV, II, I, III", "I, II, IV, III"],
+      "correctIndex": 2
+    },
+    {
+      "number": 16,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following statements are true regarding the Karachi Session of the Indian National Congress (1931)?\ni. The Session held under the Presidentship of Motilal Nehru.\nii. The socialist radicalism found reflection in the Congress.\niii. Passed resolution on Fundamental Rights and Duties and Economic Programme.\niv. A resolution was passed to draw up an All-India Agrarian Programme.",
+      "options": ["i and ii", "ii and iii", "i and iii", "ii and iv"],
+      "correctIndex": 1
+    },
+    {
+      "number": 17,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The word 'Secular' was inserted in the Preamble of the Indian Constitution by which Constitutional Amendment?",
+      "options": ["25th Amendment", "42nd Amendment", "44th Amendment", "52nd Amendment"],
+      "correctIndex": 1
+    },
+    {
+      "number": 18,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the minimum age limit prescribed for the membership of the State Legislative Council?",
+      "options": ["21 years", "25 years", "30 years", "35 years"],
+      "correctIndex": 2
+    },
+    {
+      "number": 19,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements with respect to the Election Commission of India:\n1. Article 324 of the Indian Constitution grants the Election Commission the power to supervise and control the conduct of elections.\n2. The Election Commission of India is responsible for conducting local body elections.\n3. The Election Commission was a single-member body until 1993 and thereafter it became a multi-member body permanently.\n4. The Chief Election Commissioner shall not be removed from his office except in like manner and on the like grounds as a judge of the Supreme Court of India.\nWhich of the statements given above is/are correct?",
+      "options": ["Only 1 and 4", "Only 1, 3 and 4", "Only 1 and 3", "Only 2 and 4"],
+      "correctIndex": 1
+    },
+    {
+      "number": 20,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who among the following said that the Preamble of the Indian Constitution is \"The Keynote of the Constitutions\"?",
+      "options": ["Morris Jones", "K. T. Shah", "Granville Austin", "Ernest Barker"],
+      "correctIndex": 3
+    },
+    {
+      "number": 21,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements about the scramjet engine technology tested by DRDO recently:\n1. Scramjet engines have moving parts that compress incoming air before combustion.\n2. Scramjet engines are ideal for subsonic missile systems due to their fuel efficiency.\n3. Scramjets combust fuel in supersonic airflow, enabling efficient operation at hypersonic speeds.\nWhich of the above statements is/are correct?",
+      "options": ["Only 1 and 2", "Only 1 and 3", "Only 2 and 3", "Only 3"],
+      "correctIndex": 3
+    },
+    {
+      "number": 22,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements about the NITI Aayog:\n1. The aim of NITI Aayog is to achieve Sustainable Development Goals and to enhance cooperative federalism in the country.\n2. The Prime Minister of India is the ex-officio Chairperson of the NITI Aayog.\n3. There are 8 full-time members in the NITI Aayog.\nWhich of the above statements is/are correct?",
+      "options": ["2 and 3", "2", "1", "1 and 2"],
+      "correctIndex": 3
+    },
+    {
+      "number": 23,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Savannas are",
+      "options": ["Temperate Grasslands", "Coniferous Forest", "Temperate Deciduous Forest", "Tropical Grasslands"],
+      "correctIndex": 3
+    },
+    {
+      "number": 24,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "On which date 'Poorna Swaraj' declared as the goal of the Indian National Congress?",
+      "options": ["26 January 1930", "12 March 1930", "9 August 1942", "15 August 1947"],
+      "correctIndex": 0
+    },
+    {
+      "number": 25,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the name of the 17th Edition of the India-Mongolia Joint Military Exercise?",
+      "options": ["Exercise Desert Knight", "Exercise Nomadic Elephant", "Exercise Khan Quest", "Exercise Yudh Abhyas"],
+      "correctIndex": 1
+    },
+    {
+      "number": 26,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Match the following (Significance evidence of Global Warming):\nList-I | List-II\na. The edge of the West Antarctic ice sheet is shrinking | 1. At 400 feet every year\nb. Glacial retreat increased seven fold in the | 2. Andes Mountain of Peru from 1978 to 1995\nc. Glacial ice has shrunk | 3. Nearly 25 percent over the last 60 years in the Tien Shan Mountain, China\nd. Almost half of all glacial ice melted away in the | 4. Russian Caucasus Mountain in the past four decades\nCode: a b c d",
+      "options": ["1 2 3 4", "1 2 4 3", "1 3 2 4", "2 1 3 4"],
+      "correctIndex": 0
+    },
+    {
+      "number": 27,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Match the following Indian States on the International Boundaries:\nList-I | List-II\na. Gujarat | 1. Bhutan and Bangladesh\nb. Himachal Pradesh | 2. China and Nepal\nc. Uttarakhand | 3. China\nd. West Bengal | 4. Pakistan\nCode: a b c d",
+      "options": ["1 2 3 4", "2 1 4 3", "3 4 1 2", "4 3 2 1"],
+      "correctIndex": 3
+    },
+    {
+      "number": 28,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following is NOT a function of the Reserve Bank of India?",
+      "options": [
+        "Monetary Policy Regulation",
+        "Currency Issuance",
+        "Regulation of Stock Exchanges",
+        "Lender of the Last Resort"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 29,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Kyoto Protocol was adopted on",
+      "options": ["11th December 1997", "21st December 2004", "10th December 1987", "09th December 2003"],
+      "correctIndex": 0
+    },
+    {
+      "number": 30,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which is the deepest part of the ocean in the world?",
+      "options": [
+        "The Challenger Deep in the Mariana Trench",
+        "The Horizon Deep in the Tonga Trench",
+        "South Sandwich Trench in the South Atlantic Ocean",
+        "Oceanic Trench in the Indian Ocean"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 31,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Indian Institution of Public Administration was established in",
+      "options": ["1954", "1953", "1952", "1955"],
+      "correctIndex": 0
+    },
+    {
+      "number": 32,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following statements regarding World Tuberculosis (TB) Day, 2025 is/are correct?\n1. It is observed on March 24 to commemorate Dr. Robert Koch's discovery of the TB bacteria in 1882.\n2. The 2025 theme is \"Yes! We Can End TB.\"",
+      "options": ["Only 1", "Only 2", "Both 1 and 2", "Neither 1 nor 2"],
+      "correctIndex": 2
+    },
+    {
+      "number": 33,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements regarding Exercise Desert Flag-10:\n1. The Indian Air Force is participating in the exercise with Tejas and Rafale aircraft.\n2. The exercise is being held at Al Dhafra Air Base, hosted by the United Arab Emirates Air Force.\n3. One of the key objectives of the exercise is to enhance interoperability through complex aerial combat scenarios involving multiple nations.\nWhich of the above statements is/are correct?",
+      "options": ["Only 1 and 2", "Only 2 and 3", "Only 1 and 3", "1, 2 and 3"],
+      "correctIndex": 1
+    },
+    {
+      "number": 34,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The title 'Goodwill Ambassador' is most commonly associated with which of the following?",
+      "options": [
+        "Regional trade organizations",
+        "Space exploration programs",
+        "Military alliances",
+        "United Nations and its specialized agencies"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 35,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which one of the following storm-centres of the Revolt of 1857 is wrongly matched?",
+      "options": [
+        "Revolt at Kanpur — Nana Sahib",
+        "Revolt at Jagdishpur — Kunwar Singh",
+        "Revolt at Faizabad — Hazrat Mahal",
+        "Revolt at Jhansi — Rani Lakshmibai"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 36,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the correct chronological sequence of the following?\ni. The Hartog Committee\nii. The Hunter Education Commission\niii. The Sadler University Commission\niv. Kothari Education Commission",
+      "options": ["i, ii, iii, iv", "iii, iv, ii, i", "ii, iii, iv, i", "ii, iii, i, iv"],
+      "correctIndex": 3
+    },
+    {
+      "number": 37,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following Articles are related to the Right to Religion?",
+      "options": ["Articles 14 to 18", "Articles 19 to 22", "Articles 25 to 28", "Articles 29 and 30"],
+      "correctIndex": 2
+    },
+    {
+      "number": 38,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which election method is used for Lok Sabha elections in India?",
+      "options": [
+        "Proportional Representation",
+        "First Past The Post (FPTP)",
+        "Single Transferable Vote (STV)",
+        "Mixed Electoral System"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 39,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is edge species?",
+      "options": [
+        "The species which occur abundantly in the ecotone",
+        "Species on the verge of extinction",
+        "Rare species",
+        "Endemic species"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 40,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Match the following (Composition of Atmosphere):\nList-I | List-II\na. Oxygen | 1. Most variable gaseous substance, 0.2 to 4 percent\nb. Nitrogen | 2. Constitutes only 21 percent of total volume\nc. Ozone | 3. Accounts for 78 percent of total volume\nd. Water vapour | 4. Forms less than 0.00005 percent by volume\nCode: a b c d",
+      "options": ["1 2 3 4", "2 3 1 4", "2 3 4 1", "4 1 3 2"],
+      "correctIndex": 2
+    },
+    {
+      "number": 41,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements with reference to ground water:\nI. India is largest ground water user in the world.\nII. India's rank is 120 among 122 countries in the water quality Index.\nSelect the correct answer from the code given below:",
+      "options": ["Only I", "Both I and II", "Only II", "Neither I nor II"],
+      "correctIndex": 1
+    },
+    {
+      "number": 42,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Santhanam Committee on prevention of corruption was appointed in the year",
+      "options": ["1961", "1964", "1963", "1962"],
+      "correctIndex": 3
+    },
+    {
+      "number": 43,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What type of orbit was the satellite EOS-09 intended to be placed into by ISRO's PSLV-C61 Mission?",
+      "options": ["Geostationary Orbit", "Low Earth Orbit", "Sun-Synchronous Polar Orbit", "Medium Earth Orbit"],
+      "correctIndex": 2
+    },
+    {
+      "number": 44,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which is the first country to criminalize AI-generated Child Sexual Abuse Material (CSAM)?",
+      "options": ["USA", "Canada", "UK", "Australia"],
+      "correctIndex": 2
+    },
+    {
+      "number": 45,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following statements regarding Operation Keller is/are correct?\n1. Operation Keller was conducted by the Indian Army in Jammu and Kashmir's Shopian district.\n2. The operation led to the neutralisation of three Hizbul Mujahideen terrorists.",
+      "options": ["Only 1", "Only 2", "Both 1 and 2", "Neither 1 nor 2"],
+      "correctIndex": 0
+    },
+    {
+      "number": 46,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Central Pollution Control Board (CPCB) has developed \"The Comprehensive Environmental Pollution Index (CEPI)\" in collaboration with",
+      "options": [
+        "Council of Scientific and Industrial Research",
+        "Indian Institute of Technology, Delhi",
+        "Indian Institute of Science, Bengaluru",
+        "National Environmental Engineering Research Institute, Nagpur"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 47,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which river in Odisha witnessed the nesting of over 6.98 lakh Olive Ridley turtles during 'Operation Olivia' in February, 2025?",
+      "options": ["Mahanadi", "Brahmani", "Rushikulya", "Subarnarekha"],
+      "correctIndex": 2
+    },
+    {
+      "number": 48,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "World Consumer Rights Day is celebrated on",
+      "options": ["March 15", "March 3", "February 15", "April 15"],
+      "correctIndex": 0
+    },
+    {
+      "number": 49,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements about the Indo-Tibetan Border Police (ITBP):\n1. The ITBP recently opened a new Company Operating Base (COB) in Kutul, Rajasthan, to counter cross-border terrorism.\n2. The ITBP was established after the 1962 Sino-Indian War and plays a key role in both high-altitude border security and internal counter-insurgency.\n3. Apart from its security duties, the ITBP has been actively involved in disaster relief operations, including rescue efforts during the 2013 Uttarakhand floods.\nWhich of the above statements is/are correct?",
+      "options": ["Only 1 and 2", "Only 2 and 3", "Only 1 and 3", "1, 2 and 3"],
+      "correctIndex": 1
+    },
+    {
+      "number": 50,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who introduced the 'Censorship of the Press Act' in 1799?",
+      "options": ["Lord Wellesley", "Lord William Bentinck", "Lord Cranbrook", "Lord Curzon"],
+      "correctIndex": 0
+    },
+    {
+      "number": 51,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements about the Pralay Missile:\n1. Pralay is an air-to-surface cruise missile developed by DRDO.\n2. It has a range of 700–1500 km and is designed for naval warfare.\nWhich of the above statements is/are correct?",
+      "options": ["Only 1", "Only 2", "Both 1 and 2", "Neither 1 nor 2"],
+      "correctIndex": 3
+    },
+    {
+      "number": 52,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following statements about the Sardar Vallabhbhai Patel National Police Academy is INCORRECT?",
+      "options": [
+        "It is located in Hyderabad, Telangana",
+        "It trains officers of the Indian Police Service (IPS)",
+        "It was established in 1978",
+        "It is named after India's first Deputy Prime Minister"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 53,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following Act aimed to introduce provincial autonomy and the establishment of a federal court?",
+      "options": [
+        "The Indian Council Act, 1909",
+        "The Government of India Act, 1919",
+        "The Government of India Act, 1935",
+        "The Indian Independence Act, 1947"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 54,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements with reference to climate:\nI. Indian ocean dipole is also known as 'Indian Nino'.\nII. It is similar to the El nino phenomenon.\nSelect the correct answer from the code given below:",
+      "options": ["Only I", "Both I and II", "Only II", "Neither I nor II"],
+      "correctIndex": 1
+    },
+    {
+      "number": 55,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which Five Year Plan introduced the concept of 'Rolling Plan' in India?",
+      "options": ["First Plan", "Second Plan", "Third Plan", "None of the above"],
+      "correctIndex": 3
+    },
+    {
+      "number": 56,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What should be the maximum size of the Council of Ministers as per the 91st Constitution Amendment Act (2003)?",
+      "options": [
+        "10% of the Lok Sabha's total members",
+        "15% of the Lok Sabha's total members",
+        "20% of the Lok Sabha's total members",
+        "No fixed limit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 57,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which one of the following options is correctly matched with respect to top four States with maximum increase in forest and tree cover (as per ISFR 2023)?",
+      "options": [
+        "Chhattisgarh, Uttar Pradesh, Odisha and Rajasthan",
+        "Madhya Pradesh, Mizoram, Chhattisgarh and Assam",
+        "Odisha, Rajasthan, Assam and Mizoram",
+        "Uttar Pradesh, Uttarakhand, Himachal Pradesh and Tripura"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 58,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Match the following (Biogeographical Regions of India):\nList-I | List-II\na. Trans-Himalayan Region | 1. Highest mountain ranges, rich in species biodiversity\nb. Himalayan Region | 2. Sparse vegetation, richest sheep & goat communities\nc. Semi-Arid Region | 3. Dense forests harbouring diverse species\nd. The Western Ghats | 4. Located adjoining the desert, rich species diversity\nCode: a b c d",
+      "options": ["1 2 3 4", "2 1 4 3", "2 4 3 1", "1 4 3 2"],
+      "correctIndex": 1
+    },
+    {
+      "number": 59,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The famous Hirakud Project and Mahanadi Canal are supplying ample irrigation water to:\n1. Puri District\n2. Cuttack District\n3. Sambalpur District\n4. Keonjhar District\nSelect the correct combination:",
+      "options": ["1, 2, 3, 4", "Only 1, 2 and 3", "Only 1, 2", "Only 3"],
+      "correctIndex": 1
+    },
+    {
+      "number": 60,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Royal Commission on Superior Civil Service in India is popularly known as",
+      "options": ["Lee Commission", "Islington Commission", "British Commission", "Civil Service Commission"],
+      "correctIndex": 0
+    },
+    {
+      "number": 61,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following Committee is NOT associated with Civil Services in any manner?",
+      "options": ["B. R. Mehta Committee", "Yugandhar Committee", "Yoginder K. Alagh Committee", "Hota Committee"],
+      "correctIndex": 0
+    },
+    {
+      "number": 62,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which Union Ministry hosted the Purple Fest, 2025 at Rashtrapati Bhavan?",
+      "options": [
+        "Ministry of Health and Family Welfare",
+        "Ministry of Social Justice and Empowerment",
+        "Ministry of Women and Child Development",
+        "Ministry of Home Affairs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 63,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Mount Lewotobi Laki-Laki, an active volcano, is located in which country?",
+      "options": ["Philippines", "Indonesia", "Japan", "Malaysia"],
+      "correctIndex": 1
+    },
+    {
+      "number": 64,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "BIMSTEC Youth Summit, 2025 was held in",
+      "options": ["Myanmar", "Bangladesh", "Thailand", "India"],
+      "correctIndex": 3
+    },
+    {
+      "number": 65,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which one of the following is NOT correct?",
+      "options": [
+        "First Governor-General of Fort William was Warren Hastings",
+        "First Chief Justice of the Supreme Court in British India was Elijah Impey",
+        "First Law Member of the Governor-General's Council was Lord Amherst",
+        "First Viceroy as well as the Governor-General of India was Lord Canning"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 66,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "SEVOTTAM is a",
+      "options": [
+        "Quality Management System",
+        "Qualified Management System",
+        "Performance Management System",
+        "Quantity Management System"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 67,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the theme of World Earth Day - 2024?",
+      "options": [
+        "Planet vs. Plastic",
+        "Caring for Soils : Measure, Monitor, Manage",
+        "Land Restoration, Desertification and Drought Resilience",
+        "Our Power, Our Planet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 68,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The '100 Din Beti Bachao, Beti Padhao' campaign was launched in which of the following district?",
+      "options": [
+        "Palamu district, Jharkhand",
+        "Ganjam district, Odisha",
+        "Dhenkanal district, Odisha",
+        "Ranchi, Jharkhand"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 69,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements about the Indian Navy's TROPEX-25 exercise:\n1. TROPEX-25 focuses exclusively on Western Fleet operations and excludes carrier-based air power.\n2. One of its core aims is to support India's Indo-Pacific strategy by countering regional threats.\nWhich of the above statements is/are correct?",
+      "options": ["Only 1", "Both 1 and 2", "Only 2", "Neither 1 nor 2"],
+      "correctIndex": 2
+    },
+    {
+      "number": 70,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements regarding the World Meteorological Organization (WMO):\n1. It is a specialized agency of the United Nations focusing on meteorology, operational hydrology and related geophysical sciences.\n2. WMO has declared 2024 as the warmest year on record, based on six international datasets.\n3. Its Headquarters are located in Vienna, Austria.\nWhich of the above statements is/are correct?",
+      "options": ["Only 1 and 2", "Only 2 and 3", "Only 1 and 3", "1, 2 and 3"],
+      "correctIndex": 0
+    },
+    {
+      "number": 71,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "'Operation Jindagi' is related to",
+      "options": [
+        "Joshimath land subsidence",
+        "Varunavat landslide",
+        "Silkyara tunnel collapse",
+        "Mizoram landslide"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 72,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The hills situated closer to Kanyakumari are",
+      "options": ["Cardamom hills", "Nilgiri hills", "Anamalai hills", "Shevaroy hills"],
+      "correctIndex": 0
+    },
+    {
+      "number": 73,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which ministry launched the Bharat Ranbhoomi Darshan initiative?",
+      "options": ["Ministry of Culture", "Ministry of Home Affairs", "Ministry of Tourism", "Ministry of Defence"],
+      "correctIndex": 3
+    },
+    {
+      "number": 74,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following historical structures and their new names are wrongly paired?\n1. Fort William — Nehru Durg\n2. Kitchener House — Manekshaw House\n3. Fort St. David — Vijay Durg\n4. St. George's Gate — Shivaji Gate",
+      "options": ["1 and 4", "2 and 3", "1 and 3", "2 and 4"],
+      "correctIndex": 2
+    },
+    {
+      "number": 75,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The National Institute of Rural Development and Panchayati Raj (NIRDPR) is located in which of the following cities?",
+      "options": ["Cuttack", "New Delhi", "Pune", "Hyderabad"],
+      "correctIndex": 3
+    },
+    {
+      "number": 76,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In Odisha State, 'Hexadeltaic region' is named after",
+      "options": [
+        "Six deltaic districts of the State",
+        "Six coastal districts of the State",
+        "Six rivers of the State",
+        "Hexagonal shape of the region in the State"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 77,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "From which of the following countries, the provision of the nomination of Rajya Sabha members was borrowed?",
+      "options": ["Australia", "United Kingdom", "USA", "Ireland"],
+      "correctIndex": 3
+    },
+    {
+      "number": 78,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Consider the following statements about the Prime Minister and Union Council of Ministers in India:\n1. The Prime Minister must always be a member of the Lok Sabha.\n2. The Council of Ministers is collectively responsible to the Lok Sabha.\n3. The Prime Minister can allocate portfolios to Ministers.\n4. If someone becomes a Minister or Prime Minister without being an MP, such a person has to get elected to the Parliament within six months.\nWhich of the statements given above is/are correct?",
+      "options": ["Only 2, 3 and 4", "Only 1, 2 and 3", "Only 1, 3 and 4", "Only 1, 2 and 4"],
+      "correctIndex": 0
+    },
+    {
+      "number": 79,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What happens if the Rajya Sabha suggests Amendments to a money bill?",
+      "options": [
+        "The Lok Sabha is bound to accept them",
+        "The Lok Sabha may or may not accept them",
+        "The bill is sent to a Joint Session of both the Houses",
+        "The bill is automatically rejected"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 80,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is \"operation zero lines\"?",
+      "options": [
+        "Border between Bhutan and India",
+        "Border between Bangladesh and India",
+        "Border between Nepal and India",
+        "Border between Myanmar and India"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 81,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The UNESCO Memory of the World (MoW) Register primarily aims to preserve which of the following?",
+      "options": [
+        "Endangered monuments and archaeological sites of historical value",
+        "Oral traditions, folk songs, and other intangible cultural practices",
+        "Ancient scripts, historical documents, and other forms of documentary heritage",
+        "Traditional knowledge systems passed down through generations"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 82,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who among the following is NOT a member of the Committee that recommends to the President of India the appointments of the Chairperson and members of the National Human Rights Commission?",
+      "options": [
+        "Prime Minister of India",
+        "Home Minister",
+        "Deputy Speaker of the Lok Sabha",
+        "Leader of the Opposition in the Rajya Sabha"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 83,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In which region was the 'Ryotwari System' primarily implemented?",
+      "options": [
+        "Bengal Presidency",
+        "Central Provinces",
+        "Madras and Bombay Presidency",
+        "North-Western Provinces and Oudh"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 84,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which among the following Committees/Commissions recommended that the appointment of Governors should be non-partisan?",
+      "options": [
+        "Sarkaria Commission",
+        "Vohra Committee",
+        "2nd Administrative Reforms Commission",
+        "Gadgil Committee"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 85,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Between India and which country did Exercise 'Dharma Guardian' take place?",
+      "options": ["Japan", "Nepal", "Sri Lanka", "Indonesia"],
+      "correctIndex": 0
+    },
+    {
+      "number": 86,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following statements about Lala Lajpat Rai are true?\ni. He was reverentially remembered by Indian as 'Uncrowned King of India'.\nii. He was a fearless journalist and founded and edited 'The Punjabee'.\niii. He was also edited the Quarterly Journal of the 'Poona Sarvajanik Sabha'.\niv. He had the fighting spirit and pride in his Motherland characteristic of a true Arya Samajist.",
+      "options": ["i and ii", "ii and iii", "ii and iv", "i and iv"],
+      "correctIndex": 2
+    },
+    {
+      "number": 87,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who among the following was NOT associated with the Labour Swaraj Party (1925)?",
+      "options": ["Muzaffar Ahmed", "Qazi Nazrul Islam", "Hemanta Kumar Sarkar", "S. A. Dange"],
+      "correctIndex": 3
+    },
+    {
+      "number": 88,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following Directive Principles of State Policy was added to the Indian Constitution in 1976?",
+      "options": [
+        "Organization of Village Panchayats",
+        "Prohibition of Cow Slaughter",
+        "Uniform Civil Code",
+        "Free Legal Aid to the Poor"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 89,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the theme of National Voters' Day, 2025?",
+      "options": [
+        "Nothing Like Voting, I Vote for Sure",
+        "Making Elections Inclusive, Accessible, and Participative",
+        "Making Our Voters Empowered, Vigilant, Safe, and Informed",
+        "Electoral Literacy for Stronger Democracy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 90,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What was the first mammal species reported as extinct due to human-induced climate change?",
+      "options": [
+        "Hydrodamalis gigas (Steller's sea cow)",
+        "Balaenoptera musculus (Blue whale)",
+        "Bramble Cay melomys (Bramble Cay mosaic-tailed rat)",
+        "Capra pyrenaica pyrenaica (The Pyrenean ibex)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 91,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following statements regarding maternity leave in India as interpreted by the Supreme Court recently is/are INCORRECT?\n1. The Supreme Court held that maternity leave is a constitutional right under Article 21 - Right to life.\n2. Maternity leave benefits are applicable only up to two children, beyond which no benefits will be provided.\n3. Maternity leave is a form of paid leave guaranteed under Article 19 of the Constitution.",
+      "options": ["2 and 3", "1 and 2", "1 and 3", "1, 2 and 3"],
+      "correctIndex": 0
+    },
+    {
+      "number": 92,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following countries NOT participated in the anti-submarine warfare exercise Sea Dragon, 2025, held off the coast of Guam, USA?",
+      "options": ["India", "Japan", "South Korea", "France"],
+      "correctIndex": 3
+    },
+    {
+      "number": 93,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Where is SpaceX's headquarters located?",
+      "options": ["Seattle, Washington", "Palo Alto, California", "Hawthorne, California", "Austin, Texas"],
+      "correctIndex": 2
+    },
+    {
+      "number": 94,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which country announced the 'Golden Dome' missile defence system?",
+      "options": ["Russia", "Israel", "United States", "China"],
+      "correctIndex": 2
+    },
+    {
+      "number": 95,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The 'Ilbert Bill Controversy' took place during the tenure of which Viceroy of British India?",
+      "options": ["Lord Lytton", "Lord Ripon", "Lord Curzon", "Lord Dufferin"],
+      "correctIndex": 1
+    },
+    {
+      "number": 96,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which one of the following Acts is wrongly matched?",
+      "options": [
+        "The First Factory Act — 1881",
+        "The Royal Titles Act — 1876",
+        "Repeal of the Vernacular Press Act — 1878",
+        "Calcutta Corporation Act — 1899"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 97,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which one of the following pairs is NOT correctly matched?",
+      "options": [
+        "First Schedule — Contains the name of States and Union Territories",
+        "Second Schedule — Forms of Oath and affirmation",
+        "Fourth Schedule — Allocation of seats in the Rajya Sabha",
+        "Fifth Schedule — Provisions related to Scheduled Areas and Scheduled Tribes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 98,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which one of the following Articles of the Constitution deals with Indian Foreign Policy?",
+      "options": ["Article 49", "Article 50", "Article 51", "Article 52"],
+      "correctIndex": 2
+    },
+    {
+      "number": 99,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find out the correct match:\nMineral | Place\ni. Monazite | a. Baula-Nuasahi (Keonjhar)\nii. Chromite | b. Kesarpur (Mayurbhanj)\niii. Limestone | c. Chhatrapur (Ganjam)\niv. Copper | d. Sunki (Koraput)",
+      "options": [
+        "i-b, ii-c, iii-a, iv-d",
+        "i-c, ii-a, iii-d, iv-b",
+        "i-a, ii-d, iii-b, iv-c",
+        "i-c, ii-a, iii-b, iv-d"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 100,
+      "section": "General Awareness",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which river crosses the equator twice?",
+      "options": ["Amazon", "Nile", "Congo", "Niger"],
+      "correctIndex": 2
+    }
+  ]
+}

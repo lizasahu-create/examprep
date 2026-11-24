@@ -1,0 +1,957 @@
+{
+  "id": "opsc_pgt_paper1_2024",
+  "categoryId": "pyq_opsc",
+  "title": "OPSC PGT 2024 — Paper I (General English & GK)",
+  "subtitle": "100 MCQs • General English (50) & General Knowledge (50) • Official PYQ",
+  "durationMinutes": 90,
+  "negativeMarking": 0.25,
+  "marksPerQuestion": 1.0,
+  "questionCount": 100,
+  "questions": [
+    {
+      "number": 1,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The proof of the pudding is in the",
+      "options": ["Making", "Eating", "Tasting", "None of these"],
+      "correctIndex": 1
+    },
+    {
+      "number": 2,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A bird in the hand is worth two in the",
+      "options": ["Sky", "Tree", "Net", "Bush"],
+      "correctIndex": 3
+    },
+    {
+      "number": 3,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Penny wise, pound",
+      "options": ["Cheap", "Costly", "Rare", "Foolish"],
+      "correctIndex": 3
+    },
+    {
+      "number": 4,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "One swallow does not make a",
+      "options": ["Song", "Nest", "Summer", "Spring"],
+      "correctIndex": 2
+    },
+    {
+      "number": 5,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The candidate is racing ______ time.",
+      "options": ["with", "for", "against", "in"],
+      "correctIndex": 2
+    },
+    {
+      "number": 6,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "John is the legitimate heir ______ his father's property.",
+      "options": ["of", "to", "for", "on"],
+      "correctIndex": 1
+    },
+    {
+      "number": 7,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The judge was averse ______ capital punishment.",
+      "options": ["about", "on", "against", "to"],
+      "correctIndex": 3
+    },
+    {
+      "number": 8,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Hard toil is telling ______ his health.",
+      "options": ["on", "against", "about", "for"],
+      "correctIndex": 0
+    },
+    {
+      "number": 9,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The opposite of pain is",
+      "options": ["Bliss", "Happiness", "Ecstasy", "Pleasure"],
+      "correctIndex": 3
+    },
+    {
+      "number": 10,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The opposite of placid is",
+      "options": ["Calm", "Angry", "Turbulent", "Indifferent"],
+      "correctIndex": 2
+    },
+    {
+      "number": 11,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Detrimental is synonymous with",
+      "options": ["Resolute", "Sentimental", "Harmful", "Malicious"],
+      "correctIndex": 2
+    },
+    {
+      "number": 12,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Moribund means",
+      "options": ["Dead", "Almost dead", "Mortal", "None of these"],
+      "correctIndex": 1
+    },
+    {
+      "number": 13,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Tardy means",
+      "options": ["Clean", "Obstinate", "Slow", "Strong"],
+      "correctIndex": 2
+    },
+    {
+      "number": 14,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The word 'miserly' is",
+      "options": ["Noun", "Adverb", "Adjective", "Participle"],
+      "correctIndex": 2
+    },
+    {
+      "number": 15,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "He cannot succeed unless he",
+      "options": ["Does not work hard", "Works hard", "Works hardly", "Cannot work hard"],
+      "correctIndex": 1
+    },
+    {
+      "number": 16,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Despite failure, he",
+      "options": ["Has not lost heart", "Has lost heart", "Will not try again", "Has failed to succeed"],
+      "correctIndex": 0
+    },
+    {
+      "number": 17,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Army is capable",
+      "options": ["To win the battle", "Of winning the battle", "For winning the battle", "In winning the battle"],
+      "correctIndex": 1
+    },
+    {
+      "number": 18,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The past participle form of 'flow' is",
+      "options": ["Flown", "Flowed", "Flew", "None of the above"],
+      "correctIndex": 1
+    },
+    {
+      "number": 19,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Morbidity suggests",
+      "options": ["Evil", "Death", "Mortality", "Disease"],
+      "correctIndex": 3
+    },
+    {
+      "number": 20,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The word to which a relative pronoun refers in a sentence is called",
+      "options": ["Subject", "Object", "Antecedent", "Precedent"],
+      "correctIndex": 2
+    },
+    {
+      "number": 21,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The adjective form of 'prosper' is",
+      "options": ["Prospective", "Prosperity", "Prospect", "Prosperous"],
+      "correctIndex": 3
+    },
+    {
+      "number": 22,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The word used to indicate a group of girls is",
+      "options": ["Bunch", "Host", "Bevy", "Cluster"],
+      "correctIndex": 2
+    },
+    {
+      "number": 23,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In English grammar, 'might' is",
+      "options": ["Conjunction", "Reflexive pronoun", "Modal verb", "Adverb"],
+      "correctIndex": 2
+    },
+    {
+      "number": 24,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following is correct?",
+      "options": [
+        "I, you and Arjun went to see the match.",
+        "You, Arjun and I went to see the match.",
+        "You, I and Arjun went to see the match.",
+        "All three are correct."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 25,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct sentence:",
+      "options": [
+        "The tiger has lost its offsprings.",
+        "The tigress has lost her offsprings.",
+        "The tiger has lost its offspring.",
+        "All three are wrong."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 26,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "'That he was a scholar was not known to anybody.' This is an example of",
+      "options": ["A simple sentence", "A compound sentence", "A complex sentence", "None of the above"],
+      "correctIndex": 2
+    },
+    {
+      "number": 27,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct sentence:",
+      "options": [
+        "He turned every stone to achieve his goal.",
+        "Every stone was turned by him to achieve his goal.",
+        "He left no stone unturned to achieve his goal.",
+        "All three are correct."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 28,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A person who burns the midnight oil is",
+      "options": ["Prodigal", "Rich", "Thoughtless", "Laborious"],
+      "correctIndex": 3
+    },
+    {
+      "number": 29,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In the sentence, 'He went home', the word 'home' is",
+      "options": ["Noun", "Adverb", "Adjective", "Pronoun"],
+      "correctIndex": 1
+    },
+    {
+      "number": 30,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The man died",
+      "options": ["Of a snake-bite.", "From a snake-bite.", "In a snake-bite.", "By a snake-bite."],
+      "correctIndex": 1
+    },
+    {
+      "number": 31,
+      "section": "General English (Passage I)",
+      "contextText": "Passage I Summary (Q.31–40)\nA University College London (UCL) review of brain-imaging studies on 237 volunteers from East Asian countries reports that internet addiction alters multiple neural networks in adolescents, raising activity in some networks while lowering it in others. Researcher Max Chang notes that these connectivity shifts resemble gambling and substance addiction and disrupt systems governing cognitive control, impulsivity, and reward valuation. Affected adolescents may struggle with relationships and social life, lie about online activity, or suffer irregular eating and poor sleep during this crucial developmental stage.",
+      "imageAssetPath": null,
+      "questionText": "The passage deals with the effect of internet addiction on",
+      "options": ["Adults", "Children", "Teenagers", "Students"],
+      "correctIndex": 2
+    },
+    {
+      "number": 32,
+      "section": "General English (Passage I)",
+      "contextText": "Passage I Summary (Q.31–40)\nA University College London (UCL) review of brain-imaging studies on 237 volunteers from East Asian countries reports that internet addiction alters multiple neural networks in adolescents, raising activity in some networks while lowering it in others. Researcher Max Chang notes that these connectivity shifts resemble gambling and substance addiction and disrupt systems governing cognitive control, impulsivity, and reward valuation. Affected adolescents may struggle with relationships and social life, lie about online activity, or suffer irregular eating and poor sleep during this crucial developmental stage.",
+      "imageAssetPath": null,
+      "questionText": "The study was conducted on those who were",
+      "options": ["Willing to cooperate", "Resistant", "Disorderly", "Indifferent"],
+      "correctIndex": 0
+    },
+    {
+      "number": 33,
+      "section": "General English (Passage I)",
+      "contextText": "Passage I Summary (Q.31–40)\nA University College London (UCL) review of brain-imaging studies on 237 volunteers from East Asian countries reports that internet addiction alters multiple neural networks in adolescents, raising activity in some networks while lowering it in others. Researcher Max Chang notes that these connectivity shifts resemble gambling and substance addiction and disrupt systems governing cognitive control, impulsivity, and reward valuation. Affected adolescents may struggle with relationships and social life, lie about online activity, or suffer irregular eating and poor sleep during this crucial developmental stage.",
+      "imageAssetPath": null,
+      "questionText": "The effect of internet addiction on the brains is",
+      "options": ["Hard to determine", "Complex", "Simple", "Mysterious"],
+      "correctIndex": 1
+    },
+    {
+      "number": 34,
+      "section": "General English (Passage I)",
+      "contextText": "Passage I Summary (Q.31–40)\nA University College London (UCL) review of brain-imaging studies on 237 volunteers from East Asian countries reports that internet addiction alters multiple neural networks in adolescents, raising activity in some networks while lowering it in others. Researcher Max Chang notes that these connectivity shifts resemble gambling and substance addiction and disrupt systems governing cognitive control, impulsivity, and reward valuation. Affected adolescents may struggle with relationships and social life, lie about online activity, or suffer irregular eating and poor sleep during this crucial developmental stage.",
+      "imageAssetPath": null,
+      "questionText": "The researchers have compared internet addiction to",
+      "options": ["Alcohol", "Drugs", "Games", "Hunting"],
+      "correctIndex": 1
+    },
+    {
+      "number": 35,
+      "section": "General English (Passage I)",
+      "contextText": "Passage I Summary (Q.31–40)\nA University College London (UCL) review of brain-imaging studies on 237 volunteers from East Asian countries reports that internet addiction alters multiple neural networks in adolescents, raising activity in some networks while lowering it in others. Researcher Max Chang notes that these connectivity shifts resemble gambling and substance addiction and disrupt systems governing cognitive control, impulsivity, and reward valuation. Affected adolescents may struggle with relationships and social life, lie about online activity, or suffer irregular eating and poor sleep during this crucial developmental stage.",
+      "imageAssetPath": null,
+      "questionText": "The internet addiction impairs the power of",
+      "options": ["Seeing", "Reading", "Reasoning", "None of these"],
+      "correctIndex": 2
+    },
+    {
+      "number": 36,
+      "section": "General English (Passage I)",
+      "contextText": "Passage I Summary (Q.31–40)\nA University College London (UCL) review of brain-imaging studies on 237 volunteers from East Asian countries reports that internet addiction alters multiple neural networks in adolescents, raising activity in some networks while lowering it in others. Researcher Max Chang notes that these connectivity shifts resemble gambling and substance addiction and disrupt systems governing cognitive control, impulsivity, and reward valuation. Affected adolescents may struggle with relationships and social life, lie about online activity, or suffer irregular eating and poor sleep during this crucial developmental stage.",
+      "imageAssetPath": null,
+      "questionText": "One addicted to internet may become",
+      "options": ["A murderer", "Mad", "A Liar", "None of these"],
+      "correctIndex": 2
+    },
+    {
+      "number": 37,
+      "section": "General English (Passage I)",
+      "contextText": "Passage I Summary (Q.31–40)\nA University College London (UCL) review of brain-imaging studies on 237 volunteers from East Asian countries reports that internet addiction alters multiple neural networks in adolescents, raising activity in some networks while lowering it in others. Researcher Max Chang notes that these connectivity shifts resemble gambling and substance addiction and disrupt systems governing cognitive control, impulsivity, and reward valuation. Affected adolescents may struggle with relationships and social life, lie about online activity, or suffer irregular eating and poor sleep during this crucial developmental stage.",
+      "imageAssetPath": null,
+      "questionText": "Online activity may affect",
+      "options": ["Vision", "Food habit", "Muscular movements", "Heart"],
+      "correctIndex": 1
+    },
+    {
+      "number": 38,
+      "section": "General English (Passage I)",
+      "contextText": "Passage I Summary (Q.31–40)\nA University College London (UCL) review of brain-imaging studies on 237 volunteers from East Asian countries reports that internet addiction alters multiple neural networks in adolescents, raising activity in some networks while lowering it in others. Researcher Max Chang notes that these connectivity shifts resemble gambling and substance addiction and disrupt systems governing cognitive control, impulsivity, and reward valuation. Affected adolescents may struggle with relationships and social life, lie about online activity, or suffer irregular eating and poor sleep during this crucial developmental stage.",
+      "imageAssetPath": null,
+      "questionText": "Internet addiction is dangerous when it affects people in their",
+      "options": ["Studies", "Career", "Adult life", "Formative years"],
+      "correctIndex": 3
+    },
+    {
+      "number": 39,
+      "section": "General English (Passage I)",
+      "contextText": "Passage I Summary (Q.31–40)\nA University College London (UCL) review of brain-imaging studies on 237 volunteers from East Asian countries reports that internet addiction alters multiple neural networks in adolescents, raising activity in some networks while lowering it in others. Researcher Max Chang notes that these connectivity shifts resemble gambling and substance addiction and disrupt systems governing cognitive control, impulsivity, and reward valuation. Affected adolescents may struggle with relationships and social life, lie about online activity, or suffer irregular eating and poor sleep during this crucial developmental stage.",
+      "imageAssetPath": null,
+      "questionText": "The study was based on findings from a geographical region that includes",
+      "options": ["India", "Vietnam", "China", "England"],
+      "correctIndex": 2
+    },
+    {
+      "number": 40,
+      "section": "General English (Passage I)",
+      "contextText": "Passage I Summary (Q.31–40)\nA University College London (UCL) review of brain-imaging studies on 237 volunteers from East Asian countries reports that internet addiction alters multiple neural networks in adolescents, raising activity in some networks while lowering it in others. Researcher Max Chang notes that these connectivity shifts resemble gambling and substance addiction and disrupt systems governing cognitive control, impulsivity, and reward valuation. Affected adolescents may struggle with relationships and social life, lie about online activity, or suffer irregular eating and poor sleep during this crucial developmental stage.",
+      "imageAssetPath": null,
+      "questionText": "Neural is the adjective form of",
+      "options": ["Nature", "Neutron", "Nerve", "Brain"],
+      "correctIndex": 2
+    },
+    {
+      "number": 41,
+      "section": "General English (Passage II)",
+      "contextText": "Passage II Summary (Q.41–50)\nCalcutta grew into the 'second city of the empire' and the centre of the 'Bengal Renaissance', where modern culture emerged through the interaction of Indian traditions with European contributions. Historian Prof. Sushobhan Sarkar argued that this dialectical influence of British ideas on local traditions caused a profound intellectual awakening, making the term 'renaissance' quite plausible, drawing on Bengali, Sanskrit, and Persian scholarship. Beginning in the late 18th century under Warren Hastings, the Royal Asiatic Society of Bengal (1784) expanded scholarly study of ancient India and European-Indian intellectual exchange. Early 19th-century Calcutta saw new colleges, libraries, systematic legal practice, theatres, and a spirit of progress.",
+      "imageAssetPath": null,
+      "questionText": "The first sentence of the passage implies that Calcutta was second only to",
+      "options": ["Rome", "Delhi", "New York", "London"],
+      "correctIndex": 3
+    },
+    {
+      "number": 42,
+      "section": "General English (Passage II)",
+      "contextText": "Passage II Summary (Q.41–50)\nCalcutta grew into the 'second city of the empire' and the centre of the 'Bengal Renaissance', where modern culture emerged through the interaction of Indian traditions with European contributions. Historian Prof. Sushobhan Sarkar argued that this dialectical influence of British ideas on local traditions caused a profound intellectual awakening, making the term 'renaissance' quite plausible, drawing on Bengali, Sanskrit, and Persian scholarship. Beginning in the late 18th century under Warren Hastings, the Royal Asiatic Society of Bengal (1784) expanded scholarly study of ancient India and European-Indian intellectual exchange. Early 19th-century Calcutta saw new colleges, libraries, systematic legal practice, theatres, and a spirit of progress.",
+      "imageAssetPath": null,
+      "questionText": "'Bengal Renaissance' implies a comparison with",
+      "options": ["Ancient India", "A European phenomenon", "Other Indian provinces", "Western civilization"],
+      "correctIndex": 1
+    },
+    {
+      "number": 43,
+      "section": "General English (Passage II)",
+      "contextText": "Passage II Summary (Q.41–50)\nCalcutta grew into the 'second city of the empire' and the centre of the 'Bengal Renaissance', where modern culture emerged through the interaction of Indian traditions with European contributions. Historian Prof. Sushobhan Sarkar argued that this dialectical influence of British ideas on local traditions caused a profound intellectual awakening, making the term 'renaissance' quite plausible, drawing on Bengali, Sanskrit, and Persian scholarship. Beginning in the late 18th century under Warren Hastings, the Royal Asiatic Society of Bengal (1784) expanded scholarly study of ancient India and European-Indian intellectual exchange. Early 19th-century Calcutta saw new colleges, libraries, systematic legal practice, theatres, and a spirit of progress.",
+      "imageAssetPath": null,
+      "questionText": "Prof. Sushobhan Sarkar's attitude towards the use of the term 'Bengal Renaissance' was one of",
+      "options": ["Approval", "Disapproval", "Indifference", "Hostility"],
+      "correctIndex": 0
+    },
+    {
+      "number": 44,
+      "section": "General English (Passage II)",
+      "contextText": "Passage II Summary (Q.41–50)\nCalcutta grew into the 'second city of the empire' and the centre of the 'Bengal Renaissance', where modern culture emerged through the interaction of Indian traditions with European contributions. Historian Prof. Sushobhan Sarkar argued that this dialectical influence of British ideas on local traditions caused a profound intellectual awakening, making the term 'renaissance' quite plausible, drawing on Bengali, Sanskrit, and Persian scholarship. Beginning in the late 18th century under Warren Hastings, the Royal Asiatic Society of Bengal (1784) expanded scholarly study of ancient India and European-Indian intellectual exchange. Early 19th-century Calcutta saw new colleges, libraries, systematic legal practice, theatres, and a spirit of progress.",
+      "imageAssetPath": null,
+      "questionText": "According to the author, the British and the local traditions",
+      "options": ["Remained aloof", "Were incompatible", "Impacted each other", "Rejected each other"],
+      "correctIndex": 2
+    },
+    {
+      "number": 45,
+      "section": "General English (Passage II)",
+      "contextText": "Passage II Summary (Q.41–50)\nCalcutta grew into the 'second city of the empire' and the centre of the 'Bengal Renaissance', where modern culture emerged through the interaction of Indian traditions with European contributions. Historian Prof. Sushobhan Sarkar argued that this dialectical influence of British ideas on local traditions caused a profound intellectual awakening, making the term 'renaissance' quite plausible, drawing on Bengali, Sanskrit, and Persian scholarship. Beginning in the late 18th century under Warren Hastings, the Royal Asiatic Society of Bengal (1784) expanded scholarly study of ancient India and European-Indian intellectual exchange. Early 19th-century Calcutta saw new colleges, libraries, systematic legal practice, theatres, and a spirit of progress.",
+      "imageAssetPath": null,
+      "questionText": "The Royal Asiatic Society of Bengal",
+      "options": [
+        "Promoted the study of ancient Indian texts",
+        "Promoted the study of British literature",
+        "Facilitated interaction between the British and the Indian citizens",
+        "Was a political organization"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 46,
+      "section": "General English (Passage II)",
+      "contextText": "Passage II Summary (Q.41–50)\nCalcutta grew into the 'second city of the empire' and the centre of the 'Bengal Renaissance', where modern culture emerged through the interaction of Indian traditions with European contributions. Historian Prof. Sushobhan Sarkar argued that this dialectical influence of British ideas on local traditions caused a profound intellectual awakening, making the term 'renaissance' quite plausible, drawing on Bengali, Sanskrit, and Persian scholarship. Beginning in the late 18th century under Warren Hastings, the Royal Asiatic Society of Bengal (1784) expanded scholarly study of ancient India and European-Indian intellectual exchange. Early 19th-century Calcutta saw new colleges, libraries, systematic legal practice, theatres, and a spirit of progress.",
+      "imageAssetPath": null,
+      "questionText": "The passage says that the British administration",
+      "options": [
+        "Established the rule of law",
+        "Promoted injustice",
+        "Discouraged theatre",
+        "Blocked progress"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 47,
+      "section": "General English (Passage II)",
+      "contextText": "Passage II Summary (Q.41–50)\nCalcutta grew into the 'second city of the empire' and the centre of the 'Bengal Renaissance', where modern culture emerged through the interaction of Indian traditions with European contributions. Historian Prof. Sushobhan Sarkar argued that this dialectical influence of British ideas on local traditions caused a profound intellectual awakening, making the term 'renaissance' quite plausible, drawing on Bengali, Sanskrit, and Persian scholarship. Beginning in the late 18th century under Warren Hastings, the Royal Asiatic Society of Bengal (1784) expanded scholarly study of ancient India and European-Indian intellectual exchange. Early 19th-century Calcutta saw new colleges, libraries, systematic legal practice, theatres, and a spirit of progress.",
+      "imageAssetPath": null,
+      "questionText": "To Usher is to",
+      "options": ["Welcome", "Push back", "Show in", "Make use of"],
+      "correctIndex": 2
+    },
+    {
+      "number": 48,
+      "section": "General English (Passage II)",
+      "contextText": "Passage II Summary (Q.41–50)\nCalcutta grew into the 'second city of the empire' and the centre of the 'Bengal Renaissance', where modern culture emerged through the interaction of Indian traditions with European contributions. Historian Prof. Sushobhan Sarkar argued that this dialectical influence of British ideas on local traditions caused a profound intellectual awakening, making the term 'renaissance' quite plausible, drawing on Bengali, Sanskrit, and Persian scholarship. Beginning in the late 18th century under Warren Hastings, the Royal Asiatic Society of Bengal (1784) expanded scholarly study of ancient India and European-Indian intellectual exchange. Early 19th-century Calcutta saw new colleges, libraries, systematic legal practice, theatres, and a spirit of progress.",
+      "imageAssetPath": null,
+      "questionText": "Plausible means",
+      "options": ["Possible", "Stoppable", "Fantastic", "Reasonable"],
+      "correctIndex": 3
+    },
+    {
+      "number": 49,
+      "section": "General English (Passage II)",
+      "contextText": "Passage II Summary (Q.41–50)\nCalcutta grew into the 'second city of the empire' and the centre of the 'Bengal Renaissance', where modern culture emerged through the interaction of Indian traditions with European contributions. Historian Prof. Sushobhan Sarkar argued that this dialectical influence of British ideas on local traditions caused a profound intellectual awakening, making the term 'renaissance' quite plausible, drawing on Bengali, Sanskrit, and Persian scholarship. Beginning in the late 18th century under Warren Hastings, the Royal Asiatic Society of Bengal (1784) expanded scholarly study of ancient India and European-Indian intellectual exchange. Early 19th-century Calcutta saw new colleges, libraries, systematic legal practice, theatres, and a spirit of progress.",
+      "imageAssetPath": null,
+      "questionText": "The word 'radical' is derived from",
+      "options": ["Radicalism", "Radius", "Root", "None of these"],
+      "correctIndex": 2
+    },
+    {
+      "number": 50,
+      "section": "General English (Passage II)",
+      "contextText": "Passage II Summary (Q.41–50)\nCalcutta grew into the 'second city of the empire' and the centre of the 'Bengal Renaissance', where modern culture emerged through the interaction of Indian traditions with European contributions. Historian Prof. Sushobhan Sarkar argued that this dialectical influence of British ideas on local traditions caused a profound intellectual awakening, making the term 'renaissance' quite plausible, drawing on Bengali, Sanskrit, and Persian scholarship. Beginning in the late 18th century under Warren Hastings, the Royal Asiatic Society of Bengal (1784) expanded scholarly study of ancient India and European-Indian intellectual exchange. Early 19th-century Calcutta saw new colleges, libraries, systematic legal practice, theatres, and a spirit of progress.",
+      "imageAssetPath": null,
+      "questionText": "In the passage the author's attitude towards the British administration is",
+      "options": ["Critical", "Appreciative", "Hostile", "None of these"],
+      "correctIndex": 1
+    },
+    {
+      "number": 51,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which scientist discovered the radioactive element radium?",
+      "options": ["Albert Einstein", "Isaac Newton", "Marie Curie", "Galileo Galilei"],
+      "correctIndex": 2
+    },
+    {
+      "number": 52,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which planet in our solar system has the most moons?",
+      "options": ["Jupiter", "Saturn", "Neptune", "Uranus"],
+      "correctIndex": 1
+    },
+    {
+      "number": 53,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which country is known as the Land of the Rising Sun?",
+      "options": ["Japan", "China", "South Korea", "Thailand"],
+      "correctIndex": 0
+    },
+    {
+      "number": 54,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who wrote the play \"Waiting for Godot\"?",
+      "options": ["Arthur Miller", "Eugene O'Neill", "Tennessee Williams", "Samuel Beckett"],
+      "correctIndex": 3
+    },
+    {
+      "number": 55,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In which year was the first Nobel Prize awarded?",
+      "options": ["1900", "1901", "1902", "1903"],
+      "correctIndex": 1
+    },
+    {
+      "number": 56,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which is the longest river in the world?",
+      "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+      "correctIndex": 1
+    },
+    {
+      "number": 57,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which element is the most abundant in the Earth's crust?",
+      "options": ["Silicon", "Oxygen", "Aluminium", "Iron"],
+      "correctIndex": 1
+    },
+    {
+      "number": 58,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who is known as the \"Father of Geometry\"?",
+      "options": ["Euclid", "Pythagoras", "Archimedes", "Aristotle"],
+      "correctIndex": 0
+    },
+    {
+      "number": 59,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which language is the most spoken in the world?",
+      "options": ["Spanish", "Mandarin Chinese", "English", "Hindi"],
+      "correctIndex": 2
+    },
+    {
+      "number": 60,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which city is known as the \"Big Apple\"?",
+      "options": ["Los Angeles", "New York City", "Chicago", "San Francisco"],
+      "correctIndex": 1
+    },
+    {
+      "number": 61,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the hardest natural substance on Earth?",
+      "options": ["Diamond", "Gold", "Silver", "Iron"],
+      "correctIndex": 0
+    },
+    {
+      "number": 62,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which country hosted the first modern Olympic Games?",
+      "options": ["France", "United Kingdom", "Greece", "Germany"],
+      "correctIndex": 2
+    },
+    {
+      "number": 63,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which bird is the national symbol of the United States of America?",
+      "options": ["Bald Eagle", "Golden Eagle", "American Robin", "Peregrine Falcon"],
+      "correctIndex": 0
+    },
+    {
+      "number": 64,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the capital city of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      "correctIndex": 2
+    },
+    {
+      "number": 65,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which scientist developed the theory of relativity?",
+      "options": ["Nikola Tesla", "Albert Einstein", "Isaac Newton", "Galileo Galilei"],
+      "correctIndex": 1
+    },
+    {
+      "number": 66,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who is the current President of the United States (as of 2024)?",
+      "options": ["Donald Trump", "Joe Biden", "Kamala Harris", "Mike Pence"],
+      "correctIndex": 1
+    },
+    {
+      "number": 67,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which country won the FIFA World Cup in 2022?",
+      "options": ["Brazil", "Argentina", "France", "Germany"],
+      "correctIndex": 1
+    },
+    {
+      "number": 68,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which country recently became the newest member of NATO?",
+      "options": ["Ukraine", "Sweden", "Finland", "North Macedonia"],
+      "correctIndex": 1
+    },
+    {
+      "number": 69,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which company became the first to reach a market capitalization of $3 trillion?",
+      "options": ["Amazon", "Apple", "Microsoft", "Google"],
+      "correctIndex": 1
+    },
+    {
+      "number": 70,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who among the following won the Nobel Peace Prize most recently (2021)?",
+      "options": ["Malala Yousafzai", "Maria Ressa", "Abiy Ahmed", "Nadia Murad"],
+      "correctIndex": 1
+    },
+    {
+      "number": 71,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Where is the headquarters of the International Monetary Fund (IMF) located?",
+      "options": ["Geneva", "Washington, D.C.", "New York", "Brussels"],
+      "correctIndex": 1
+    },
+    {
+      "number": 72,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which country is not a permanent member of the United Nations Security Council?",
+      "options": ["China", "France", "Germany", "Russia"],
+      "correctIndex": 2
+    },
+    {
+      "number": 73,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which organization is known for regulating international trade?",
+      "options": [
+        "World Trade Organization (WTO)",
+        "International Labour Organization (ILO)",
+        "United Nations Development Programme (UNDP)",
+        "World Bank"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 74,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which organization won the Nobel Peace Prize in 2012?",
+      "options": [
+        "United Nations",
+        "European Union",
+        "International Labour Organization",
+        "World Health Organization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 75,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following organizations is primarily responsible for coordinating international public health efforts?",
+      "options": [
+        "UNICEF",
+        "World Bank",
+        "World Health Organization (WHO)",
+        "UNESCO"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 76,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who among the following was the founder of the Gupta Empire?",
+      "options": ["Chandragupta Maurya", "Ashoka", "Chandragupta I", "Harshavardhana"],
+      "correctIndex": 2
+    },
+    {
+      "number": 77,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Battle of Plassey was fought in which year?",
+      "options": ["1747", "1754", "1757", "1761"],
+      "correctIndex": 2
+    },
+    {
+      "number": 78,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who was the first Indian ruler to accept the Subsidiary Alliance offered by Lord Wellesley?",
+      "options": ["Tipu Sultan", "Nizam of Hyderabad", "Marathas", "Nawab of Bengal"],
+      "correctIndex": 1
+    },
+    {
+      "number": 79,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who was the Mughal Emperor during the revolt of 1857?",
+      "options": ["Bahadur Shah I", "Akbar II", "Bahadur Shah II", "Aurangzeb"],
+      "correctIndex": 2
+    },
+    {
+      "number": 80,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which movement started with the Dandi March?",
+      "options": [
+        "Civil Disobedience Movement",
+        "Non-Cooperation Movement",
+        "Quit India Movement",
+        "Swadeshi Movement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 81,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who among the following was not associated with the formation of the Indian National Congress?",
+      "options": ["A.O. Hume", "Bal Gangadhar Tilak", "Dadabhai Naoroji", "W.C. Bonnerjee"],
+      "correctIndex": 1
+    },
+    {
+      "number": 82,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In which year was the Vernacular Press Act passed?",
+      "options": ["1876", "1878", "1880", "1882"],
+      "correctIndex": 1
+    },
+    {
+      "number": 83,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which ruler is known as the Napoleon of India?",
+      "options": ["Akbar", "Ashoka", "Chandragupta Maurya", "Samudragupta"],
+      "correctIndex": 3
+    },
+    {
+      "number": 84,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Montagu-Chelmsford Reforms were introduced in which year?",
+      "options": ["1917", "1919", "1920", "1922"],
+      "correctIndex": 1
+    },
+    {
+      "number": 85,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who was the Viceroy of India during the Jallianwala Bagh massacre?",
+      "options": ["Lord Chelmsford", "Lord Curzon", "Lord Irwin", "Lord Wavell"],
+      "correctIndex": 0
+    },
+    {
+      "number": 86,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which is the largest salt water lake in India?",
+      "options": ["Vembanad Lake", "Chilika Lake", "Sambhar Lake", "Pulicat Lake"],
+      "correctIndex": 1
+    },
+    {
+      "number": 87,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which river is also known as the \"Dakshina Ganga\"?",
+      "options": ["Krishna", "Godavari", "Cauvery", "Mahanadi"],
+      "correctIndex": 1
+    },
+    {
+      "number": 88,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Aravalli Range is located in which part of India?",
+      "options": ["Eastern India", "Southern India", "Western India", "Northern India"],
+      "correctIndex": 2
+    },
+    {
+      "number": 89,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In which state is the Keibul Lamjao National Park, the only floating park in the world, located?",
+      "options": ["Assam", "Manipur", "Meghalaya", "Tripura"],
+      "correctIndex": 1
+    },
+    {
+      "number": 90,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which is the highest peak in the Eastern Ghats?",
+      "options": ["Nallamala", "Arma Konda", "Mahendragiri", "Deomali"],
+      "correctIndex": 1
+    },
+    {
+      "number": 91,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which Indian state has the longest coastline?",
+      "options": ["Tamil Nadu", "Gujarat", "Andhra Pradesh", "Maharashtra"],
+      "correctIndex": 1
+    },
+    {
+      "number": 92,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the approximate area of India in square kilometers?",
+      "options": ["2.5 million sq km", "3.28 million sq km", "3.75 million sq km", "4 million sq km"],
+      "correctIndex": 1
+    },
+    {
+      "number": 93,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Narmada River flows through which of the following mountain ranges?",
+      "options": ["Himalayas", "Western Ghats", "Satpura Range", "Aravalli Range"],
+      "correctIndex": 2
+    },
+    {
+      "number": 94,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which state in India is known as the \"Land of Five Rivers\"?",
+      "options": ["Punjab", "Haryana", "Uttar Pradesh", "Bihar"],
+      "correctIndex": 0
+    },
+    {
+      "number": 95,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which is the largest river island in the world located in India?",
+      "options": ["Srirangam", "Majuli", "Bhavani Island", "Divar Island"],
+      "correctIndex": 1
+    },
+    {
+      "number": 96,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which state is the leading producer of coffee in India?",
+      "options": ["Tamil Nadu", "Karnataka", "Kerala", "Andhra Pradesh"],
+      "correctIndex": 1
+    },
+    {
+      "number": 97,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which river originates from the Amarkantak Plateau?",
+      "options": ["Tapti", "Narmada", "Godavari", "Mahanadi"],
+      "correctIndex": 1
+    },
+    {
+      "number": 98,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which Indian state has the highest literacy rate according to the 2011 census?",
+      "options": ["Tamil Nadu", "Maharashtra", "Kerala", "Himachal Pradesh"],
+      "correctIndex": 2
+    },
+    {
+      "number": 99,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which river is known as the \"lifeline of Madhya Pradesh\"?",
+      "options": ["Chambal", "Betwa", "Narmada", "Tapti"],
+      "correctIndex": 2
+    },
+    {
+      "number": 100,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In which Indian state is the Thar Desert located?",
+      "options": ["Gujarat", "Haryana", "Rajasthan", "Madhya Pradesh"],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "id": "opsc_ag_aso_math_2025_26",
+  "categoryId": "pyq_opsc",
+  "title": "OPSC AG ASO 2025–26 — Mathematics",
+  "subtitle": "Paper-II (Q.51–100) • 50 MCQs • 50 Marks • Official PYQ",
+  "durationMinutes": 45,
+  "negativeMarking": 0.25,
+  "marksPerQuestion": 1.0,
+  "questionCount": 50,
+  "questions": [
+    {
+      "number": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If (5 + 2√3) / (7 + 4√3) = a + b√3, then",
+      "options": ["a = -11, b = -6", "a = -11, b = 6", "a = 11, b = -6", "a = 6, b = 11"],
+      "correctIndex": 2
+    },
+    {
+      "number": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Due to a reduction of 6 1/4 % in the price of sugar, a man is able to buy 1 kg more for Rs. 120. The original rate of sugar is:",
+      "options": ["8", "9", "10", "12"],
+      "correctIndex": 0
+    },
+    {
+      "number": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A fort had provision of food for 150 men for 45 days. After 10 days, 25 men left the fort. The number of days for which the remaining food will last, is:",
+      "options": ["29 1/5", "37 1/4", "42", "54"],
+      "correctIndex": 2
+    },
+    {
+      "number": 4,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are:",
+      "options": ["39, 30", "41, 32", "42, 33", "43, 34"],
+      "correctIndex": 2
+    },
+    {
+      "number": 5,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two pipes A and B can fill a tank in 24 min. and 32 min. respectively. If both the pipes are opened simultaneously, after how much time B should be closed so that the tank is full in 18 minutes?",
+      "options": ["9 minutes", "12 minutes", "8 minutes", "15 minutes"],
+      "correctIndex": 2
+    },
+    {
+      "number": 6,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find a number such that when 15 is subtracted from 7 times the number, the result is 10 more than twice the number:",
+      "options": ["5", "7", "8", "6"],
+      "correctIndex": 0
+    },
+    {
+      "number": 7,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The smallest number, that must be added to 1780 to make it a perfect square is",
+      "options": ["70", "68", "69", "65"],
+      "correctIndex": 2
+    },
+    {
+      "number": 8,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If the number 653xy is divisible by 90, then (x + y) = ?",
+      "options": ["2", "3", "4", "6"],
+      "correctIndex": 2
+    },
+    {
+      "number": 9,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A car covers a distance of 715 km at a constant speed. If the speed of the car would have been 10 km/hr more, then it would have taken 2 hours less to cover the same distance. What is the original speed of the car?",
+      "options": ["45 km/hr", "50 km/hr", "55 km/hr", "65 km/hr"],
+      "correctIndex": 2
+    },
+    {
+      "number": 10,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a 100 m race, A runs at 8 km per hour. If A gives B a start of 4 m and still beats him by 15 seconds, what is the speed of B?",
+      "options": ["5.76 km/hr", "6.25 km/hr", "4.25 km/hr", "7.28 km/hr"],
+      "correctIndex": 0
+    },
+    {
+      "number": 11,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If each side of a square is increased by 25%, find the percentage change in its area.",
+      "options": ["55.28%", "56.25%", "57.25%", "58.36%"],
+      "correctIndex": 1
+    },
+    {
+      "number": 12,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If x = yᵃ, y = zᵇ and z = xᶜ, then the value of abc, is",
+      "options": ["2", "1", "3", "4"],
+      "correctIndex": 1
+    },
+    {
+      "number": 13,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The average weight of 16 boys in a class is 50.25 kgs and that of the remaining 8 boys is 45.15 kgs. Then the average weight of all the boys in the class:",
+      "options": ["47.55 kgs", "48 kgs", "48.55 kgs", "49.25 kgs"],
+      "correctIndex": 2
+    },
+    {
+      "number": 14,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A watch which gains uniformly is 2 minutes low at noon on Monday and is 4 min. 48 sec fast at 2 p.m. on the following Monday. When was it correct?",
+      "options": ["2 p.m. on Tuesday", "2 p.m. on Wednesday", "3 p.m. on Thursday", "1 p.m. on Friday"],
+      "correctIndex": 1
+    },
+    {
+      "number": 15,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A number was divided successively in order by 4, 5 and 6. The remainders were respectively 2, 3 and 4. The number is",
+      "options": ["214", "476", "954", "1908"],
+      "correctIndex": 0
+    },
+    {
+      "number": 16,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is the sum of two consecutive even numbers, the difference of whose squares is 84?",
+      "options": ["34", "38", "42", "46"],
+      "correctIndex": 2
+    },
+    {
+      "number": 17,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A boy read 3/8 th of a book on one day and 4/5 th of the remainder on another day. If there were 30 pages unread, how many pages did the book contain?",
+      "options": ["240", "300", "600", "412"],
+      "correctIndex": 0
+    },
+    {
+      "number": 18,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "One year ago, Promila was four times as old as her daughter Sakshi. Six years hence, Promila's age will exceed her daughter's age by 9 years. The ratio of the present ages of Promila and her daughter is",
+      "options": ["9 : 2", "11 : 3", "12 : 5", "13 : 4"],
+      "correctIndex": 3
+    },
+    {
+      "number": 19,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A contract is to be completed in 46 days and 117 men were set to work, each working 8 hours a day. After 33 days, 4/7 of the work is completed. How many additional men may be employed so that the work may be completed in time, each man now working 9 hours a day?",
+      "options": ["85", "90", "81", "80"],
+      "correctIndex": 2
+    },
+    {
+      "number": 20,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Robert is travelling on his cycle and has calculated to reach point A at 2 P.M. if he travels at 10 kmph; he will reach there at 12 noon if he travels at 15 kmph. At what speed must he travel to reach A at 1 P.M.?",
+      "options": ["8 kmph", "11 kmph", "12 kmph", "14 kmph"],
+      "correctIndex": 2
+    },
+    {
+      "number": 21,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A clock is set right at 5 a.m. The clock loses 16 minutes in 24 hours. What will be the true time when the clock indicates 10 p.m. on 4th day?",
+      "options": ["9 p.m.", "15 p.m.", "11 p.m.", "13 p.m."],
+      "correctIndex": 2
+    },
+    {
+      "number": 22,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What least number must be subtracted from 1672 to obtain a number which is completely divisible by 17?",
+      "options": ["6", "7", "8", "4"],
+      "correctIndex": 0
+    },
+    {
+      "number": 23,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A sum of Rs. 800 amounts to Rs. 920 in 3 years at simple interest. If the interest rate is increased by 3%, it would amount to how much?",
+      "options": ["Rs. 995", "Rs. 992", "Rs. 980", "Rs. 1050"],
+      "correctIndex": 1
+    },
+    {
+      "number": 24,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two numbers are in the ratio of 15 : 11. If their H.C.F. is 13, then the numbers are",
+      "options": ["198, 143", "195, 143", "195, 141", "198, 141"],
+      "correctIndex": 1
+    },
+    {
+      "number": 25,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If 2ˣ × 8^(1/5) = 2^(1/5), then x is equal to",
+      "options": ["1/5", "-1/5", "2/5", "-2/5"],
+      "correctIndex": 3
+    },
+    {
+      "number": 26,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A starts business with Rs. 3500 and after 5 months, B joins with A as his partner. After a year, the profit is divided in the ratio 2 : 3. What is B's contribution in the capital?",
+      "options": ["Rs. 7,500", "Rs. 8,000", "Rs. 8,500", "Rs. 9,000"],
+      "correctIndex": 3
+    },
+    {
+      "number": 27,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A train 220 m long is running with a speed of 59 kmph. In what time will it pass a man who is running at 7 kmph in the direction opposite to that in which the train is going?",
+      "options": ["15 sec.", "12 sec.", "18 sec.", "14 sec."],
+      "correctIndex": 1
+    },
+    {
+      "number": 28,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If 3 men or 6 boys can do a piece of work in 10 days, working 7 hours a day; how many days will it take to complete a piece of work twice as large with 6 men and 2 boys working together for 8 hours a day?",
+      "options": ["6", "7 1/2", "8 1/2", "9"],
+      "correctIndex": 1
+    },
+    {
+      "number": 29,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Three different containers contain 496 litres, 403 litres and 713 litres of mixtures of milk and water respectively. What biggest measure can measure all the different quantities exactly?",
+      "options": ["1 litre", "7 litres", "31 litres", "41 litres"],
+      "correctIndex": 2
+    },
+    {
+      "number": 30,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The sum of the ages of 5 children born at the intervals of 3 years each is 50 years. Then the age of the youngest child is",
+      "options": ["4 years", "8 years", "10 years", "None of these"],
+      "correctIndex": 0
+    },
+    {
+      "number": 31,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If √(1 + 55/729) = 1 + x/27, then the value of x is",
+      "options": ["1", "3", "5", "7"],
+      "correctIndex": 0
+    },
+    {
+      "number": 32,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A crate of mangoes contains one bruised mango for every 30 mangoes in the crate. If 3 out of every 4 bruised mangoes are considered unsalable, and there are 12 unsalable mangoes in the crate, then how many mangoes are there in the crate?",
+      "options": ["460", "430", "480", "450"],
+      "correctIndex": 2
+    },
+    {
+      "number": 33,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In how many ways can a cricket eleven be chosen out of a batch of 15 players?",
+      "options": ["1365", "1400", "1465", "1395"],
+      "correctIndex": 0
+    },
+    {
+      "number": 34,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A man bought a horse and a carriage for Rs. 3000. He sold the horse at a gain of 20% and the carriage at a loss of 10%, thereby gaining 2% on the whole. Find the cost of the horse.",
+      "options": ["1400", "1200", "1500", "1300"],
+      "correctIndex": 1
+    },
+    {
+      "number": 35,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A sum was put at simple interest at a certain rate for 3 years. Had it been put at 2% higher rate, it would have fetched Rs. 360 more. Find the sum.",
+      "options": ["Rs. 7,500", "Rs. 6,500", "Rs. 8,200", "Rs. 6,000"],
+      "correctIndex": 3
+    },
+    {
+      "number": 36,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two pipes A and B can fill a tank in 36 hours and 45 hours respectively. If both the pipes are opened simultaneously, how much time will be taken to fill the tank?",
+      "options": ["30 hours", "25 hours", "35 hours", "20 hours"],
+      "correctIndex": 3
+    },
+    {
+      "number": 37,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The number of girls in a class is 5 times the number of boys. Which of the following cannot be the total number of children in the class?",
+      "options": ["24", "30", "35", "42"],
+      "correctIndex": 2
+    },
+    {
+      "number": 38,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A man bought toffees at 3 for a rupee. How many for a rupee must he sell to gain 50%?",
+      "options": ["4", "2", "5", "3"],
+      "correctIndex": 1
+    },
+    {
+      "number": 39,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If x men, working x hours per day, can do x units of work in x days, then y men, working y hours per day would be able to complete how many units of work in y days?",
+      "options": ["x²/y³", "x³/y²", "y²/x³", "y³/x²"],
+      "correctIndex": 3
+    },
+    {
+      "number": 40,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "An electric pump can fill a tank in 3 hours. Because of a leak in the tank, it took 3 1/2 hours to fill the tank. If the tank is full, how much time will the leak take to empty it?",
+      "options": ["21 hours", "23 hours", "19 hours", "24 hours"],
+      "correctIndex": 0
+    },
+    {
+      "number": 41,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a caravan, in addition to 50 hens there are 45 goats and 8 camels with some keepers. If the total number of feet be 224 more than the number of heads, find the number of keepers.",
+      "options": ["20", "16", "15", "18"],
+      "correctIndex": 2
+    },
+    {
+      "number": 42,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If (1/5)^(3y) = 0.008, then the value of (0.25)^y is",
+      "options": ["0.26", "0.24", "0.27", "0.25"],
+      "correctIndex": 3
+    },
+    {
+      "number": 43,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If 15 men, working 9 hours a day, can reap a field in 16 days, in how many days will 18 men reap the field, working 8 hours a day?",
+      "options": ["18", "15", "20", "16"],
+      "correctIndex": 1
+    },
+    {
+      "number": 44,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If 15% of 40 is greater than 25% of a number by 2, then the number is",
+      "options": ["12", "16", "24", "32"],
+      "correctIndex": 1
+    },
+    {
+      "number": 45,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The sum of two numbers is 2490. If 6.5% of one number is equal to 8.5% of the other, then the numbers are",
+      "options": ["989, 1501", "1011, 1479", "1401, 1089", "1411, 1079"],
+      "correctIndex": 3
+    },
+    {
+      "number": 46,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A train 100 metres long takes 6 seconds to cross a man walking at 5 kmph in a direction opposite to that of the train. Find the speed of the train.",
+      "options": ["55 kmph", "60 kmph", "50 kmph", "65 kmph"],
+      "correctIndex": 0
+    },
+    {
+      "number": 47,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a km race, A beats B by 28 metres in 7 seconds. Find A's time over the course.",
+      "options": ["6 min 3 sec.", "4 min 3 sec.", "8 min 2 sec.", "5 min 6 sec."],
+      "correctIndex": 1
+    },
+    {
+      "number": 48,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Four different electronic devices make a beep after every 30 minutes, 1 hour, 1 1/2 hour and 1 hour 45 minutes respectively. All the devices beeped together at 12 noon. They will again beep together at:",
+      "options": ["12 mid night", "3 a.m.", "6 a.m.", "9 a.m."],
+      "correctIndex": 3
+    },
+    {
+      "number": 49,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "50 is divided into two parts such that the sum of their reciprocals is 1/12. Then the two parts, are:",
+      "options": ["30, 35", "30, 20", "30, 25", "30, 28"],
+      "correctIndex": 1
+    },
+    {
+      "number": 50,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Four milkmen rented a pasture. A grazed 24 cows for 3 months; B 10 cows for 5 months; C 35 cows for 4 months and D 21 cows for 3 months. If A's share of rent is Rs. 720, find the total rent of the field.",
+      "options": ["3245", "3260", "3360", "3250"],
+      "correctIndex": 3
+    }
+  ]
+}

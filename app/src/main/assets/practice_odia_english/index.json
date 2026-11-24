@@ -1,0 +1,323 @@
+{
+  "sets": [
+    {
+      "id": "odia_eng_set_01",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Set 1",
+      "subtitle": "2027 Pattern • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_set_01.json"
+    },
+    {
+      "id": "odia_eng_set_02",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Set 2",
+      "subtitle": "2027 Pattern • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_set_02.json"
+    },
+    {
+      "id": "odia_eng_set_03",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Set 3",
+      "subtitle": "2027 Pattern • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_set_03.json"
+    },
+    {
+      "id": "odia_eng_set_04",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Set 4",
+      "subtitle": "2027 Pattern • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_set_04.json"
+    },
+    {
+      "id": "odia_eng_set_05",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Set 5",
+      "subtitle": "2027 Pattern • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_set_05.json"
+    },
+    {
+      "id": "odia_eng_set_06",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Set 6",
+      "subtitle": "2027 Pattern • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_set_06.json"
+    },
+    {
+      "id": "odia_eng_set_07",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Set 7",
+      "subtitle": "2027 Pattern • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_set_07.json"
+    },
+    {
+      "id": "odia_eng_set_08",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Set 8",
+      "subtitle": "2027 Pattern • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_set_08.json"
+    },
+    {
+      "id": "odia_eng_set_09",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Set 9",
+      "subtitle": "2027 Pattern • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_set_09.json"
+    },
+    {
+      "id": "odia_eng_set_10",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Set 10",
+      "subtitle": "2027 Pattern • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_set_10.json"
+    },
+    {
+      "id": "odia_eng_osssc_set_01",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — OSSSC Set 1",
+      "subtitle": "OSSSC 2027 • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_osssc_set_01.json"
+    },
+    {
+      "id": "odia_eng_osssc_set_02",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — OSSSC Set 2",
+      "subtitle": "OSSSC 2027 • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_osssc_set_02.json"
+    },
+    {
+      "id": "odia_eng_osssc_set_03",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — OSSSC Set 3",
+      "subtitle": "OSSSC 2027 • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_osssc_set_03.json"
+    },
+    {
+      "id": "odia_eng_osssc_set_04",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — OSSSC Set 4",
+      "subtitle": "OSSSC 2027 • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_osssc_set_04.json"
+    },
+    {
+      "id": "odia_eng_osssc_set_05",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — OSSSC Set 5",
+      "subtitle": "OSSSC 2027 • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_osssc_set_05.json"
+    },
+    {
+      "id": "odia_eng_osssc_set_06",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — OSSSC Set 6",
+      "subtitle": "OSSSC 2027 • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_osssc_set_06.json"
+    },
+    {
+      "id": "odia_eng_osssc_set_07",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — OSSSC Set 7",
+      "subtitle": "OSSSC 2027 • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_osssc_set_07.json"
+    },
+    {
+      "id": "odia_eng_osssc_set_08",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — OSSSC Set 8",
+      "subtitle": "OSSSC 2027 • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_osssc_set_08.json"
+    },
+    {
+      "id": "odia_eng_osssc_set_09",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — OSSSC Set 9",
+      "subtitle": "OSSSC 2027 • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_osssc_set_09.json"
+    },
+    {
+      "id": "odia_eng_osssc_set_10",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — OSSSC Set 10",
+      "subtitle": "OSSSC 2027 • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_osssc_set_10.json"
+    },
+    {
+      "id": "odia_eng_prob_set_01",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Probable Set 1",
+      "subtitle": "2027 Probable • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_prob_set_01.json"
+    },
+    {
+      "id": "odia_eng_prob_set_02",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Probable Set 2",
+      "subtitle": "2027 Probable • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_prob_set_02.json"
+    },
+    {
+      "id": "odia_eng_prob_set_04",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Probable Set 4",
+      "subtitle": "2027 Probable • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_prob_set_04.json"
+    },
+    {
+      "id": "odia_eng_prob_set_05",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Probable Set 5",
+      "subtitle": "2027 Probable • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_prob_set_05.json"
+    },
+    {
+      "id": "odia_eng_prob_set_06",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Probable Set 6",
+      "subtitle": "2027 Probable • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_prob_set_06.json"
+    },
+    {
+      "id": "odia_eng_prob_set_07",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Probable Set 7",
+      "subtitle": "2027 Probable • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_prob_set_07.json"
+    },
+    {
+      "id": "odia_eng_prob_set_08",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Probable Set 8",
+      "subtitle": "2027 Probable • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_prob_set_08.json"
+    },
+    {
+      "id": "odia_eng_prob_set_09",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Probable Set 9",
+      "subtitle": "2027 Probable • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_prob_set_09.json"
+    },
+    {
+      "id": "odia_eng_prob_set_10",
+      "categoryId": "practice_odia_english",
+      "title": "English & Odia Mock — Probable Set 10",
+      "subtitle": "2027 Probable • 100 Questions (50 English + 50 Odia)",
+      "durationMinutes": 90,
+      "negativeMarking": 0.25,
+      "marksPerQuestion": 1.0,
+      "questionCount": 100,
+      "assetPath": "practice_odia_english/odia_eng_prob_set_10.json"
+    }
+  ]
+}

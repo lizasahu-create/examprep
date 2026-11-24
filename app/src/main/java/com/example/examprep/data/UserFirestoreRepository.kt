@@ -1,7 +1,7 @@
 package com.example.examprep.data
 
 import android.content.Context
-import com.example.examprep.R
+import com.examprep.R
 import com.example.examprep.model.AppThemeMode
 import com.example.examprep.model.CategoryType
 import com.example.examprep.model.ExamAttemptDoc

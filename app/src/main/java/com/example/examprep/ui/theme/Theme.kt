@@ -1,6 +1,10 @@
 package com.example.examprep.ui.theme
 
-import android.app.Activity
+import android.graphics.Color as AndroidColor
+import android.os.Build
+import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
+import androidx.activity.enableEdgeToEdge
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
@@ -11,7 +15,6 @@ import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalView
-import androidx.core.view.WindowCompat
 import com.example.examprep.model.AppThemeMode
 
 @Immutable
@@ -117,11 +120,22 @@ fun ExamPrepTheme(
     val view = LocalView.current
     if (!view.isInEditMode) {
         SideEffect {
-            val window = (view.context as? Activity)?.window
-            if (window != null) {
-                WindowCompat.getInsetsController(window, view).apply {
-                    isAppearanceLightStatusBars = !isDark
-                    isAppearanceLightNavigationBars = !isDark
+            val activity = view.context as? ComponentActivity
+            if (activity != null) {
+                val barStyle = if (isDark) {
+                    SystemBarStyle.dark(AndroidColor.TRANSPARENT)
+                } else {
+                    SystemBarStyle.light(
+                        scrim = AndroidColor.TRANSPARENT,
+                        darkScrim = AndroidColor.TRANSPARENT
+                    )
+                }
+                activity.enableEdgeToEdge(
+                    statusBarStyle = barStyle,
+                    navigationBarStyle = barStyle
+                )
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                    activity.window.isNavigationBarContrastEnforced = false
                 }
             }
         }

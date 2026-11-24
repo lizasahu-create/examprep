@@ -1,0 +1,942 @@
+{
+  "id": "opsc_ja_gk_2024",
+  "categoryId": "pyq_opsc",
+  "title": "OPSC Junior Assistant (JA) 2024 — General Knowledge",
+  "subtitle": "Paper-II • 100 MCQs • 100 Marks • Official PYQ",
+  "durationMinutes": 60,
+  "negativeMarking": 0.25,
+  "marksPerQuestion": 1.0,
+  "questionCount": 100,
+  "questions": [
+    {
+      "number": 1,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The World famous 'Sun Temple' is located in which of the following places of India?",
+      "options": ["Bhubaneswar", "Puri", "Ujjain", "Konark"],
+      "correctIndex": 3
+    },
+    {
+      "number": 2,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The first recipient of 'Dadasaheb Phalke Award' was :",
+      "options": ["Devika Rani", "Asha Parikh", "Vinod Khanna", "Rekha"],
+      "correctIndex": 0
+    },
+    {
+      "number": 3,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The 'Mission Sagar' in 2020 mainly involved in its activities :",
+      "options": ["Indian Air force", "Indian Navy", "Indian Army", "Para Military Forces"],
+      "correctIndex": 1
+    },
+    {
+      "number": 4,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The 'Right to Information Act' (2005) does not :",
+      "options": [
+        "Empower the citizens judicially",
+        "Promote transparency",
+        "Promote accountability of government",
+        "Help to Combat corruption"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 5,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who amongst the following is not included in the Union Executive?",
+      "options": ["President", "Vice President", "Prime Minister", "Chief Minister"],
+      "correctIndex": 3
+    },
+    {
+      "number": 6,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The date 15th August, 1947 for setting up two dominions was decided by which of the following Acts?",
+      "options": [
+        "Indian Councils Act, 1909",
+        "Government of India Act, 1919",
+        "Government of India Act, 1935",
+        "Indian Independence Act, 1947"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 7,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The 'Fundamental Duties' were added to Indian Constitution by which amendment?",
+      "options": ["40th", "42nd", "41st", "39th"],
+      "correctIndex": 1
+    },
+    {
+      "number": 8,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following words is not stated in the Preamble of the Indian Constitution?",
+      "options": ["Justice", "Liberty", "Equality", "Intolerance"],
+      "correctIndex": 3
+    },
+    {
+      "number": 9,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who signed the Constitution of India as President of the Constituent Assembly?",
+      "options": ["B.R. Ambedkar", "Rajendra Prasad", "Jawaharlal Nehru", "C. Rajagopalachari"],
+      "correctIndex": 1
+    },
+    {
+      "number": 10,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The supreme command of the Defense Forces in India is vested in :",
+      "options": ["Prime Minister", "Chief of the Army Staff", "President", "Vice President"],
+      "correctIndex": 2
+    },
+    {
+      "number": 11,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "By which amendment, the former union territory of Delhi was made the 'National Capital Territory of Delhi'?",
+      "options": ["38th (1975)", "41st (1976)", "81st (2000)", "69th (1991)"],
+      "correctIndex": 3
+    },
+    {
+      "number": 12,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who presides over the proceedings of Rajya Sabha?",
+      "options": ["Speaker", "Prime Minister", "Vice President", "President"],
+      "correctIndex": 2
+    },
+    {
+      "number": 13,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who said in the Constituent Assembly that by Parliamentary Democracy we mean 'One man, one vote'?",
+      "options": ["B.R. Ambedkar", "J.L. Nehru", "R.N. Tagore", "Sardar Patel"],
+      "correctIndex": 0
+    },
+    {
+      "number": 14,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Power of judicial review in the Indian Constitution enables the :",
+      "options": [
+        "Parliament to change its laws",
+        "Judiciary to review legislation",
+        "Private Companies to revise their policies",
+        "Academic institutions to change their original charter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 15,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Comptroller and Auditor General looks after the affairs relating to :",
+      "options": ["Civil society", "Academics", "Judiciary", "Finance"],
+      "correctIndex": 3
+    },
+    {
+      "number": 16,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Inspiration for organization of Village Panchayats under Directive Principles was taken from :",
+      "options": ["Vinoba Bhave", "Mahatma Gandhi", "Rabindranath Tagore", "Jayaprakash Narain"],
+      "correctIndex": 1
+    },
+    {
+      "number": 17,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The theme for \"Aero India 2021\" inaugurated at Bangalore by Rajnath Singh was :",
+      "options": [
+        "India @75",
+        "National Education Policy",
+        "Transforming lives : Bio Sciences to Bio Economy",
+        "A runway to a billion opportunities."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 18,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "\"All Time Favourite for Children\" is a book written by :",
+      "options": ["Ruskin Bond", "J.K. Rowling", "Salman Rushdie", "Anish Tripathi"],
+      "correctIndex": 0
+    },
+    {
+      "number": 19,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "World's biggest Cricket Stadium (now called Narendra Modi Stadium) is located in :",
+      "options": ["Uttar Pradesh", "Maharashtra", "Gujarat", "Tamil Nadu"],
+      "correctIndex": 2
+    },
+    {
+      "number": 20,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Now renamed \"Veerangna Maharani Laxmibai Station\" is located in :",
+      "options": ["Lucknow", "Jhansi", "Ruhelkhand", "Nagpur"],
+      "correctIndex": 1
+    },
+    {
+      "number": 21,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The \"Lifeline Express\" is the name given to :",
+      "options": [
+        "Air Taxi Service in India",
+        "New Transport Scheme",
+        "World's First Hospital Train in India",
+        "New Police Support Services"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 22,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Author of the book \"The Commonwealth of Cricket\" is :",
+      "options": ["Ramchandra Guha", "Anil Kumble", "Alfredo Koveli", "Ravi Shastri"],
+      "correctIndex": 0
+    },
+    {
+      "number": 23,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following organizations has developed an Oxygen Concentrator by the name \"Shwaas\" :",
+      "options": ["ICMR", "ISRO", "DRDO", "Bhartiya Bio Tech"],
+      "correctIndex": 1
+    },
+    {
+      "number": 24,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The biggest floating Solar Plant of India has been set up in :",
+      "options": ["Karnataka", "Bihar", "Kerala", "Telangana"],
+      "correctIndex": 3
+    },
+    {
+      "number": 25,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The mission \"Floriculture\" of the CSIR (to encourage cultivation of commercial flowers) was inaugurated by :",
+      "options": ["Dr. Harshvardhan", "Prakash Javdekar", "Amit Shah", "Narendra Modi"],
+      "correctIndex": 0
+    },
+    {
+      "number": 26,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "How many people in all were honored with \"Padma Vibhushan\" in the year 2021?",
+      "options": ["5", "6", "7", "8"],
+      "correctIndex": 2
+    },
+    {
+      "number": 27,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which State Government launched \"Akansha\" Portal in the recent past?",
+      "options": ["Maharashtra", "Karnataka", "Tamil Nadu", "Andhra Pradesh"],
+      "correctIndex": 1
+    },
+    {
+      "number": 28,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The \"Motorbike Ambulance Services\" by the DRDO has come to be known by the name :",
+      "options": ["Rakshak", "Rakshita", "Rudram", "Shakti"],
+      "correctIndex": 1
+    },
+    {
+      "number": 29,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The name of 24th Election Commissioner of India, is :",
+      "options": ["Sunil Chandra", "Rajiv Kumar", "Sushil Chandra", "Sunil Arora"],
+      "correctIndex": 2
+    },
+    {
+      "number": 30,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which country was the first in the world to issue polymer bank note?",
+      "options": ["Saudi Arabia", "Australia", "Qatar", "Iraq"],
+      "correctIndex": 1
+    },
+    {
+      "number": 31,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The first batch of the famous \"red rice\" of Assam (in recent history) was exported to :",
+      "options": ["America", "Russia", "Britain", "Austria"],
+      "correctIndex": 0
+    },
+    {
+      "number": 32,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "World's longest Mountain Range \"Andes\" exists in :",
+      "options": ["Africa", "Asia", "Australia", "South America"],
+      "correctIndex": 3
+    },
+    {
+      "number": 33,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which amongst the following is called \"Roof of the World\"?",
+      "options": ["Columbia Plateau", "Pamir Plateau", "Bolivia Plateau", "None of these"],
+      "correctIndex": 1
+    },
+    {
+      "number": 34,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which amongst the following is the largest 'landlocked' country in the world?",
+      "options": ["Afghanistan", "Turkmenistan", "Uzbekistan", "Kazakhstan"],
+      "correctIndex": 3
+    },
+    {
+      "number": 35,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who reached the Peak of Mt. Everest on 9th May, 1984 without supplemental oxygen?",
+      "options": ["Junko Tabei", "Phu Dorji", "Bachendri Pal", "Kami R. Sherpa"],
+      "correctIndex": 1
+    },
+    {
+      "number": 36,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "\"Chad Lake\" is situated in :",
+      "options": ["Africa", "America", "Australia", "Asia"],
+      "correctIndex": 0
+    },
+    {
+      "number": 37,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which country is known as \"Gold Coast\" in Africa?",
+      "options": ["Kenya", "Ghana", "Uganda", "Congo"],
+      "correctIndex": 1
+    },
+    {
+      "number": 38,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The term \"Igloo\" is used in context of:",
+      "options": ["Game of Chess", "Game of Football", "Houses made of Ice", "Computer Operation"],
+      "correctIndex": 2
+    },
+    {
+      "number": 39,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The place Antwerp (Belgium) is famous for :",
+      "options": ["Hedge rows", "Cut Diamonds", "Beautiful Canals", "Fish-catch game"],
+      "correctIndex": 1
+    },
+    {
+      "number": 40,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The longest mountain range of Alps is found in which of the following countries?",
+      "options": ["Norway", "Sweden", "Switzerland", "Germany"],
+      "correctIndex": 2
+    },
+    {
+      "number": 41,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The 'Death Valley' is situated in :",
+      "options": ["London", "Quebec", "St. Louis", "South California"],
+      "correctIndex": 3
+    },
+    {
+      "number": 42,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who was India's President during 2007-12?",
+      "options": ["K.R. Narayanan", "Pratibha Patil", "APJ Abdul Kalam", "Pranab Mukherjee"],
+      "correctIndex": 1
+    },
+    {
+      "number": 43,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "\"Cosmology\" is the name of science dealing with the study of:",
+      "options": ["Clouds", "Ocean", "Rivers", "Universe"],
+      "correctIndex": 3
+    },
+    {
+      "number": 44,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "\"Theory of Relativity\" is linked with the name of :",
+      "options": ["John Dalton", "Newton", "Albert Einstein", "G.S. Ohm"],
+      "correctIndex": 2
+    },
+    {
+      "number": 45,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who discovered Barometer?",
+      "options": ["E. Torricelli", "K. Macmillan", "John Dunlop", "Archimedes"],
+      "correctIndex": 0
+    },
+    {
+      "number": 46,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The discoverer of \"Bi-focal lens\" - Benjamin Franklin belonged to which of the following countries?",
+      "options": ["England", "USA", "France", "Poland"],
+      "correctIndex": 1
+    },
+    {
+      "number": 47,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The year in which Max Planck discovered Quantum Theory was :",
+      "options": ["1900", "1905", "1895", "1898"],
+      "correctIndex": 0
+    },
+    {
+      "number": 48,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The name of Alfred Nobel is mentioned in context of discovering :",
+      "options": ["Gun Powder", "Dynamite", "Detergent", "Cement"],
+      "correctIndex": 1
+    },
+    {
+      "number": 49,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The famous scientist Copernicus belonged to :",
+      "options": ["Poland", "Denmark", "Britain", "Germany"],
+      "correctIndex": 0
+    },
+    {
+      "number": 50,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "\"Apiculture\" deals with the study of :",
+      "options": ["Birds", "Reptiles", "Flowers", "Honey bees"],
+      "correctIndex": 3
+    },
+    {
+      "number": 51,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following statements is not true about 'Atom'?",
+      "options": [
+        "It is the smallest unit of matter",
+        "It is divisible and destructible",
+        "It can take part in any chemical reaction",
+        "It combines to form molecules"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 52,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The father of Biology is :",
+      "options": ["Linnaeus", "Robert Hooke", "Whittaker", "Aristotle"],
+      "correctIndex": 3
+    },
+    {
+      "number": 53,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Study of Fungi is called :",
+      "options": ["Mycology", "Biology", "Botany", "Mythology"],
+      "correctIndex": 0
+    },
+    {
+      "number": 54,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The process of 'Photosynthesis' occurs in which of the following :",
+      "options": ["Animals", "Plants", "Reptiles", "Humans"],
+      "correctIndex": 1
+    },
+    {
+      "number": 55,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who is known as the Father of Genetics?",
+      "options": ["Gregor Johann Mendel", "William Watson", "Wilhelm Johansen", "W. Voltaire"],
+      "correctIndex": 0
+    },
+    {
+      "number": 56,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Hindustan Aeronautics Ltd. is located in :",
+      "options": ["Hyderabad", "Bangalore", "Pune", "Berhampur"],
+      "correctIndex": 1
+    },
+    {
+      "number": 57,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "With reference to Vikram Sarabhai Space Centre, which of the following places is important?",
+      "options": ["Gopalpur", "Dhanushkoti", "Porbander", "Thumba"],
+      "correctIndex": 3
+    },
+    {
+      "number": 58,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The main office of UNCTAD is located in :",
+      "options": ["Bonn", "Geneva", "Edinburgh", "London"],
+      "correctIndex": 1
+    },
+    {
+      "number": 59,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "22nd April is celebrated as :",
+      "options": ["Earth Day", "Fathers Day", "Mothers Day", "Environment Day"],
+      "correctIndex": 0
+    },
+    {
+      "number": 60,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Organization of Petroleum Exporting Countries (OPEC) was established in the year :",
+      "options": ["1959", "1960", "1961", "1962"],
+      "correctIndex": 1
+    },
+    {
+      "number": 61,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "14th September is celebrated as :",
+      "options": ["Teachers' Day", "International Literacy Day", "World Peace Day", "Hindi Day"],
+      "correctIndex": 3
+    },
+    {
+      "number": 62,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The main office of UNICEF was set up in :",
+      "options": ["New York", "California", "Washington DC", "Seattle"],
+      "correctIndex": 0
+    },
+    {
+      "number": 63,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who composed the national song 'Vande Mataram'?",
+      "options": ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Subhas Chandra Bose", "Chittaranjan Das"],
+      "correctIndex": 1
+    },
+    {
+      "number": 64,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who led the Movement \"Indira Quit\" 30 years after the Quit India Movement?",
+      "options": ["Jaiprakash Narain", "Mahatma Gandhi", "V.P. Singh", "Sri Chandrashekhar"],
+      "correctIndex": 0
+    },
+    {
+      "number": 65,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following leaders was banished to the Cellular Jail of Andaman by the British Government?",
+      "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Swatantra Veer Savarkar", "B. R. Ambedkar"],
+      "correctIndex": 2
+    },
+    {
+      "number": 66,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The author of the famous book \"Gita Rahasya\" is :",
+      "options": ["B.C. Pal", "B.G. Tilak", "Barindranath Ghosh", "R.B. Bose"],
+      "correctIndex": 1
+    },
+    {
+      "number": 67,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The book \"An Indian Pilgrim\" deals with the life-story of :",
+      "options": ["Subhas Chandra Bose", "Sri Aurobindo", "Surya Sen", "Swami Vivekanand"],
+      "correctIndex": 0
+    },
+    {
+      "number": 68,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Jallianwalah Bagh Massacre (1919) occurred in :",
+      "options": ["Noahkhali", "Lahore", "Amritsar", "Ludhiana"],
+      "correctIndex": 2
+    },
+    {
+      "number": 69,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Islands of Andaman and Nicobar were renamed \"Shaheed\" & \"Swaraj\" Islands by which of the following freedom fighters?",
+      "options": ["Mohan Singh", "Udham Singh", "R.B. Bose", "S.C. Bose"],
+      "correctIndex": 3
+    },
+    {
+      "number": 70,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who is known as the Spiritual Father of Indian Nationalism?",
+      "options": ["Gandhiji", "Aurobindo Ghosh", "Swami Vivekanand", "Swami Dayanand Saraswati"],
+      "correctIndex": 2
+    },
+    {
+      "number": 71,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In which of the following years Muslim League adopted Pakistan Resolution under leadership of M.A. Jinnah?",
+      "options": ["1946", "1940", "1947", "1944"],
+      "correctIndex": 1
+    },
+    {
+      "number": 72,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The famous slogan \"Hindivi Swaraj\" during the Mughal period in India was given by :",
+      "options": ["Shivaji", "Rana Pratap", "Rana Sanga", "Bajirao Peshwa"],
+      "correctIndex": 0
+    },
+    {
+      "number": 73,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "'Putalibai' was the name of the mother of :",
+      "options": ["Jawaharlal Nehru", "Motilal Nehru", "M.K. Gandhi", "A.R. Desai"],
+      "correctIndex": 2
+    },
+    {
+      "number": 74,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Asiatic Society of Bengal was established in the year :",
+      "options": ["1781", "1872", "1786", "1784"],
+      "correctIndex": 3
+    },
+    {
+      "number": 75,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The system of 'Subsidiary Alliance' in modern period of Indian History was started by :",
+      "options": ["Lord Dalhousie", "Lord Wellesley", "Lord Clive", "Lord Cornwallis"],
+      "correctIndex": 1
+    },
+    {
+      "number": 76,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who started the revolt of 1857?",
+      "options": ["Maharani Lakshmi Bai", "Mangal Pandey", "Tatya Tope", "Jittu Pandey"],
+      "correctIndex": 1
+    },
+    {
+      "number": 77,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Sikh Order of Brotherhood 'Khalsa' was brought into existence by :",
+      "options": ["Guru Teg Bahadur", "Guru Nanak Dev", "Guru Arjun Dev", "Guru Govind Singh"],
+      "correctIndex": 3
+    },
+    {
+      "number": 78,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Mandalay Jail, to which Subhas Chandra Bose was sent by the British Government, was located in :",
+      "options": ["Aden", "Andamans", "Burma", "Thailand"],
+      "correctIndex": 2
+    },
+    {
+      "number": 79,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "\"India Divided\" is a book written by :",
+      "options": ["Mohd. Ali Jinnah", "Mohd. Iqbal", "J.L. Nehru", "Rajendra Prasad"],
+      "correctIndex": 3
+    },
+    {
+      "number": 80,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Author of the book \"Freedom At Midnight\" is :",
+      "options": ["Clement Attlee", "Dominique Lapierre", "Francis Robinson", "W.W. Hunter"],
+      "correctIndex": 1
+    },
+    {
+      "number": 81,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The first partition of Bengal by the British Government took place in the year :",
+      "options": ["1907", "1906", "1902", "1905"],
+      "correctIndex": 3
+    },
+    {
+      "number": 82,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "'Delhi Durbar' of 1876-77 was held in the honor of :",
+      "options": ["Prince of Wales", "Queen Victoria", "Duke of Wellington", "Lord Lytton"],
+      "correctIndex": 1
+    },
+    {
+      "number": 83,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "\"Ilbert Bill Controversy\" is an event which occurred during the Viceroyalty of :",
+      "options": ["Lord Ellenborough", "Lord Curzon", "Lord Minto", "Lord Ripon"],
+      "correctIndex": 3
+    },
+    {
+      "number": 84,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "India became a Republic in the year :",
+      "options": ["1947", "1950", "1949", "1952"],
+      "correctIndex": 1
+    },
+    {
+      "number": 85,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Mutiny of the Royal Indian Navy under British rule occurred in the year :",
+      "options": ["1946", "1942", "1947", "1945"],
+      "correctIndex": 0
+    },
+    {
+      "number": 86,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who amongst the following was called the first Governor General of India?",
+      "options": ["Clive", "Warren Hastings", "Cornwallis", "William Bentinck"],
+      "correctIndex": 3
+    },
+    {
+      "number": 87,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "For entrepreneurship development and promotion of micro/small business, a scheme covering 6 major religious townships was launched by the Indian Government in November 2019. Which of the following was not a part of this scheme?",
+      "options": ["Rameshwaram", "Puri", "Varanasi", "Haridwar"],
+      "correctIndex": 0
+    },
+    {
+      "number": 88,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The National Anthem 'Jana-Gana-Mana' was adopted in its Hindi version by the Constituent Assembly (as National Anthem of India) on :",
+      "options": ["January 26, 1950", "January 24, 1949", "January 24, 1950", "January 26, 1948"],
+      "correctIndex": 2
+    },
+    {
+      "number": 89,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Citizenship (Amendment) Bill 2019 was passed by the Parliament on :",
+      "options": ["December 7, 2019", "December 11, 2019", "December 9, 2019", "December 10, 2019"],
+      "correctIndex": 1
+    },
+    {
+      "number": 90,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which is the oldest Veda?",
+      "options": ["Atharv veda", "Rigveda", "Yajurved", "Samved"],
+      "correctIndex": 1
+    },
+    {
+      "number": 91,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "\"Hathigumpha Inscription\" of the Kharavela Dynasty is located in :",
+      "options": ["Bhubaneshwar", "Udaiyagiri", "Berhampur", "Cuttack"],
+      "correctIndex": 1
+    },
+    {
+      "number": 92,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the Indian Revolutionaries was known by the name 'Master Da'?",
+      "options": ["Barindra Ghosh", "Surya Sen", "Prafulla Chaki", "Rasbehari Bose"],
+      "correctIndex": 1
+    },
+    {
+      "number": 93,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who was addressed as the 'Indian Napoleon' amongst the following rulers of India?",
+      "options": ["Chandragupta Vikramaditya", "Ramgupta", "Skandgupta", "Samudragupta"],
+      "correctIndex": 3
+    },
+    {
+      "number": 94,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The book \"Arthashastra\" was authored by:",
+      "options": ["Kalhan", "Kautilya", "Kalidas", "Kabir"],
+      "correctIndex": 1
+    },
+    {
+      "number": 95,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "'Darashikoh' was the brother of famous Mughal ruler :",
+      "options": ["Akbar", "Shahjahan", "Jehangir", "Aurangzeb"],
+      "correctIndex": 3
+    },
+    {
+      "number": 96,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "India's first lady to become Lok Sabha Speaker was :",
+      "options": ["Snehlata Srivastava", "Meira Kumar", "Reeta Fariah", "Chandramukhi Basu"],
+      "correctIndex": 1
+    },
+    {
+      "number": 97,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who amongst the following became the first lady Governor?",
+      "options": ["Sarojini Naidu", "Anna George", "Kiran Bedi", "Anne Besant"],
+      "correctIndex": 0
+    },
+    {
+      "number": 98,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "'Periscope' is an instrument used in :",
+      "options": ["Aeroplane", "Submarine", "Steamer", "Ship"],
+      "correctIndex": 1
+    },
+    {
+      "number": 99,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The first Indian lady to cross English Channel was :",
+      "options": ["Tara Cherian", "Kamini Roy", "Kunjrani", "Arti Saha"],
+      "correctIndex": 3
+    },
+    {
+      "number": 100,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "First lady Ambassador to represent India at the UNO, was :",
+      "options": ["Smt. Indira Gandhi", "Vijay Laxmi Pandit", "Asha Purna Devi", "Prema Mukerjee"],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,1037 @@
+{
+  "id": "ssb_ja_2024",
+  "categoryId": "pyq_opsc",
+  "title": "SSB Junior Assistant (JA) 2024 — Full Paper",
+  "questions": [
+    {
+      "number": 1,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct verb form: Forest animals (suffer) from a shortage of food and water every summer.",
+      "options": ["suffers", "suffer", "are suffer", "suffered"],
+      "correctIndex": 1
+    },
+    {
+      "number": 2,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct verb form: Forest fire (add) to their hardship.",
+      "options": ["adding", "is added", "add", "adds"],
+      "correctIndex": 3
+    },
+    {
+      "number": 3,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the correct modal verb: Particularly, they ____ not get water to drink.",
+      "options": ["can", "will", "would", "should"],
+      "correctIndex": 0
+    },
+    {
+      "number": 4,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the grammatically correct sentence.",
+      "options": [
+        "A tusker strayed into our village last night.",
+        "A tusker has strayed into our village last night.",
+        "A tusker was strayed into our village last night.",
+        "A tusker is strayed into our village last night."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 5,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank with the proper non-finite verb: All our efforts ____ him away failed miserably.",
+      "options": ["driving", "driven", "to drive", "drive"],
+      "correctIndex": 2
+    },
+    {
+      "number": 6,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank with the proper non-finite verb: We could do nothing but ____ his movements silently.",
+      "options": ["to watch", "watching", "watched", "watch"],
+      "correctIndex": 3
+    },
+    {
+      "number": 7,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Convert to passive voice: \"Deforestation causes distress to wild animals.\"",
+      "options": [
+        "Distress has been caused to wild animals by deforestation.",
+        "Distress is caused to wild animals by deforestation.",
+        "Distress was caused to wild animals by deforestation.",
+        "Distress had been caused to wild animals by deforestation."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 8,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the suitable modal verb: We ____ have concern for wild animals.",
+      "options": ["should", "would", "could", "might"],
+      "correctIndex": 0
+    },
+    {
+      "number": 9,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Transform into an exclamatory sentence: \"The soldier is very clever.\"",
+      "options": [
+        "How very clever a soldier!",
+        "How clever the soldier is!",
+        "What clever soldier!",
+        "How clever is the soldier!"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 10,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Transform into a complex sentence: \"He is too old to learn new tricks.\"",
+      "options": [
+        "He is very old and he cannot learn new tricks.",
+        "He is so old that he cannot learn new tricks.",
+        "As he is very old he will not learn new tricks.",
+        "He is very old for which he does not learn new tricks."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 11,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the right connector: ____ he worked hard, he could not get success.",
+      "options": ["Since", "As", "Because", "Even though"],
+      "correctIndex": 3
+    },
+    {
+      "number": 12,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In \"I know that he is very brave\", what grammatical function does the noun clause \"that he is very brave\" perform?",
+      "options": [
+        "Subject of the sentence",
+        "Object of a transitive verb",
+        "A complement of a verb",
+        "An object of a preposition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 13,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In \"All that glitters is not gold\", identify the type of the clause \"that glitters\".",
+      "options": [
+        "Noun clause",
+        "Non-defining relative clause",
+        "Defining relative clause",
+        "Adverb clause"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 14,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Change to indirect speech: The soldier said to me, \"I have fought many battles.\"",
+      "options": [
+        "The soldier told me that he had fought many battles.",
+        "The soldier told me that he has fought many battles.",
+        "The soldier told me that he fought many battles.",
+        "The soldier told me that he could fight many battles."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 15,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Change to direct speech: Raju asked the soldier if he had won all the battles.",
+      "options": [
+        "Raju said to the soldier, \"Has he won all the battles?\"",
+        "Raju said to the soldier, \"Could you win all the battles?\"",
+        "Raju said to the soldier, \"Do you win all the battles?\"",
+        "Raju said to the soldier, \"Did you win all the battles?\""
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 16,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Rewrite in the comparative degree: \"Colonel Das was the smartest commander in his regiment.\"",
+      "options": [
+        "Colonel Das was smarter than any other commander in his regiment.",
+        "No other commander in his regiment was as smart as Colonel Das.",
+        "Colonel Das was a smarter commander in his regiment.",
+        "Very few commanders were smarter than Colonel Das in his regiment."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 17,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which sentence below is grammatically correct?",
+      "options": [
+        "The man is mortal.",
+        "The rose smells sweet.",
+        "The camel is called 'ship of the desert'.",
+        "The water freezes at 0°C."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 18,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the correct word: A man of ____ must be a man of care.",
+      "options": ["truthfulness", "truthful", "truth", "true"],
+      "correctIndex": 2
+    },
+    {
+      "number": 19,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct expression: The sick man passed away ____.",
+      "options": ["peace", "peaceful", "peacefulness", "peacefully"],
+      "correctIndex": 3
+    },
+    {
+      "number": 20,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct preposition: My friend is extremely good ____ poetry.",
+      "options": ["in", "at", "with", "for"],
+      "correctIndex": 1
+    },
+    {
+      "number": 21,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Complete the sentence: A farmer is a ____ citizen of a nation.",
+      "options": ["responsible", "responsibly", "more responsible", "most responsible"],
+      "correctIndex": 0
+    },
+    {
+      "number": 22,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following sentences is grammatically correct?",
+      "options": [
+        "A farmer is leading oxes to his field.",
+        "His sheeps follow him to his field.",
+        "His cows give him milk.",
+        "He has bought new furnitures for his house."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 23,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank with the proper preposition: I congratulate you ____ your success.",
+      "options": ["for", "to", "about", "on"],
+      "correctIndex": 3
+    },
+    {
+      "number": 24,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): In Greek mythology, the ten-year Trojan War began at the wedding of King Peleus and Thetis. Eris, goddess of discord, was excluded because her presence always sparked quarrels. Seeking revenge, she tossed a golden apple inscribed 'for the most beautiful' into the feast, sparking a dispute among Hera, Athena, and Aphrodite. Prince Paris of Troy was chosen to judge and awarded the apple to Aphrodite, who promised him Helen, the most beautiful woman in the world. Traveling to Sparta, Paris received the hospitality of King Menelaus, but eloped with Helen to Troy, prompting Menelaus to launch the Greek expedition.",
+      "imageAssetPath": null,
+      "questionText": "Why did Peleus leave Eris off the wedding guest list?",
+      "options": [
+        "She hated people getting married.",
+        "Her presence caused trouble.",
+        "She was unhappy with their wedding.",
+        "She did not like any wedding celebration."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 25,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): In Greek mythology, the ten-year Trojan War began at the wedding of King Peleus and Thetis. Eris, goddess of discord, was excluded because her presence always sparked quarrels. Seeking revenge, she tossed a golden apple inscribed 'for the most beautiful' into the feast, sparking a dispute among Hera, Athena, and Aphrodite. Prince Paris of Troy was chosen to judge and awarded the apple to Aphrodite, who promised him Helen, the most beautiful woman in the world. Traveling to Sparta, Paris received the hospitality of King Menelaus, but eloped with Helen to Troy, prompting Menelaus to launch the Greek expedition.",
+      "imageAssetPath": null,
+      "questionText": "What was Eris's reaction to being omitted from the guest list?",
+      "options": [
+        "She was glad.",
+        "She was undisturbed.",
+        "She liked to enjoy the wedding secretly.",
+        "She was revengeful."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 26,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): In Greek mythology, the ten-year Trojan War began at the wedding of King Peleus and Thetis. Eris, goddess of discord, was excluded because her presence always sparked quarrels. Seeking revenge, she tossed a golden apple inscribed 'for the most beautiful' into the feast, sparking a dispute among Hera, Athena, and Aphrodite. Prince Paris of Troy was chosen to judge and awarded the apple to Aphrodite, who promised him Helen, the most beautiful woman in the world. Traveling to Sparta, Paris received the hospitality of King Menelaus, but eloped with Helen to Troy, prompting Menelaus to launch the Greek expedition.",
+      "imageAssetPath": null,
+      "questionText": "Who was selected to judge the contest for the golden apple?",
+      "options": ["Hector", "Zeus", "Paris", "Menelaus"],
+      "correctIndex": 2
+    },
+    {
+      "number": 27,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): In Greek mythology, the ten-year Trojan War began at the wedding of King Peleus and Thetis. Eris, goddess of discord, was excluded because her presence always sparked quarrels. Seeking revenge, she tossed a golden apple inscribed 'for the most beautiful' into the feast, sparking a dispute among Hera, Athena, and Aphrodite. Prince Paris of Troy was chosen to judge and awarded the apple to Aphrodite, who promised him Helen, the most beautiful woman in the world. Traveling to Sparta, Paris received the hospitality of King Menelaus, but eloped with Helen to Troy, prompting Menelaus to launch the Greek expedition.",
+      "imageAssetPath": null,
+      "questionText": "Who was regarded as the most beautiful woman of that era?",
+      "options": ["Helen", "Hera", "Athena", "Aphrodite"],
+      "correctIndex": 0
+    },
+    {
+      "number": 28,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): In Greek mythology, the ten-year Trojan War began at the wedding of King Peleus and Thetis. Eris, goddess of discord, was excluded because her presence always sparked quarrels. Seeking revenge, she tossed a golden apple inscribed 'for the most beautiful' into the feast, sparking a dispute among Hera, Athena, and Aphrodite. Prince Paris of Troy was chosen to judge and awarded the apple to Aphrodite, who promised him Helen, the most beautiful woman in the world. Traveling to Sparta, Paris received the hospitality of King Menelaus, but eloped with Helen to Troy, prompting Menelaus to launch the Greek expedition.",
+      "imageAssetPath": null,
+      "questionText": "For how many years did the Trojan War continue?",
+      "options": ["12 years", "8 years", "10 years", "6 years"],
+      "correctIndex": 2
+    },
+    {
+      "number": 29,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): In Greek mythology, the ten-year Trojan War began at the wedding of King Peleus and Thetis. Eris, goddess of discord, was excluded because her presence always sparked quarrels. Seeking revenge, she tossed a golden apple inscribed 'for the most beautiful' into the feast, sparking a dispute among Hera, Athena, and Aphrodite. Prince Paris of Troy was chosen to judge and awarded the apple to Aphrodite, who promised him Helen, the most beautiful woman in the world. Traveling to Sparta, Paris received the hospitality of King Menelaus, but eloped with Helen to Troy, prompting Menelaus to launch the Greek expedition.",
+      "imageAssetPath": null,
+      "questionText": "Which word from the passage denotes 'friendly and generous reception of guests'?",
+      "options": ["strife", "hospitality", "revenge", "controversy"],
+      "correctIndex": 1
+    },
+    {
+      "number": 30,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): In Greek mythology, the ten-year Trojan War began at the wedding of King Peleus and Thetis. Eris, goddess of discord, was excluded because her presence always sparked quarrels. Seeking revenge, she tossed a golden apple inscribed 'for the most beautiful' into the feast, sparking a dispute among Hera, Athena, and Aphrodite. Prince Paris of Troy was chosen to judge and awarded the apple to Aphrodite, who promised him Helen, the most beautiful woman in the world. Traveling to Sparta, Paris received the hospitality of King Menelaus, but eloped with Helen to Troy, prompting Menelaus to launch the Greek expedition.",
+      "imageAssetPath": null,
+      "questionText": "Which word is the antonym of 'familiar'?",
+      "options": ["disfamiliar", "infamiliar", "misfamiliar", "unfamiliar"],
+      "correctIndex": 3
+    },
+    {
+      "number": 31,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of these rivers does NOT empty into the Arabian Sea?",
+      "options": ["Narmada", "Tapi", "Sabarmati", "Godavari"],
+      "correctIndex": 3
+    },
+    {
+      "number": 32,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Through which of the following Indian states does the Tropic of Cancer NOT pass?",
+      "options": ["Madhya Pradesh", "West Bengal", "Rajasthan", "Odisha"],
+      "correctIndex": 3
+    },
+    {
+      "number": 33,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Where is UNESCO headquartered?",
+      "options": ["New York", "Paris", "Geneva", "Rome"],
+      "correctIndex": 1
+    },
+    {
+      "number": 34,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which city is the capital of Uttarakhand?",
+      "options": ["Haridwar", "Rishikesh", "Dehradun", "Mussoorie"],
+      "correctIndex": 2
+    },
+    {
+      "number": 35,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which is the largest landlocked country in the world by area?",
+      "options": ["Mongolia", "Nigeria", "Kazakhstan", "Ethiopia"],
+      "correctIndex": 2
+    },
+    {
+      "number": 36,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which Indian cricketer authored the autobiography \"Straight from the Heart\"?",
+      "options": ["Sunil Gavaskar", "Kapil Dev", "Sachin Tendulkar", "Sourav Ganguly"],
+      "correctIndex": 1
+    },
+    {
+      "number": 37,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following historical event–year pairs do NOT match?\n(i) First Battle of Panipat – 1528\n(ii) Establishment of East India Company – 1600\n(iii) Death of Shivaji – 1580\n(iv) Permanent Settlement of Bengal – 1793",
+      "options": ["(i) & (ii)", "(i) & (iii)", "(ii) & (iii)", "(iii) & (iv)"],
+      "correctIndex": 1
+    },
+    {
+      "number": 38,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the correctly matched monument–city pairs:\n(i) Hawa Mahal – Jaipur\n(ii) Golden Temple – Amritsar\n(iii) Qutb Minar – Hyderabad\n(iv) Taj Mahal – Agra",
+      "options": ["(i), (ii) & (iii)", "(i), (iii) & (iv)", "(ii), (iii) & (iv)", "(i), (ii) & (iv)"],
+      "correctIndex": 3
+    },
+    {
+      "number": 39,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Match the Indian hills with their regions:\n(i) Javadi Hills — (a) Eastern Ghats\n(ii) Doddabetta Hills — (b) Western Ghats\n(iii) Jaintia Hills — (c) Purvanchal\n(iv) Patkai Hills — (d) Meghalaya Plateau",
+      "options": [
+        "(i)-(a), (ii)-(b), (iii)-(c), (iv)-(d)",
+        "(i)-(b), (ii)-(a), (iii)-(d), (iv)-(c)",
+        "(i)-(a), (ii)-(b), (iii)-(d), (iv)-(c)",
+        "(i)-(a), (ii)-(d), (iii)-(b), (iv)-(c)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 40,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who wrote the book \"My Experiment with Untruth\"?",
+      "options": ["Gyan C. Jain", "Mahatma Gandhi", "Jawaharlal Nehru", "A.P.J. Abdul Kalam"],
+      "correctIndex": 0
+    },
+    {
+      "number": 41,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which dynasty–founder pair is NOT correctly matched?",
+      "options": [
+        "Slave dynasty – Balban",
+        "Tughluq dynasty – Ghiasuddin",
+        "Khilji dynasty – Jalaluddin",
+        "Second Afghan Empire – Sher Shah Suri"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 42,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who is the author of the celebrated book \"We, the People\"?",
+      "options": ["B.R. Ambedkar", "J.R.D. Tata", "Nani Palkhivala", "Salman Rushdie"],
+      "correctIndex": 2
+    },
+    {
+      "number": 43,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who pioneered the smallpox vaccination / immunization technique?",
+      "options": ["Louis Pasteur", "Joseph Lister", "Robert Koch", "Edward Jenner"],
+      "correctIndex": 3
+    },
+    {
+      "number": 44,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which vitamin–scientist pair is NOT correctly matched?",
+      "options": [
+        "Vitamin A – McCollum (Macular)",
+        "Vitamin C – A.S. Gyorgyi",
+        "Vitamin D – Paul Muller",
+        "Vitamin K – Carl P. Henrik Dam"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 45,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which nation assumed the G-7 presidency in January 2022?",
+      "options": ["Netherlands", "Germany", "Austria", "France"],
+      "correctIndex": 1
+    },
+    {
+      "number": 46,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who among the following was NOT conferred the Bharat Ratna in 2024?",
+      "options": ["M.S. Madhavan", "L.K. Advani", "Charan Singh", "P.V. Narasimha Rao"],
+      "correctIndex": 0
+    },
+    {
+      "number": 47,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who received the Dadasaheb Phalke International Film Festival Award for Best Director in 2024?",
+      "options": ["Sandeep Reddy Vanga", "Atlee", "Shah Rukh Khan", "Karan Johar"],
+      "correctIndex": 0
+    },
+    {
+      "number": 48,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Match each country with its currency:\n(i) Brazil — (a) Ruble\n(ii) Argentina — (b) Real\n(iii) Belarus — (c) Peso\n(iv) Azerbaijan — (d) Manat",
+      "options": [
+        "(i)-(b), (ii)-(c), (iii)-(a), (iv)-(d)",
+        "(i)-(a), (ii)-(c), (iii)-(b), (iv)-(d)",
+        "(i)-(b), (ii)-(a), (iii)-(c), (iv)-(d)",
+        "(i)-(b), (ii)-(c), (iii)-(d), (iv)-(c)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 49,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which state is NOT correctly matched with its classical dance form recognized by the Government of India?",
+      "options": [
+        "Andhra Pradesh – Kuchipudi",
+        "Kerala – Mohiniyattam",
+        "Karnataka – Bharatanatyam",
+        "Assam – Sattriya"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 50,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the incorrectly matched sportsperson–sport pair.",
+      "options": [
+        "Mary Kom – Boxing",
+        "Baichung Bhutia – Football",
+        "Sania Nehwal – Tennis",
+        "Kiran More – Cricket"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 51,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Express one second as a decimal fraction of an hour (truncated to five decimal places).",
+      "options": ["0.0025", "0.0256", "0.00027", "0.000126"],
+      "correctIndex": 2
+    },
+    {
+      "number": 52,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which rational number equals the recurring decimal 1.02333... (1.023̄)?",
+      "options": ["307/300", "305/300", "1023/900", "1021/900"],
+      "correctIndex": 0
+    },
+    {
+      "number": 53,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the smallest positive integer that leaves remainders 13, 41, and 29 when divided by 20, 48, and 36 respectively.",
+      "options": ["727", "720", "713", "687"],
+      "correctIndex": 2
+    },
+    {
+      "number": 54,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "For a parade drill, 234 boys and 286 girls must be arranged into rows of equal size such that every row contains either boys only or girls only. What is the minimum number of rows needed?",
+      "options": ["18", "20", "22", "24"],
+      "correctIndex": 1
+    },
+    {
+      "number": 55,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If √1369 + √(0.0615 + x) = 37.25, find the value of x.",
+      "options": ["1/√10", "1/10", "1/10²", "1/10³"],
+      "correctIndex": 3
+    },
+    {
+      "number": 56,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Evaluate: ∛27 + ∛0.008 + ∛0.064",
+      "options": ["3.56", "3.60", "3.66", "3.76"],
+      "correctIndex": 1
+    },
+    {
+      "number": 57,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "When the price of an item falls by 20% and its consumption rises by 20%, what is the net change in expenditure?",
+      "options": ["4% decrease", "5% increase", "6% decrease", "7% increase"],
+      "correctIndex": 0
+    },
+    {
+      "number": 58,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Suresh deposited Rs. 500 for 2 years in one bank and Rs. 300 for 4 years in another at the same simple interest rate, earning Rs. 220 total interest. Find the annual rate.",
+      "options": ["6.25%", "7.5%", "8.65%", "10%"],
+      "correctIndex": 3
+    },
+    {
+      "number": 59,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A loan of Rs. 11,000 is repaid in two equal annual installments at 20% compound interest per annum. What is each installment?",
+      "options": ["Rs. 6,200", "Rs. 6,500", "Rs. 7,200", "Rs. 8,200"],
+      "correctIndex": 2
+    },
+    {
+      "number": 60,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Ramesh purchased a statue at 20% below its original price and sold it at 25% above the original price, earning a profit of Rs. 2,025. Find the original price.",
+      "options": ["Rs. 5,000", "Rs. 4,500", "Rs. 4,000", "Rs. 3,500"],
+      "correctIndex": 1
+    },
+    {
+      "number": 61,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If the selling price of 40 articles equals the cost price of 50 articles, find the gain or loss percentage.",
+      "options": ["20% loss", "25% loss", "20% gain", "25% gain"],
+      "correctIndex": 3
+    },
+    {
+      "number": 62,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A 729-litre mixture holds milk and water in the ratio 7 : 2. How much water must be added to make the ratio 7 : 3?",
+      "options": ["81 litres", "71 litres", "64 litres", "56 litres"],
+      "correctIndex": 0
+    },
+    {
+      "number": 63,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "P began a business with Rs. 4,000. After 4 months, Q joined with an unknown capital. At year-end, profits were split 3 : 4 between P and Q. How much did Q invest?",
+      "options": ["Rs. 7,500", "Rs. 8,000", "Rs. 9,000", "Rs. 10,000"],
+      "correctIndex": 1
+    },
+    {
+      "number": 64,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If 20% of x = 30% of y = (1/6) of z, find the ratio x : y : z.",
+      "options": ["2 : 3 : 16", "15 : 10 : 18", "3 : 2 : 16", "10 : 15 : 18"],
+      "correctIndex": 1
+    },
+    {
+      "number": 65,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The current ages of a father and son are in the ratio 7 : 2. Ten years hence, the ratio becomes 9 : 4. What is the father's present age?",
+      "options": ["35 years", "38 years", "40 years", "45 years"],
+      "correctIndex": 0
+    },
+    {
+      "number": 66,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "P finishes a job in 15 days. If Q works twice as fast as P, in how many days will P and Q together finish it?",
+      "options": ["2 days", "3 days", "4 days", "5 days"],
+      "correctIndex": 3
+    },
+    {
+      "number": 67,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two facing houses have heights 25 m and 10 m. If the line joining their tops makes a 45° angle with the horizontal, what is the distance between them?",
+      "options": ["18 metres", "15 metres", "12 metres", "10.5 metres"],
+      "correctIndex": 1
+    },
+    {
+      "number": 68,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a factory, the average weekly wage of all staff is Rs. 100, of supervisors is Rs. 600, and of labourers is Rs. 75. If there are 840 labourers, how many supervisors are there?",
+      "options": ["46", "44", "42", "40"],
+      "correctIndex": 2
+    },
+    {
+      "number": 69,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the option containing only indirect taxes.",
+      "options": [
+        "GST, Custom Duty",
+        "Income Tax, Corporate Tax",
+        "Custom Duty, Corporate Tax",
+        "Income Tax, GST"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 70,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A house valued at Rs. 2,55,000 is insured for Rs. 2,24,000. Approximately what percentage of its value is insured?",
+      "options": ["72.82%", "77.87%", "82.84%", "87.84%"],
+      "correctIndex": 3
+    },
+    {
+      "number": 71,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A bus travels from P to Q at 70 km/hr and returns from Q to P at 90 km/hr. Find its average speed for the round trip.",
+      "options": ["75.78 km/hr", "78.75 km/hr", "80 km/hr", "80.25 km/hr"],
+      "correctIndex": 1
+    },
+    {
+      "number": 72,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which number below is simultaneously divisible by 3, 7, 9, and 11?",
+      "options": ["3791", "2079", "8791", "6392"],
+      "correctIndex": 1
+    },
+    {
+      "number": 73,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "For which pair of numbers is 5 times their sum divisible by 15?",
+      "options": ["341, 250", "240, 335", "345, 341", "318, 395"],
+      "correctIndex": 0
+    },
+    {
+      "number": 74,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the next term in the series: 3, 11, 19, 27, ?",
+      "options": ["39", "37", "35", "33"],
+      "correctIndex": 2
+    },
+    {
+      "number": 75,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two 120 m trains travelling in opposite directions at equal speeds pass each other completely in 12 seconds. What is the speed of each train in km/hr?",
+      "options": ["36", "72", "12", "18"],
+      "correctIndex": 0
+    },
+    {
+      "number": 76,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Buying 5 toys for Rs. 4 and selling 4 toys for Rs. 5 yields what profit percentage?",
+      "options": ["50.5%", "56.25%", "56.5%", "54.25%"],
+      "correctIndex": 1
+    },
+    {
+      "number": 77,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Adding the three-digit number 4x3 to 984 produces the four-digit number 13y7, which is divisible by 11. Find (x + y).",
+      "options": ["10", "12", "15", "11"],
+      "correctIndex": 0
+    },
+    {
+      "number": 78,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Calculate the area of a square whose diagonal measures 3.8 metres.",
+      "options": ["7.32 sq. m", "7.22 sq. m", "7.52 sq. m", "7.72 sq. m"],
+      "correctIndex": 1
+    },
+    {
+      "number": 79,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A 60-litre mixture has milk and water in the ratio 2 : 1. How much water must be added to reverse this ratio to 1 : 2?",
+      "options": ["40 litres", "30 litres", "50 litres", "60 litres"],
+      "correctIndex": 3
+    },
+    {
+      "number": 80,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a certain code, NOIDA is written as OPJEB. How is DELHI coded?",
+      "options": ["EFMAK", "EFAMK", "EFMIJ", "EFMIK"],
+      "correctIndex": 2
+    },
+    {
+      "number": 81,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the wrong term in the number series: 2, 6, 15, 31, 56, 93",
+      "options": ["6", "31", "56", "93"],
+      "correctIndex": 3
+    },
+    {
+      "number": 82,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If PINK is encoded as 1691411, what is the code for RED?",
+      "options": ["1963", "1854", "1853", "1954"],
+      "correctIndex": 1
+    },
+    {
+      "number": 83,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Marathon : Race :: Hibernation : ?",
+      "options": ["Winter", "Summer", "Sleep", "Bear"],
+      "correctIndex": 2
+    },
+    {
+      "number": 84,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Arrange the words into a logical sequence:\n(a) Sun  (b) Rain  (c) Child  (d) Rainbow  (e) Happy",
+      "options": [
+        "b, a, d, c, e",
+        "c, b, a, d, e",
+        "b, a, c, d, e",
+        "d, e, a, c, b"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 85,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which pair of words has a different relationship from the rest?",
+      "options": [
+        "Kind : Cruel",
+        "Slow : Sluggish",
+        "Stale : Fresh",
+        "Truth : Lie"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 86,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Raman says, \"Anju's mother is the only daughter of my mother.\" How is Anju related to Raman?",
+      "options": ["Brother", "Niece", "Sister", "Aunt"],
+      "correctIndex": 1
+    },
+    {
+      "number": 87,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Assertion (A): Earthworms reduce soil fertility.\nReason (R): They make the soil soft and porous.\nChoose the correct evaluation.",
+      "options": [
+        "A is true but R is false",
+        "A is false but R is true",
+        "Both A and R are true",
+        "Both A and R are false"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 88,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a 20-question exam, +4 marks are given per right answer, −1 per wrong answer, and 0 for unanswered items. If a student scored 27, which is a possible number of attempted questions?",
+      "options": ["15", "16", "17", "18"],
+      "correctIndex": 3
+    },
+    {
+      "number": 89,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "By scoring 97 runs in his 15th innings, a batter raises his average by 5 runs. What is his new average after 15 innings?",
+      "options": ["15", "28", "27", "31"],
+      "correctIndex": 2
+    },
+    {
+      "number": 90,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following words is a conjunction?",
+      "options": ["With", "Because", "Without", "Therefore"],
+      "correctIndex": 1
+    },
+    {
+      "number": 91,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Typists A and B were each assigned 80 pages. A took 4 hours while B finished 40 minutes earlier. Next day they split 121 pages so both finish together. How many pages did A type?",
+      "options": ["50", "77", "60", "55"],
+      "correctIndex": 3
+    },
+    {
+      "number": 92,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If 3 pumps running 8 hours daily empty a tank in 2 days, how many hours a day must 4 pumps run to empty it in 1 day?",
+      "options": ["9", "10", "11", "12"],
+      "correctIndex": 3
+    },
+    {
+      "number": 93,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Calculate 20% of 25% of 300.",
+      "options": ["15", "20", "45", "25"],
+      "correctIndex": 0
+    },
+    {
+      "number": 94,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Twenty-four students have an average weight of 35 kg. Including their teacher raises the average by 400 g. What is the teacher's weight?",
+      "options": ["46 kg", "45 kg", "47 kg", "48 kg"],
+      "correctIndex": 1
+    },
+    {
+      "number": 95,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "At a crossroads, three locals give directions:\nX: Turn left\nY: Do not turn left\nZ: Go straight\nIf exactly one local tells the truth, what should the visitor conclude?",
+      "options": [
+        "Should go left",
+        "Should go straight",
+        "Should go right",
+        "Will not be able to decide between going left or right"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 96,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "While analyzing a problem, which aspects should a decision-maker generally examine?",
+      "options": ["Quantitative", "Qualitative", "Paranormal", "Both (A) and (B)"],
+      "correctIndex": 3
+    },
+    {
+      "number": 97,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Rain starts while you are delivering an important speech in an open ground that cannot be postponed. What is the best action?",
+      "options": [
+        "Ask someone to arrange an umbrella",
+        "Stop your address for a while",
+        "Continue the address without bothering the rain",
+        "Postpone it for later"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 98,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Seven friends F₁ through F₇ hold consecutive two-digit composite roll numbers (≤ 100) in ascending order with no prime between them. What is F₂'s roll number?",
+      "options": ["89", "90", "92", "91"],
+      "correctIndex": 3
+    },
+    {
+      "number": 99,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In problem-solving, what does brainstorming primarily involve?",
+      "options": [
+        "Narrowing down ideas",
+        "Generating a variety of ideas",
+        "Selecting the best solution immediately",
+        "Ignoring creative inputs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 100,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "How many distinct arrangements of the letters of \"ASCENT\" begin with A and end with T?",
+      "options": ["20", "26", "24", "18"],
+      "correctIndex": 2
+    }
+  ]
+}

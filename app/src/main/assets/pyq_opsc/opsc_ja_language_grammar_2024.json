@@ -1,0 +1,227 @@
+{
+  "id": "opsc_ja_language_grammar_2024",
+  "categoryId": "pyq_opsc",
+  "title": "OPSC Junior Assistant (JA) 2024 — English Grammar",
+  "subtitle": "Paper-I Section-A Objective • 20 MCQs • Official PYQ",
+  "durationMinutes": 20,
+  "negativeMarking": 0.0,
+  "marksPerQuestion": 1.0,
+  "questionCount": 20,
+  "questions": [
+    {
+      "number": 1,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank with appropriate tense: Neither of the paintings ______ sold.",
+      "options": ["have been", "were", "are", "was"],
+      "correctIndex": 3
+    },
+    {
+      "number": 2,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the passive voice for the following sentence: Please maintain silence in this room.",
+      "options": [
+        "Let silence be maintained in this room",
+        "This room shall maintain silence",
+        "There shall be silence in this room",
+        "Please remain silent in this room"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 3,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the passive voice for the following sentence: They are painting their house.",
+      "options": [
+        "Their house is painted",
+        "Their house is being painted",
+        "They shall be painting their house",
+        "The house is painted"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 4,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank with the appropriate modal verb: I ______ read without my reading glasses. Where are they?",
+      "options": ["may not", "would not", "not", "cannot"],
+      "correctIndex": 3
+    },
+    {
+      "number": 5,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the grammatically correct sentence from the following:",
+      "options": [
+        "When you told him the story?",
+        "I am watching this serial for two years' now.",
+        "He is having many pens in his pocket.",
+        "She told her name after coming home."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 6,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct infinitive for the following sentence: Are you ready ______ now?",
+      "options": ["going", "to go", "by", "today"],
+      "correctIndex": 1
+    },
+    {
+      "number": 7,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct conjunction for the following sentence: He was late ______ the bus did not come.",
+      "options": ["or", "but", "because", "while"],
+      "correctIndex": 2
+    },
+    {
+      "number": 8,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Use the correct phrase for the following sentence: Children ______ play every evening.",
+      "options": ["like to", "be liked", "will liked to", "not like to"],
+      "correctIndex": 0
+    },
+    {
+      "number": 9,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct word and fill in the blank: She was wearing a bangle ______.",
+      "options": ["make of gold", "golden", "made of gold", "making of gold"],
+      "correctIndex": 2
+    },
+    {
+      "number": 10,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blanks with appropriate prepositions: He climbed ______ the ladder to get ______ the roof.",
+      "options": ["up, onto", "on, on", "up, over", "up, up"],
+      "correctIndex": 0
+    },
+    {
+      "number": 11,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "'Cool as a cucumber' means:",
+      "options": ["calm and relaxed", "feeling a chill", "having a fever", "not thinking right"],
+      "correctIndex": 0
+    },
+    {
+      "number": 12,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank with the correct article: What ______ huge mountain!",
+      "options": ["the", "a", "an", "no article"],
+      "correctIndex": 1
+    },
+    {
+      "number": 13,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct reported speech for the following sentence: She said, \"I'll phone you tomorrow\".",
+      "options": [
+        "She said that she would phone tomorrow",
+        "She said I shall phone you tomorrow",
+        "She told him to phone tomorrow",
+        "She said she would phone me the next day"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 14,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Use the superlative form of the adjective given in brackets: Nayana is the ______ (pretty) girl in the class.",
+      "options": ["pretty", "prettier", "prettiest", "more prettier"],
+      "correctIndex": 2
+    },
+    {
+      "number": 15,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Use the appropriate determiner for the following sentence: Have you seen ______ MP3 player anywhere?",
+      "options": ["all", "more", "few", "my"],
+      "correctIndex": 3
+    },
+    {
+      "number": 16,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct answer for the question given below: Can you swim?",
+      "options": ["In the sea", "Very good", "Yes, I can", "Deep water"],
+      "correctIndex": 2
+    },
+    {
+      "number": 17,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "'Your mother is cooking in the kitchen.' Tick the correct question from the following:",
+      "options": [
+        "What is your mother doing?",
+        "What is your mother cooking in the kitchen?",
+        "How is your mother cooking?",
+        "Where is your mother going?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 18,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the appropriate preposition for the following sentence: She was hiding ______ the table.",
+      "options": ["on", "over", "under", "above"],
+      "correctIndex": 2
+    },
+    {
+      "number": 19,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Spot the incorrect sentence from the following:",
+      "options": [
+        "A European visited India.",
+        "It takes me an hour to visit the temple.",
+        "She is a honest woman.",
+        "It is an honour to serve you."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 20,
+      "section": "English Grammar",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Spot the correct sentence from the following:",
+      "options": [
+        "I bought four dozen apples.",
+        "I buying four dozen apple.",
+        "I bought four dozens of apples.",
+        "I buy four dozen apples."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

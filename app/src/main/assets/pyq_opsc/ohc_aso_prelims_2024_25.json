@@ -1,0 +1,1357 @@
+{
+  "id": "ohc_aso_prelims_2024_25",
+  "categoryId": "pyq_opsc",
+  "title": "Odisha High Court ASO Prelims 2024–25",
+  "questions": [
+    {
+      "number": 1,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Intelligence tests may be verbal, non-verbal, performance-based, or a mix of these categories.\nReason (R): Raven's Progressive Matrices is a non-verbal test suitable even for non-literate individuals.",
+      "options": ["Both (A) and (R) are true and (R) is the correct explanation of (A).", "Both (A) and (R) are true, but (R) is not the correct explanation of (A).", "(A) is true, but (R) is false.", "(A) is false, but (R) is true."],
+      "correctIndex": 1
+    },
+    {
+      "number": 2,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Pick the number triplet that shares the same property as (3, 5, 7).",
+      "options": ["(29, 35, 41)", "(19, 21, 13)", "(23, 29, 31)", "(11, 13, 19)"],
+      "correctIndex": 2
+    },
+    {
+      "number": 3,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the next letter in the sequence: Z, X, V, T, R, ?",
+      "options": ["S", "O", "P", "Q"],
+      "correctIndex": 2
+    },
+    {
+      "number": 4,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the pair showing the same relationship as Doctor : Hospital.",
+      "options": ["Supervisor : Officer", "Museum : Visitor", "Teacher : School", "Governor : President"],
+      "correctIndex": 2
+    },
+    {
+      "number": 5,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Complete the number analogy: 6 : 18 :: 14 : ____",
+      "options": ["64", "98", "108", "70"],
+      "correctIndex": 1
+    },
+    {
+      "number": 6,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q6.png",
+      "questionText": "Find the missing number that replaces the question mark in the given circular diagram.",
+      "options": ["5", "125", "625", "15"],
+      "correctIndex": 2
+    },
+    {
+      "number": 7,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Three of the four letter clusters follow a common rule and one differs. Pick the odd cluster.",
+      "options": ["CKXP", "FJUQ", "GHTR", "AEZV"],
+      "correctIndex": 2
+    },
+    {
+      "number": 8,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Given facts: (1) Robert owns four vehicles. (2) Two of them are red. (3) One vehicle is a minivan.\nWhich statement(s) must definitely be true?\n(I) Robert owns a red minivan.\n(II) Robert owns three cars.\n(III) Red is Robert's favourite colour.",
+      "options": ["(I) only", "(II) only", "(II) and (III) only", "None of the statements is a known fact."],
+      "correctIndex": 3
+    },
+    {
+      "number": 9,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Complete the number analogy: 2264 : 7241 :: 3129 : ____",
+      "options": ["6342", "2572", "7132", "9521"],
+      "correctIndex": 0
+    },
+    {
+      "number": 10,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the next cluster in the letter series: BDZ, DGX, FJV, HMT, JPR, ____",
+      "options": ["MSP", "LSP", "LTP", "LSO"],
+      "correctIndex": 1
+    },
+    {
+      "number": 11,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Three of the four number pairs follow the same rule while one differs. Find the odd pair.",
+      "options": ["8 : 20", "10 : 25", "18 : 81", "12 : 36"],
+      "correctIndex": 0
+    },
+    {
+      "number": 12,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q12.png",
+      "questionText": "Determine the missing number replacing the question mark in the third triangle.",
+      "options": ["33", "35", "37", "39"],
+      "correctIndex": 3
+    },
+    {
+      "number": 13,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q13.png",
+      "questionText": "Identify the correct vertical mirror image of 'T 3 S 4 P 5 H 6' from options (A) to (D) shown in the figure.",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "correctIndex": 3
+    },
+    {
+      "number": 14,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the next number in the series: 3, 7, 16, 32, 57, ____",
+      "options": ["85", "80", "98", "93"],
+      "correctIndex": 3
+    },
+    {
+      "number": 15,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the word pair with the same relationship as Army : General.",
+      "options": ["Hospital : Patient", "Company : Director", "College : Student", "Worker : Factory"],
+      "correctIndex": 1
+    },
+    {
+      "number": 16,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If South-East turns into North and North-East turns into West under uniform rotation, what will South-West become?",
+      "options": ["North", "West", "East", "South"],
+      "correctIndex": 2
+    },
+    {
+      "number": 17,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the wrong term in the sequence: 10, 15, 21, 28, 35, 45",
+      "options": ["10", "15", "35", "45"],
+      "correctIndex": 2
+    },
+    {
+      "number": 18,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Statements: All bags are cakes. All lamps are cakes.\nConclusions:\n(I) Some lamps are bags.\n(II) No lamp is bag.\nWhich conclusion(s) logically follow?",
+      "options": ["Only conclusion (I) follows", "Only conclusion (II) follows", "Either conclusion (I) or (II) follows", "Neither conclusion (I) nor (II) follows"],
+      "correctIndex": 2
+    },
+    {
+      "number": 19,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a number code: 'SKY WAS BLUE' = 123, 'SEA IS BLUE' = 245, 'PEOPLE SWIMMING IN SEA' = 4678, 'PEOPLE LIKE SKY' = 801, and 'BIRDS IN SKY' = 169. What is the code for 'PEOPLE LIKE BIRDS'?",
+      "options": ["809", "104", "036", "06"],
+      "correctIndex": 0
+    },
+    {
+      "number": 20,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Statements: Some bulbs are LEDs. Some LEDs are tube lights.\nConclusions:\n(I) Some tube lights are bulbs.\n(II) No tube light is a bulb.\nWhich conclusion(s) logically follow?",
+      "options": ["Neither conclusion (I) nor (II) follows", "Only conclusion (II) follows", "Either conclusion (I) or (II) follows", "Only conclusion (I) follows"],
+      "correctIndex": 2
+    },
+    {
+      "number": 21,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If EMBEZZLE is coded as MEEBZZEL in a certain code, how will MAXIMIZE be encoded?",
+      "options": ["AIMXMIEZ", "AMIMIXEZ", "AMIXIMEZ", "EMIXIMEM"],
+      "correctIndex": 2
+    },
+    {
+      "number": 22,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Sara resides in a large East Coast city, while her younger cousin Marlee resides in a small Midwest town of under 1,000 people. Over five years, Marlee visited Sara several times whereas Sara visited Marlee once. Which statement must be true?",
+      "options": ["Marlee likes Sara better than Sara likes Marlee.", "Sara thinks small towns are boring.", "Sara is older than Marlee.", "Marlee wants to move to the East Coast."],
+      "correctIndex": 2
+    },
+    {
+      "number": 23,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Mayank's home faces south. Exiting via the back gate, he walks 18 m, turns right and walks 28 m, turns right and walks 35 m, turns left and walks 12 m, and finally turns left and walks 17 m. How far and in which direction is he from his starting point?",
+      "options": ["20 Meter North", "30 Meter West", "17 Meter South", "40 Meter East"],
+      "correctIndex": 3
+    },
+    {
+      "number": 24,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a letter-substitution code where OPERATION is coded as BWDATXPBJ and PARENT is coded as WTADJX, what is the code for ORIENT?",
+      "options": ["PSJFOU", "BPADJX", "BAPDJX", "BWPDJX"],
+      "correctIndex": 2
+    },
+    {
+      "number": 25,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Pick the odd word pair out.",
+      "options": ["Flaw : Defect", "Vacant : Empty", "Mend : Repair", "Sink : Float"],
+      "correctIndex": 3
+    },
+    {
+      "number": 26,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Pick the odd geographical term out.",
+      "options": ["Peninsula", "Bay", "Island", "Cape"],
+      "correctIndex": 1
+    },
+    {
+      "number": 27,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If '+' means '÷', '−' means '+', '×' means '−', and '÷' means '×', evaluate: 18 ÷ 6 − 27 + 3 × 12",
+      "options": ["92", "105", "95", "107"],
+      "correctIndex": 1
+    },
+    {
+      "number": 28,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the missing term in the alphanumeric series: G4T, J9R, ?, P43N, S90L",
+      "options": ["K19O", "M19P", "M20P", "M21Q"],
+      "correctIndex": 2
+    },
+    {
+      "number": 29,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Evaluate Assertion (A) and Reason (R):\nAssertion (A): Research indicates that both high and low levels of creativity occur among highly intelligent children.\nReason (R): Achieving high creativity requires a high baseline level of intelligence.",
+      "options": ["Both (A) and (R) are true and (R) is the correct explanation of (A).", "Both (A) and (R) are true, but (R) is not the correct explanation of (A).", "(A) is true, but (R) is false.", "(A) is false, but (R) is true."],
+      "correctIndex": 1
+    },
+    {
+      "number": 30,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q30.png",
+      "questionText": "Select the figure from options (A) to (D) that logically continues the given symbol-box series.",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "correctIndex": 2
+    },
+    {
+      "number": 31,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Arrange the following in a meaningful sequence:\n(1) Ornaments  (2) Gold  (3) Goldsmith  (4) Jewelry shop  (5) Bride",
+      "options": ["4, 2, 5, 3, 1", "2, 4, 5, 1, 3", "2, 5, 4, 3, 1", "2, 3, 1, 4, 5"],
+      "correctIndex": 3
+    },
+    {
+      "number": 32,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Upon hearing about a hurricane, Maya and Julian skipped their island beach resort and booked a mountain spa instead. Although pricier, they were pleased to find a room on short notice after hearing great reviews. Which conclusion is definitely true?",
+      "options": ["Maya and Julian take beach vacations every year.", "The spa is overpriced.", "It is usually necessary to book at least six months in advance at the spa.", "Maya and Julian decided to change their vacation plans because of the hurricane."],
+      "correctIndex": 3
+    },
+    {
+      "number": 33,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Pick the odd animal pair out.",
+      "options": ["Bear - Deer", "Snake - Lizard", "Frog - Crocodile", "Parrot - Eagle"],
+      "correctIndex": 2
+    },
+    {
+      "number": 34,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q34.png",
+      "questionText": "Count the total number of triangles present in the given geometric figure.",
+      "options": ["35", "36", "34", "30"],
+      "correctIndex": 0
+    },
+    {
+      "number": 35,
+      "section": "Logical Reasoning",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Given facts: (1) All chickens are birds. (2) Some chickens are hens. (3) Female birds lay eggs.\nWhich statement(s) must definitely be a fact?\n(I) All birds lay eggs.\n(II) Some hens are birds.\n(III) Some chickens are not hens.",
+      "options": ["(I) only", "(II) only", "(II) and (III) only", "None of the statements is a known fact."],
+      "correctIndex": 1
+    },
+    {
+      "number": 36,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two ships lie on opposite sides of a 100 m tall lighthouse, observing its top at elevation angles of 30° and 45°. Find the approximate distance between the two ships.",
+      "options": ["173 m", "200 m", "273 m", "300 m"],
+      "correctIndex": 2
+    },
+    {
+      "number": 37,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a two-digit number less than 50, one digit is three times the other. Swapping its digits and adding the resulting number to the original gives 88. Find the original number.",
+      "options": ["25", "62", "26", "52"],
+      "correctIndex": 2
+    },
+    {
+      "number": 38,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A person's current age is two-fifths of his mother's age. Eight years later, he will be half as old as his mother. What is the mother's current age?",
+      "options": ["32 years", "36 years", "40 years", "48 years"],
+      "correctIndex": 2
+    },
+    {
+      "number": 39,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Five children born 3 years apart have a combined age of 50 years. Find the age of the youngest child.",
+      "options": ["4 years", "8 years", "10 years", "None of the above"],
+      "correctIndex": 0
+    },
+    {
+      "number": 40,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two fair dice are rolled together. What is the probability that the sum of the faces is a prime number?",
+      "options": ["1/6", "5/12", "1/2", "7/9"],
+      "correctIndex": 1
+    },
+    {
+      "number": 41,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In how many distinct ways can the letters of 'LEADING' be arranged so that all vowels stay together?",
+      "options": ["360", "480", "720", "5040"],
+      "correctIndex": 2
+    },
+    {
+      "number": 42,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A box contains 8 red, 7 blue, and 6 green balls. If one ball is drawn at random, what is the probability that it is neither red nor green?",
+      "options": ["1/3", "3/4", "7/19", "8/21"],
+      "correctIndex": 0
+    },
+    {
+      "number": 43,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a certain year, January contains exactly 4 Thursdays and 4 Sundays. Which weekday was January 1st of that year?",
+      "options": ["Monday", "Wednesday", "Tuesday", "Thursday"],
+      "correctIndex": 0
+    },
+    {
+      "number": 44,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the odd number in the sequence: 331, 482, 551, 263, 383, 362, 284",
+      "options": ["263", "383", "331", "551"],
+      "correctIndex": 1
+    },
+    {
+      "number": 45,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If 3^(x − y) = 27 and 3^(x + y) = 243, find the value of x.",
+      "options": ["4", "3", "2", "5"],
+      "correctIndex": 0
+    },
+    {
+      "number": 46,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following logarithmic identities is INCORRECT?",
+      "options": ["log₁₀ 10 = 1", "log (2 + 3) = log (2 × 3)", "log₁₀ 1 = 0", "log (1 + 2 + 3) = log 1 + log 2 + log 3"],
+      "correctIndex": 1
+    },
+    {
+      "number": 47,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two similar triangles have corresponding heights in the ratio 4 : 9. What is the ratio of their areas?",
+      "options": ["2 : 3", "3 : 2", "81 : 16", "16 : 81"],
+      "correctIndex": 3
+    },
+    {
+      "number": 48,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "One-third of one-fourth of a number equals 15. Find three-tenths of that number.",
+      "options": ["35", "36", "45", "54"],
+      "correctIndex": 3
+    },
+    {
+      "number": 49,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The cost price of 20 items equals the selling price of x items. If this yields a 25% profit, determine x.",
+      "options": ["15", "16", "18", "25"],
+      "correctIndex": 1
+    },
+    {
+      "number": 50,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A triangle has side lengths 35 cm, 54 cm, and 61 cm. Calculate the length of its longest altitude.",
+      "options": ["16√5 cm", "10√5 cm", "24√5 cm", "28 cm"],
+      "correctIndex": 2
+    },
+    {
+      "number": 51,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Arrange ⁴√6, √2, and ³√4 in ascending order.",
+      "options": ["⁴√6, √2, ³√4", "√2, ⁴√6, ³√4", "⁴√6, ³√4, √2", "None of the above"],
+      "correctIndex": 1
+    },
+    {
+      "number": 52,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q52.png",
+      "questionText": "A rectangular lawn measuring 50 m by 35 m is bordered externally by a 2 m wide path as shown. Calculate the area of the lawn.",
+      "options": ["1750 sq m.", "356 sq m.", "108 sq m.", "None of the above"],
+      "correctIndex": 0
+    },
+    {
+      "number": 53,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Joining the midpoints of consecutive sides of a square always forms a:",
+      "options": ["Parallelogram", "Rectangle", "Rhombus", "Square"],
+      "correctIndex": 3
+    },
+    {
+      "number": 54,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "How many unordered pairs of positive integers have a sum of 528 and an HCF of 33?",
+      "options": ["3", "4", "2", "5"],
+      "correctIndex": 1
+    },
+    {
+      "number": 55,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What smallest positive integer must be added to 1056 to make it completely divisible by 23?",
+      "options": ["2", "3", "18", "21"],
+      "correctIndex": 0
+    },
+    {
+      "number": 56,
+      "section": "Quantitative Aptitude",
+      "contextText": "Directions (Q56–Q60): Refer to the bar chart displaying a country's foreign exchange reserves (in million US $) from 1991–92 to 1998–99: 1991–92 = 2640, 1992–93 = 3720, 1993–94 = 2520, 1994–95 = 3360, 1995–96 = 3120, 1996–97 = 4320, 1997–98 = 5040, 1998–99 = 3120.",
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q56_60.png",
+      "questionText": "The foreign exchange reserves in 1997–98 were how many times the reserves in 1994–95?",
+      "options": ["0.7", "1.2", "1.4", "1.5"],
+      "correctIndex": 3
+    },
+    {
+      "number": 57,
+      "section": "Quantitative Aptitude",
+      "contextText": "Directions (Q56–Q60): Refer to the bar chart displaying a country's foreign exchange reserves (in million US $) from 1991–92 to 1998–99: 1991–92 = 2640, 1992–93 = 3720, 1993–94 = 2520, 1994–95 = 3360, 1995–96 = 3120, 1996–97 = 4320, 1997–98 = 5040, 1998–99 = 3120.",
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q56_60.png",
+      "questionText": "In which year was the percentage jump in foreign exchange reserves over the preceding year the highest?",
+      "options": ["1992-93", "1993-94", "1994-95", "1996-97"],
+      "correctIndex": 0
+    },
+    {
+      "number": 58,
+      "section": "Quantitative Aptitude",
+      "contextText": "Directions (Q56–Q60): Refer to the bar chart displaying a country's foreign exchange reserves (in million US $) from 1991–92 to 1998–99: 1991–92 = 2640, 1992–93 = 3720, 1993–94 = 2520, 1994–95 = 3360, 1995–96 = 3120, 1996–97 = 4320, 1997–98 = 5040, 1998–99 = 3120.",
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q56_60.png",
+      "questionText": "Find the ratio of years with reserves above the 8-year average to years with reserves below the average.",
+      "options": ["2 : 6", "3 : 4", "3 : 5", "4 : 4"],
+      "correctIndex": 2
+    },
+    {
+      "number": 59,
+      "section": "Quantitative Aptitude",
+      "contextText": "Directions (Q56–Q60): Refer to the bar chart displaying a country's foreign exchange reserves (in million US $) from 1991–92 to 1998–99: 1991–92 = 2640, 1992–93 = 3720, 1993–94 = 2520, 1994–95 = 3360, 1995–96 = 3120, 1996–97 = 4320, 1997–98 = 5040, 1998–99 = 3120.",
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q56_60.png",
+      "questionText": "Approximately what percentage of the 8-year average were the foreign exchange reserves in 1996–97?",
+      "options": ["95%", "110%", "115%", "125%"],
+      "correctIndex": 3
+    },
+    {
+      "number": 60,
+      "section": "Quantitative Aptitude",
+      "contextText": "Directions (Q56–Q60): Refer to the bar chart displaying a country's foreign exchange reserves (in million US $) from 1991–92 to 1998–99: 1991–92 = 2640, 1992–93 = 3720, 1993–94 = 2520, 1994–95 = 3360, 1995–96 = 3120, 1996–97 = 4320, 1997–98 = 5040, 1998–99 = 3120.",
+      "imageAssetPath": "pyq_opsc/figures/ohc_aso_2024_25_q56_60.png",
+      "questionText": "By what percentage did the foreign exchange reserves grow in 1997–98 compared to 1993–94?",
+      "options": ["100", "150", "200", "620"],
+      "correctIndex": 0
+    },
+    {
+      "number": 61,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "How many years does it take for Rs. 450 to earn Rs. 81 in simple interest at 4.5% per annum?",
+      "options": ["3.5 years", "4 years", "4.5 years", "5 years"],
+      "correctIndex": 1
+    },
+    {
+      "number": 62,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Given (a + b)/5 = (b + c)/6 = (c + a)/7, determine the ratio a : b : c.",
+      "options": ["3 : 2 : 4", "1 : 2 : 4", "3 : 4 : 2", "3 : 4 : 6"],
+      "correctIndex": 0
+    },
+    {
+      "number": 63,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the positive value of P if P = √(6 + √(6 + √(6 + ...))).",
+      "options": ["6", "4", "2", "3"],
+      "correctIndex": 3
+    },
+    {
+      "number": 64,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A is 2 years older than B, and B is twice as old as C. If the sum of their three ages is 27, what is B's age?",
+      "options": ["7", "8", "9", "10"],
+      "correctIndex": 3
+    },
+    {
+      "number": 65,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Determine the largest four-digit number exactly divisible by 88.",
+      "options": ["9944", "9768", "9988", "8888"],
+      "correctIndex": 0
+    },
+    {
+      "number": 66,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Akas pours oil at 5 litres per minute into a cylinder of radius 50 cm and height 105 cm. Using π = 22/7, how many minutes will it take to fill it completely?",
+      "options": ["41.25", "45", "125", "165"],
+      "correctIndex": 3
+    },
+    {
+      "number": 67,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Solve for x: 32^(x − 2) = 64 ÷ 8^x.",
+      "options": ["1/2", "1/4", "1/8", "2"],
+      "correctIndex": 3
+    },
+    {
+      "number": 68,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Calculate the smaller angle between the hour and minute hands of a clock at 5:30.",
+      "options": ["20 Degrees", "160 Degrees", "18.75 Degrees", "15 Degrees"],
+      "correctIndex": 3
+    },
+    {
+      "number": 69,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A, B, and C can finish a job individually in 20, 30, and 60 days respectively. How many days will A take to finish it if B and C join him every third day?",
+      "options": ["12 days", "15 days", "16 days", "18 days"],
+      "correctIndex": 1
+    },
+    {
+      "number": 70,
+      "section": "Quantitative Aptitude",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A pedestrian walks across a 600 m street in 5 minutes. What is his walking speed in km/hr?",
+      "options": ["3.6", "7.2", "8.4", "10"],
+      "correctIndex": 1
+    },
+    {
+      "number": 71,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "From which fund is the pension of a High Court judge paid in India?",
+      "options": ["Consolidated Fund of India", "Consolidated Fund of the state where he last served", "Consolidated Funds of the different states where he has served", "Contingency Fund of India"],
+      "correctIndex": 0
+    },
+    {
+      "number": 72,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who administers the oath of office to the Governor of an Indian State?",
+      "options": ["Chief Justice of India", "President", "Chief Justice of High Court", "Speaker of Legislative Assembly"],
+      "correctIndex": 2
+    },
+    {
+      "number": 73,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Galvanized iron sheets are coated with a protective layer of which metal?",
+      "options": ["Lead", "Zinc", "Chromium", "Tin"],
+      "correctIndex": 1
+    },
+    {
+      "number": 74,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which power project is jointly operated by Odisha and Andhra Pradesh?",
+      "options": ["Hirakud Thermal Power Plant", "Balimela Power Plant", "Ib Power Plant", "Rengali Power Plant"],
+      "correctIndex": 1
+    },
+    {
+      "number": 75,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "How does a reduction in the Cash Reserve Ratio (CRR) by the RBI affect credit creation?",
+      "options": ["Increase it", "Decrease it", "No impact", "None of these"],
+      "correctIndex": 0
+    },
+    {
+      "number": 76,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which apex organization coordinates agricultural research and education across India?",
+      "options": ["State Trading Corporation", "Regional Rural Banks", "National Bank for Agriculture and Rural Development (NABARD)", "Indian Council of Agricultural Research"],
+      "correctIndex": 3
+    },
+    {
+      "number": 77,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which state government signed a ₹15 crore sponsorship agreement for the Indian national Kho Kho team?",
+      "options": ["Odisha", "Maharashtra", "Tamil Nadu", "Uttar Pradesh"],
+      "correctIndex": 0
+    },
+    {
+      "number": 78,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which was the first Odia feature film to win the National Film Award for Best Feature Film in Odia (1961)?",
+      "options": ["Aadim Vichar", "Ahalya", "Srilokenath", "Laxmi Pratima"],
+      "correctIndex": 2
+    },
+    {
+      "number": 79,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which Indian automaker initiated India's first-ever road trials of hydrogen-powered heavy-duty trucks?",
+      "options": ["Mahindra & Mahindra", "Tata Motors", "Ashok Leyland", "Volvo"],
+      "correctIndex": 1
+    },
+    {
+      "number": 80,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which classical Indian dance form flourished under patronage at the Thanjavur temple?",
+      "options": ["Kathakali", "Odissi", "Kathak", "Bharatanatyam"],
+      "correctIndex": 3
+    },
+    {
+      "number": 81,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Why is moderate sunlight exposure beneficial to human health?",
+      "options": ["The infrared light kills bacteria in the body", "Resistance power increases", "The pigment cells in the skin get stimulated and produce a healthy tan", "The ultraviolet rays convert skin oil into Vitamin D"],
+      "correctIndex": 3
+    },
+    {
+      "number": 82,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "On which date was the circuit bench of the Patna High Court established at Cuttack?",
+      "options": ["1st January, 1920", "22nd September, 1919", "18th May, 1916", "None of the above"],
+      "correctIndex": 2
+    },
+    {
+      "number": 83,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In which year was the historic Kalinga War fought?",
+      "options": ["321 BC", "301 BC", "261 BC", "241 BC"],
+      "correctIndex": 2
+    },
+    {
+      "number": 84,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "By whom can members of a State Public Service Commission be removed from office?",
+      "options": ["Governor on a report by the Supreme Court", "Governor on a resolution passed by Parliament", "President on a report by the Supreme Court", "President on a resolution passed by Parliament"],
+      "correctIndex": 2
+    },
+    {
+      "number": 85,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Entomology is the scientific branch devoted to studying:",
+      "options": ["Behavior of human beings", "Insects", "The origin and history of technical and scientific terms", "The formation of rocks"],
+      "correctIndex": 1
+    },
+    {
+      "number": 86,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which authority holds the jurisdiction to try an election petition in India?",
+      "options": ["Parliament", "High Courts", "Supreme Court", "Election Commission"],
+      "correctIndex": 1
+    },
+    {
+      "number": 87,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Jude Felix is a celebrated Indian sportsperson in which discipline?",
+      "options": ["Volleyball", "Tennis", "Football", "Hockey"],
+      "correctIndex": 3
+    },
+    {
+      "number": 88,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which Indian city is renowned for traditional Chikankari embroidery?",
+      "options": ["Lucknow", "Hyderabad", "Jaipur", "Mysore"],
+      "correctIndex": 0
+    },
+    {
+      "number": 89,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which date is observed globally as World No Tobacco / No Smoking Day?",
+      "options": ["15th July", "1st January", "31st December", "31st May"],
+      "correctIndex": 3
+    },
+    {
+      "number": 90,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who among the following eminent dancers is NOT primarily an Odissi exponent?",
+      "options": ["Sanjukta Panigrahi", "Sonal Man Singh", "Madhavi Mudgal", "Yamini Krishnamurthy"],
+      "correctIndex": 3
+    },
+    {
+      "number": 91,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Snake-boat races (Vallam Kali) are a hallmark of which Indian festival?",
+      "options": ["Onam", "Rongali Bihu", "Navratri", "Pongal"],
+      "correctIndex": 0
+    },
+    {
+      "number": 92,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What is regarded as the practical prerequisite for implementing Directive Principles of State Policy?",
+      "options": ["An effective, honest government", "Socialist government", "Active opposition", "Adequate resources"],
+      "correctIndex": 3
+    },
+    {
+      "number": 93,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Ramatirtha Conservation Centre in Odisha protects which endangered species?",
+      "options": ["Royal Bengal tiger", "Elephant", "Crocodile", "Sea turtle"],
+      "correctIndex": 2
+    },
+    {
+      "number": 94,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "King Vikramaditya of Ujjain initiated the Vikrama Samvat era in 58 BC to celebrate his triumph over the:",
+      "options": ["Indo-Greeks", "Sakas", "Parthians", "Kushanas"],
+      "correctIndex": 1
+    },
+    {
+      "number": 95,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What causes the dark Fraunhofer lines observed in the solar spectrum?",
+      "options": ["Absorption of corresponding wavelengths by the outer layers of the sun", "Destructive interference between waves of certain definite wavelengths", "Absorption of corresponding wavelengths by the prism used in the photograph", "Absence of corresponding wavelengths from the light emitted by the core of the sun"],
+      "correctIndex": 0
+    },
+    {
+      "number": 96,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who received the inaugural Rajiv Gandhi Khel Ratna Award?",
+      "options": ["Viswanathan Anand", "Kapil Dev", "Leander Paes", "Limba Ram"],
+      "correctIndex": 0
+    },
+    {
+      "number": 97,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which physiographic region of India is best suited for cotton cultivation?",
+      "options": ["The Brahmaputra valley", "The Indo-Gangetic valley", "The Deccan plateau", "The Rann of Kutch"],
+      "correctIndex": 2
+    },
+    {
+      "number": 98,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Kilohertz (kHz) is a unit used to measure:",
+      "options": ["Power used by a current of one ampere", "Electromagnetic radio wave frequencies", "Voltage", "Electric resistance"],
+      "correctIndex": 1
+    },
+    {
+      "number": 99,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which body among the following is NOT part of or headed by the Odisha State Executive?",
+      "options": ["State Vigilance Directorate", "Odisha Human Rights Commission", "State Election Commission", "District Sessions Court"],
+      "correctIndex": 3
+    },
+    {
+      "number": 100,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which nation among the following is NOT a member state of SAARC?",
+      "options": ["Sri Lanka", "Myanmar", "Maldives", "Bhutan"],
+      "correctIndex": 1
+    },
+    {
+      "number": 101,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "At which site in Telangana has the Central Government approved a second commercial airport?",
+      "options": ["Mamnoor", "Bhuvanagiri", "Karimnagar", "Nizamabad"],
+      "correctIndex": 0
+    },
+    {
+      "number": 102,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "What does the home-video cassette acronym VHS stand for?",
+      "options": ["Video Home System", "Video horizontal standard", "Very high speed", "Voltage house standard"],
+      "correctIndex": 0
+    },
+    {
+      "number": 103,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which is the oldest operating oil field in India?",
+      "options": ["Ankleshwar, Gujarat", "Nawagam, Gujarat", "Bombay High, Maharashtra", "Digboi, Assam"],
+      "correctIndex": 3
+    },
+    {
+      "number": 104,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Raja Todar Mal in Emperor Akbar's court was renowned for his reforms in:",
+      "options": ["Music", "Literature", "Finance", "Law"],
+      "correctIndex": 2
+    },
+    {
+      "number": 105,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who received the first Indira Gandhi Award for International Justice and Harmony?",
+      "options": ["Larry Pressler", "Hussain Ibrahim Zaki", "Amnesty International", "Yasser Arafat"],
+      "correctIndex": 3
+    },
+    {
+      "number": 106,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which major Indian river does NOT rise in the Western Ghats?",
+      "options": ["Cauvery", "Godavari", "Krishna", "Mahanadi"],
+      "correctIndex": 3
+    },
+    {
+      "number": 107,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In which Indian city is the Centre for Cellular and Molecular Biology (CCMB) located?",
+      "options": ["Patna", "Jaipur", "Hyderabad", "New Delhi"],
+      "correctIndex": 2
+    },
+    {
+      "number": 108,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which sovereign repository platform under the IndiaAI Mission hosts AI datasets, models, and use cases?",
+      "options": ["IndiaAI Compute Portal", "AI Framework", "iGOT-AI", "AIKosha"],
+      "correctIndex": 3
+    },
+    {
+      "number": 109,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who was the first Chief Justice of the Orissa High Court to serve as Acting Governor of Odisha?",
+      "options": ["Justice Ranganath Mishra", "Justice Gati Krushna Mishra", "Justice Harilal Agarwal", "Justice Siba Narayan Shankar"],
+      "correctIndex": 1
+    },
+    {
+      "number": 110,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which was the first non-Test-playing nation to defeat India in an international cricket match (1979 World Cup)?",
+      "options": ["Canada", "Sri Lanka", "Zimbabwe", "East Africa"],
+      "correctIndex": 1
+    },
+    {
+      "number": 111,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Convert to passive voice: She makes cakes every Sunday.",
+      "options": ["Every Sunday cakes made by her.", "Cakes are made by her every Sunday.", "Cakes make her every Sunday.", "Cakes were made by her every Sunday."],
+      "correctIndex": 1
+    },
+    {
+      "number": 112,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Convert to passive voice: The doctor advised the patient not to eat rice.",
+      "options": ["The patient was advised by the doctor not to eat rice.", "The patient was advised by the doctor that he should not eat rice.", "The patient was being advised by the doctor that he should not rice by the doctor.", "The patient has been advised not to eat rice by the doctor."],
+      "correctIndex": 0
+    },
+    {
+      "number": 113,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Convert to indirect speech: The boy said, \"Who dare call you a thief?\"",
+      "options": ["The boy enquired who dared call him a thief.", "The boy asked who called him a thief.", "The boy told that who dared call him a thief.", "The boy wondered who dared call a thief."],
+      "correctIndex": 0
+    },
+    {
+      "number": 114,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Convert to indirect speech: \"Please don't go away\", she said.",
+      "options": ["She said to please her and not go away.", "She told me to go away.", "She begged me not to go away.", "She begged that I not go away."],
+      "correctIndex": 2
+    },
+    {
+      "number": 115,
+      "section": "General English",
+      "contextText": "Passage Summary (Q115–Q119): Climate change involves long-term temperature and weather shifts driven primarily by human burning of fossil fuels (coal, oil, gas), releasing heat-trapping greenhouse gases and causing gradual planetary warming known as global warming. Its effects include melting glaciers and polar ice caps, rising sea levels endangering coastal communities, more frequent and intense extreme weather events (heatwaves, floods, hurricanes), and disrupted agricultural productivity threatening food security. Tackling it requires international cooperation through frameworks like the Paris Agreement, which aims to keep global warming well below 2°C above pre-industrial levels by cutting carbon emissions, adopting renewables, and adapting to unavoidable changes.",
+      "imageAssetPath": null,
+      "questionText": "According to the passage, what is the primary objective of the Paris Agreement?",
+      "options": ["To eliminate fossil fuel use completely", "To limit global warming to below 2°C", "To ban all greenhouse gases", "To encourage deforestation for development"],
+      "correctIndex": 1
+    },
+    {
+      "number": 116,
+      "section": "General English",
+      "contextText": "Passage Summary (Q115–Q119): Climate change involves long-term temperature and weather shifts driven primarily by human burning of fossil fuels (coal, oil, gas), releasing heat-trapping greenhouse gases and causing gradual planetary warming known as global warming. Its effects include melting glaciers and polar ice caps, rising sea levels endangering coastal communities, more frequent and intense extreme weather events (heatwaves, floods, hurricanes), and disrupted agricultural productivity threatening food security. Tackling it requires international cooperation through frameworks like the Paris Agreement, which aims to keep global warming well below 2°C above pre-industrial levels by cutting carbon emissions, adopting renewables, and adapting to unavoidable changes.",
+      "imageAssetPath": null,
+      "questionText": "Which effect is NOT listed in the passage as an outcome of climate change?",
+      "options": ["Rising sea levels", "Increased agricultural productivity", "Extreme weather events", "Melting of glaciers"],
+      "correctIndex": 1
+    },
+    {
+      "number": 117,
+      "section": "General English",
+      "contextText": "Passage Summary (Q115–Q119): Climate change involves long-term temperature and weather shifts driven primarily by human burning of fossil fuels (coal, oil, gas), releasing heat-trapping greenhouse gases and causing gradual planetary warming known as global warming. Its effects include melting glaciers and polar ice caps, rising sea levels endangering coastal communities, more frequent and intense extreme weather events (heatwaves, floods, hurricanes), and disrupted agricultural productivity threatening food security. Tackling it requires international cooperation through frameworks like the Paris Agreement, which aims to keep global warming well below 2°C above pre-industrial levels by cutting carbon emissions, adopting renewables, and adapting to unavoidable changes.",
+      "imageAssetPath": null,
+      "questionText": "According to the passage, what is the main driver of climate change?",
+      "options": ["Natural weather cycles", "Volcanic activity", "Human activities like burning fossil fuels", "Shifts in Earth's orbit"],
+      "correctIndex": 2
+    },
+    {
+      "number": 118,
+      "section": "General English",
+      "contextText": "Passage Summary (Q115–Q119): Climate change involves long-term temperature and weather shifts driven primarily by human burning of fossil fuels (coal, oil, gas), releasing heat-trapping greenhouse gases and causing gradual planetary warming known as global warming. Its effects include melting glaciers and polar ice caps, rising sea levels endangering coastal communities, more frequent and intense extreme weather events (heatwaves, floods, hurricanes), and disrupted agricultural productivity threatening food security. Tackling it requires international cooperation through frameworks like the Paris Agreement, which aims to keep global warming well below 2°C above pre-industrial levels by cutting carbon emissions, adopting renewables, and adapting to unavoidable changes.",
+      "imageAssetPath": null,
+      "questionText": "Which strategy does the passage highlight as essential to combat climate change?",
+      "options": ["Isolated national policies", "Development of new fossil fuel reserves", "International cooperation", "Building more industrial plants"],
+      "correctIndex": 2
+    },
+    {
+      "number": 119,
+      "section": "General English",
+      "contextText": "Passage Summary (Q115–Q119): Climate change involves long-term temperature and weather shifts driven primarily by human burning of fossil fuels (coal, oil, gas), releasing heat-trapping greenhouse gases and causing gradual planetary warming known as global warming. Its effects include melting glaciers and polar ice caps, rising sea levels endangering coastal communities, more frequent and intense extreme weather events (heatwaves, floods, hurricanes), and disrupted agricultural productivity threatening food security. Tackling it requires international cooperation through frameworks like the Paris Agreement, which aims to keep global warming well below 2°C above pre-industrial levels by cutting carbon emissions, adopting renewables, and adapting to unavoidable changes.",
+      "imageAssetPath": null,
+      "questionText": "What term denotes the gradual warming of Earth's surface described in the passage?",
+      "options": ["Acid rain", "Global warming", "Ozone depletion", "Deforestation"],
+      "correctIndex": 1
+    },
+    {
+      "number": 120,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the antonym of 'assuage' in: We have tried to assuage the feelings of our retrenched employees.",
+      "options": ["escalate", "limited", "prolix", "concise"],
+      "correctIndex": 0
+    },
+    {
+      "number": 121,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the right meaning of the idiom: Chase rainbows",
+      "options": ["To be unprepared for something", "To lose one's patience", "To pursue unrealistic goals", "To judge someone"],
+      "correctIndex": 2
+    },
+    {
+      "number": 122,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank: I don't know ____ she'll do it or not.",
+      "options": ["Whether", "To", "Or", "Not"],
+      "correctIndex": 0
+    },
+    {
+      "number": 123,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which word among the following is in the plural form?",
+      "options": ["Index", "Analysis", "Crisis", "Criteria"],
+      "correctIndex": 3
+    },
+    {
+      "number": 124,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Complete the sentence with the proper phrasal verb: The battalion operating from the mountain was able to ____ three enemy divisions.",
+      "options": ["tie up", "tie down", "tie on", "tie with"],
+      "correctIndex": 1
+    },
+    {
+      "number": 125,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the three blanks: When I heard the unusual sound, I ____ walked ____ the house and searched each room very ____.",
+      "options": ["calmly, through, carefully", "calmly, through, careful", "calm, through, careful", "calm, through, carefully"],
+      "correctIndex": 0
+    },
+    {
+      "number": 126,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the one-word substitute for: The policy of extending a country's empire and influence",
+      "options": ["Communism", "Internationalism", "Capitalism", "Imperialism"],
+      "correctIndex": 3
+    },
+    {
+      "number": 127,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the one-word substitute for: One who possesses many talents",
+      "options": ["Versatile", "Nubile", "Exceptional", "Gifted"],
+      "correctIndex": 0
+    },
+    {
+      "number": 128,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank: They are talking ____ a confidential matter, so do not interrupt.",
+      "options": ["in", "for", "on", "over"],
+      "correctIndex": 3
+    },
+    {
+      "number": 129,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the one-word substitute for: List of issues to be discussed at a meeting",
+      "options": ["Time table", "Plan", "Agenda", "Schedule"],
+      "correctIndex": 2
+    },
+    {
+      "number": 130,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Complete the indirect speech: He said to them, \"Don't make a noise\". He asked them ____.",
+      "options": ["not to make a noise", "to not make a noise", "don't make a noise", "to not to make a noise"],
+      "correctIndex": 0
+    },
+    {
+      "number": 131,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the closest synonym for: REDUNDANCY",
+      "options": ["Absence", "Dearth", "Paucity", "Excess"],
+      "correctIndex": 3
+    },
+    {
+      "number": 132,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank with the appropriate modal: She expected that her son ____ return.",
+      "options": ["can", "should", "may", "could"],
+      "correctIndex": 3
+    },
+    {
+      "number": 133,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank: She intended ____ in for the teaching profession.",
+      "options": ["to have gone", "to go", "for going", "will go"],
+      "correctIndex": 1
+    },
+    {
+      "number": 134,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Order sentences P, Q, R, S between S1 and S6:\nS1: At launch, a rocket rises slowly through the air.\nP: Yet the higher it climbs, the less air it encounters.\nQ: As it ascends, its speed increases.\nR: This happens because the atmosphere grows thinner.\nS: Consequently, air friction decreases.\nS6: As a result, the rocket still avoids overheating.",
+      "options": ["QPRS", "QSPR", "PQRS", "PQSR"],
+      "correctIndex": 0
+    },
+    {
+      "number": 135,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the meaning of the idiom: Pull your socks up",
+      "options": ["To get ready", "To start", "To finish", "To improve"],
+      "correctIndex": 3
+    },
+    {
+      "number": 136,
+      "section": "General English",
+      "contextText": "Cloze Passage (Q136–Q140): His conversation was lively with wit and humour. He loved reading. He was a ...(1)... reader who would pore over books ...(2)... diverse topics as ...(3)... as he obtained them. He had ...(4)... a standing order at two bookshops ...(5)... the city.",
+      "imageAssetPath": null,
+      "questionText": "Choose the most suitable word for blank (3).",
+      "options": ["firmly", "quickly", "soon", "urgently"],
+      "correctIndex": 2
+    },
+    {
+      "number": 137,
+      "section": "General English",
+      "contextText": "Cloze Passage (Q136–Q140): His conversation was lively with wit and humour. He loved reading. He was a ...(1)... reader who would pore over books ...(2)... diverse topics as ...(3)... as he obtained them. He had ...(4)... a standing order at two bookshops ...(5)... the city.",
+      "imageAssetPath": null,
+      "questionText": "Choose the most suitable word for blank (1).",
+      "options": ["voracious", "fervent", "anxious", "enthusiastic"],
+      "correctIndex": 0
+    },
+    {
+      "number": 138,
+      "section": "General English",
+      "contextText": "Cloze Passage (Q136–Q140): His conversation was lively with wit and humour. He loved reading. He was a ...(1)... reader who would pore over books ...(2)... diverse topics as ...(3)... as he obtained them. He had ...(4)... a standing order at two bookshops ...(5)... the city.",
+      "imageAssetPath": null,
+      "questionText": "Choose the most suitable word for blank (5).",
+      "options": ["at", "in", "within", "inside"],
+      "correctIndex": 1
+    },
+    {
+      "number": 139,
+      "section": "General English",
+      "contextText": "Cloze Passage (Q136–Q140): His conversation was lively with wit and humour. He loved reading. He was a ...(1)... reader who would pore over books ...(2)... diverse topics as ...(3)... as he obtained them. He had ...(4)... a standing order at two bookshops ...(5)... the city.",
+      "imageAssetPath": null,
+      "questionText": "Choose the most suitable word for blank (2).",
+      "options": ["covering", "barring", "including", "containing"],
+      "correctIndex": 0
+    },
+    {
+      "number": 140,
+      "section": "General English",
+      "contextText": "Cloze Passage (Q136–Q140): His conversation was lively with wit and humour. He loved reading. He was a ...(1)... reader who would pore over books ...(2)... diverse topics as ...(3)... as he obtained them. He had ...(4)... a standing order at two bookshops ...(5)... the city.",
+      "imageAssetPath": null,
+      "questionText": "Choose the most suitable word for blank (4).",
+      "options": ["offered", "proclaimed", "intimated", "given"],
+      "correctIndex": 3
+    },
+    {
+      "number": 141,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the erroneous part: The doctor referred (a) / the patient for the OPD (b) / without examining him (c).",
+      "options": ["Part (a)", "Part (b)", "Part (c)", "No error"],
+      "correctIndex": 1
+    },
+    {
+      "number": 142,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Complete the sentence logically: She never visits any zoo because she is a strong opponent of the idea of ____.",
+      "options": ["setting the animals free into forest", "watching the animals in their natural abode", "going out of the house on a holiday", "holding the animals in captivity for our joy"],
+      "correctIndex": 3
+    },
+    {
+      "number": 143,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Convert to active voice: Every passing vehicle was being thoroughly checked by the guards.",
+      "options": ["The guards have thoroughly checked every passing vehicle.", "Every passing vehicle were thoroughly checking the guards.", "The guards were thoroughly checking every passing vehicle.", "The guards have been thoroughly checking every passing vehicle."],
+      "correctIndex": 2
+    },
+    {
+      "number": 144,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Rearrange parts P, Q, R, S to complete: I read an advertisement that said\nP: posh, air-conditioned\nQ: gentleman of taste\nR: are available for\nS: fully furnished rooms",
+      "options": ["PQRS", "PSRQ", "PSQR", "SRPQ"],
+      "correctIndex": 1
+    },
+    {
+      "number": 145,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct modal verb: If I were you, I ____ consider the job offer seriously.",
+      "options": ["ought", "can", "would", "must"],
+      "correctIndex": 2
+    },
+    {
+      "number": 146,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the correctly spelt word.",
+      "options": ["Millennium", "Millenium", "Milenium", "Milennium"],
+      "correctIndex": 0
+    },
+    {
+      "number": 147,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the erroneous part: If you listen with (a) / the questions carefully (b) / you will be able to answer them easily (c).",
+      "options": ["Part (a)", "Part (b)", "Part (c)", "No error"],
+      "correctIndex": 0
+    },
+    {
+      "number": 148,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank: My cricket coach advised me to put in a lot more ____, if I really want to improve myself.",
+      "options": ["effort", "performance", "achievement", "skill"],
+      "correctIndex": 0
+    },
+    {
+      "number": 149,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank with the right sound word: Walking at 3 o'clock, I heard the ____ of thunder.",
+      "options": ["crackle", "rumble", "ripple", "clank"],
+      "correctIndex": 1
+    },
+    {
+      "number": 150,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Complete the comparative form with the same meaning as 'He is the richest man of this place': He is richer ____.",
+      "options": ["than any man of this place.", "than no man of this place.", "than any other man of this place.", "than of the men of the place."],
+      "correctIndex": 2
+    }
+  ]
+}

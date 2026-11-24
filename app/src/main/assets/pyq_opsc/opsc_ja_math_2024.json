@@ -1,0 +1,472 @@
+{
+  "id": "opsc_ja_math_2024",
+  "categoryId": "pyq_opsc",
+  "title": "OPSC Junior Assistant (JA) 2024 — Mathematics",
+  "subtitle": "Paper-III (Q.1–50) • 50 MCQs • 100 Marks • Official PYQ",
+  "durationMinutes": 90,
+  "negativeMarking": 0.5,
+  "marksPerQuestion": 2.0,
+  "questionCount": 50,
+  "questions": [
+    {
+      "number": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A shopkeeper offers his customers 10% discount and still makes a profit of 26%. What is the actual cost to him of an article marked Rs 280?",
+      "options": ["Rs. 252", "Rs. 250", "Rs. 200", "Rs. 152"],
+      "correctIndex": 2
+    },
+    {
+      "number": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A cycle merchant allows 25% commission on his advertised price and still makes a profit of 20%. If he gains Rs 60 over the sale of one cycle, find his advertised price.",
+      "options": ["Rs. 480", "Rs. 162.5", "Rs. 482", "Rs. 484"],
+      "correctIndex": 0
+    },
+    {
+      "number": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If the CP of 25 chairs is equal to the SP of 30 chairs, find the loss percent.",
+      "options": ["16 2/3 %", "5%", "16 1/3 %", "16 2/5 %"],
+      "correctIndex": 0
+    },
+    {
+      "number": 4,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "When 0.001̄ (repeating 001) is expressed in the form p/q, where p and q are integers not having any common factor except 1, then q is equal to:",
+      "options": ["9", "99", "999", "1000"],
+      "correctIndex": 2
+    },
+    {
+      "number": 5,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the value of 1/(3 3/5) + 1/(4 8/9) + 1/(3/5).",
+      "options": ["1 59/396", "2 59/396", "2 39/396", "1 49/396"],
+      "correctIndex": 1
+    },
+    {
+      "number": 6,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Reemu reads 1/5 th pages of a book. If she reads further 40 pages, she would have read 7/10 th pages of the book. How many pages are in the book?",
+      "options": ["80", "40", "90", "45"],
+      "correctIndex": 0
+    },
+    {
+      "number": 7,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The descending order of arrangement of the following numbers 17/30, -3/(-5), 4/(-15), -7/15 is:",
+      "options": [
+        "-3/(-5) < 17/30 < 4/(-15) < -7/15",
+        "-3/(-5) > 17/30 > 4/(-15) > -7/15",
+        "17/30 > -3/(-5) > 4/(-15) > -7/15",
+        "4/(-15) < -7/15 < -3/(-5) < 17/30"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 8,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If P = (-4/5) × (-10/9) × (3/4) and Q = (-6) × (7/5) × (2/3), then P + Q is equal to:",
+      "options": ["-2 14/15", "-4 14/15", "-3 14/15", "-1 14/15"],
+      "correctIndex": 1
+    },
+    {
+      "number": 9,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The value of ((5/13 × 6/15) ÷ (9/12 × 4/3)) - (3/11 × 5/6) is:",
+      "options": ["42/286", "109/286", "-21/286", "21/286"],
+      "correctIndex": 2
+    },
+    {
+      "number": 10,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find two numbers so that their mean proportional is 14 and third proportional is 112.",
+      "options": ["17 and 8", "7 and 12", "7 and 18", "7 and 28"],
+      "correctIndex": 3
+    },
+    {
+      "number": 11,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A mixture contains milk and water in the ratio 5:3. If 4 litres of this mixture is replaced (from 20 litres) by 4 litres of milk then the ratio of milk to water in new mixture will be :",
+      "options": ["7 : 3", "8 : 3", "9 : 7", "4 : 6"],
+      "correctIndex": 0
+    },
+    {
+      "number": 12,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the ratio among the time taken by three buses to travel the same distances if the ratios of their speed are 5 : 4 : 6.",
+      "options": ["10 : 12 : 15", "15 : 12 : 10", "10 : 15 : 12", "12 : 15 : 10"],
+      "correctIndex": 3
+    },
+    {
+      "number": 13,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Jennifer mixes 600 ml of orange juice with 2L of apple juice to make a fruit drink. Find the ratio of orange juice to apple juice in its simplest form.",
+      "options": ["1 : 3", "300 : 1", "3 : 10", "3 : 2"],
+      "correctIndex": 2
+    },
+    {
+      "number": 14,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If (4x + 3y) : (6x + 5y) = 11 : 17 then find x : y.",
+      "options": ["3 : 1", "2 : 1", "1 : 2", "5 : 2"],
+      "correctIndex": 1
+    },
+    {
+      "number": 15,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The ratio of the volumes of three buckets is 3 : 4 : 5. Buckets contain the mixture of water and alcohol. If the mixture contains water and alcohol in the ratio 1:4, 1:3 and 2:5 respectively then find the ratio of water and alcohol when the mixture in all containers are poured in fourth container.",
+      "options": ["35 : 57", "53 : 157", "157 : 53", "35 : 157"],
+      "correctIndex": 1
+    },
+    {
+      "number": 16,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The marked price of a shirt is Rs 940 and the shopkeeper allows a discount of 15% on it. Find the selling price of the shirt.",
+      "options": ["Rs. 895", "Rs. 656", "Rs. 785", "Rs. 799"],
+      "correctIndex": 3
+    },
+    {
+      "number": 17,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The price of a refrigerator is reduced from Rs. 9600 to Rs. 8,448 in the winter season. Find the percentage of discount.",
+      "options": ["9%", "1%", "11%", "12%"],
+      "correctIndex": 3
+    },
+    {
+      "number": 18,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Calculate the simple interest on a sum of $1200 at the rate of 5% per annum for two years.",
+      "options": ["$120", "$60", "$180", "$90"],
+      "correctIndex": 0
+    },
+    {
+      "number": 19,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the compound interest on a sum of $1500 for two years at the rate of 5% per annum compounded annually.",
+      "options": ["$163.75", "$155.75", "$153.75", "$151.75"],
+      "correctIndex": 2
+    },
+    {
+      "number": 20,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the compound interest on Rs. 33,280 for 3 years, if the rate of interest is 12 1/2 % p.a.",
+      "options": ["Rs. 14,105", "Rs. 14,102", "Rs. 15,207", "Rs. 16,209"],
+      "correctIndex": 0
+    },
+    {
+      "number": 21,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A sum of Rs 1,300 is lent into two parts so that interest on the 1st part for 3 years at 5% may be equal to the interest at the second part for 4 years at 6%. The 1st sum is:",
+      "options": ["Rs. 600", "Rs. 800", "Rs. 500", "Rs. 400"],
+      "correctIndex": 1
+    },
+    {
+      "number": 22,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "I mark up the computers I am selling by 20% and sell them at a discount of 15%. What is my net gain percent?",
+      "options": ["5%", "2%", "12%", "8%"],
+      "correctIndex": 1
+    },
+    {
+      "number": 23,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A trader marks his goods 40% above the cost price and gives a discount of 20% on the marked price. Find his gain percent.",
+      "options": ["8%", "5%", "22%", "12%"],
+      "correctIndex": 3
+    },
+    {
+      "number": 24,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "After allowing a discount of 12% on the marked price of an article it is sold for Rs. 880. Find its marked price.",
+      "options": ["700/-", "1200/-", "1000/-", "600/-"],
+      "correctIndex": 2
+    },
+    {
+      "number": 25,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "200 Kg of sugar was purchased at the rate of Rs 15 per kg and sold at a profit of 5%. Compute the selling price per Kg.",
+      "options": ["Rs. 15.75", "Rs. 25.75", "Rs. 12.75", "Rs. 14.75"],
+      "correctIndex": 0
+    },
+    {
+      "number": 26,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The population of a town is 176400. If it increases at the rate of 5% per annum then what was its population 2 years ago?",
+      "options": ["166400", "16440", "16000", "160000"],
+      "correctIndex": 3
+    },
+    {
+      "number": 27,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Due to reduction of 6 1/4 % in the price of sugar, a man is able to buy 1 kg more sugar for Rs 120. The reduced rate of sugar is:",
+      "options": ["Rs. 7.5 per kg", "Rs. 6.5 per kg", "Rs. 7 per kg", "Rs. 6 per kg"],
+      "correctIndex": 0
+    },
+    {
+      "number": 28,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a certain year the population of London is 200000. If it increases at the rate of 6.5% per annum then what will be its population after 2 years?",
+      "options": ["228645", "226845", "228655", "228635"],
+      "correctIndex": 1
+    },
+    {
+      "number": 29,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a class of 38 girls, 3 are absent, 20% of the remainder have failed to do their home work. Find the number of girls who did their home work.",
+      "options": ["25", "28", "7", "30"],
+      "correctIndex": 1
+    },
+    {
+      "number": 30,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The population of a village is 4500. (11/18)th of them are males and the rest are females. If 40% of the females are married, then the number of unmarried females is:",
+      "options": ["1150", "1050", "905", "509"],
+      "correctIndex": 1
+    },
+    {
+      "number": 31,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "George bought a V.C.R. at the list price of Rs. 18,500. If the rate of VAT was 8%, find the amount he had to pay for purchasing the V.C.R.",
+      "options": ["Rs. 19980", "Rs. 19890", "Rs. 19880", "Rs. 19990"],
+      "correctIndex": 0
+    },
+    {
+      "number": 32,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "David purchased a pair of shoes for Rs. 441 including value added tax. If the sale price of the shoes is Rs. 420, find the rate of VAT.",
+      "options": ["4%", "8%", "5%", "10%"],
+      "correctIndex": 2
+    },
+    {
+      "number": 33,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Amit purchases a motorcycle, having marked price Rs. 46,000 at a discount of 5%. If VAT is charged at the rate of 10%, find the amount Amit has paid to purchase the motor cycle.",
+      "options": ["Rs. 45,060", "Rs. 48,070", "Rs. 45,600", "Rs. 48,700"],
+      "correctIndex": 1
+    },
+    {
+      "number": 34,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Robert can finish the writing of the book in 8 days while James can finish the same work in 10 days. If they work together then how long they will take to finish the same work?",
+      "options": ["4 5/9 days", "4 3/9 days", "4 2/9 days", "4 4/9 days"],
+      "correctIndex": 3
+    },
+    {
+      "number": 35,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A can do a bit of work in 25 days which B can complete in 20 days. Both together labour for 5 days and afterward A leaves off. How long will B take to complete the remaining work?",
+      "options": ["11 days", "10 days", "12 days", "8 days"],
+      "correctIndex": 0
+    },
+    {
+      "number": 36,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A and B can do a bit of work in 12 days. B and C can do it in 15 days while C and A can do it in 20 days. In how long will they complete it cooperating? Additionally, in how long can A alone do it?",
+      "options": ["15 days; 20 days", "20 days; 15 days", "10 days; 30 days", "15 days; 15 days"],
+      "correctIndex": 2
+    },
+    {
+      "number": 37,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Time taken by A to finish a piece of work is twice the time taken by B and thrice the time taken by C. If all three of them work together, it takes them 2 days to complete the entire work. In how many days can the work be done by B alone?",
+      "options": ["3 days", "6 days", "5 days", "4 days"],
+      "correctIndex": 1
+    },
+    {
+      "number": 38,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A can fabricate a divider in 30 days, while B alone can assemble it in 40 days. If they construct it together and get an installment of Rs. 7000, what is B's share?",
+      "options": ["Rs. 3000/-", "Rs. 2500/-", "Rs. 2000/-", "Rs. 3500/-"],
+      "correctIndex": 0
+    },
+    {
+      "number": 39,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In 40 liters of a mixture of milk and water, the ratio of milk to water is 7:1. To make the ratio of milk to water as 3:1, how much amount of water is to be added in liters?",
+      "options": ["6 1/3 lt", "6 2/3 lt", "6 1/2 lt", "5 1/2 lt"],
+      "correctIndex": 1
+    },
+    {
+      "number": 40,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A mixture contains two liquids A and B mixed in ratio 4:1. When 10 liters of the mixture is replaced by equal volume of liquid B, the ratio of A and B changes to 2:3. The volume of liquid A in liters initially was:",
+      "options": ["15 liters", "20 liters", "16 liters", "12 liters"],
+      "correctIndex": 2
+    },
+    {
+      "number": 41,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two pipes A and B can fill a tank in 16 hours and 20 hours respectively. If both the pipes are opened simultaneously, how much time will be taken to fill the tank?",
+      "options": ["8 1/9 hrs", "8 5/9 hrs", "8 8/9 hrs", "8 2/9 hrs"],
+      "correctIndex": 2
+    },
+    {
+      "number": 42,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A tank can fill by a tap in 8 hours and can be emptied by another tap in 10 hrs. How long will it take to fill the tank if both the taps are open together?",
+      "options": ["40 hrs", "35 hrs", "30 hrs", "25 hrs"],
+      "correctIndex": 0
+    },
+    {
+      "number": 43,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Ajay walked 25 meters towards South, then he turned to his left and walked 20 meters. He then turned to his left and walked 25 meters and again turned to his right and walked 15 meters. At what distance is he from the starting point and in which direction?",
+      "options": ["35 m East", "30 m South", "40 m East", "50 m East"],
+      "correctIndex": 0
+    },
+    {
+      "number": 44,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A person travels from one place to another at 30 Km/hr and returns at 120 km/hr. If the total time taken is 5 hrs, then find the Distance.",
+      "options": ["80 Km", "100 Km", "110 Km", "120 Km"],
+      "correctIndex": 3
+    },
+    {
+      "number": 45,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Ram and Rohim have to travel from Delhi to Jaipur in their respective cars. Ram is driving at 60 Kmph while Rohim is driving at 90 Kmph. Find the time taken by Rohim to reach Jaipur if Ram takes 9 hrs.",
+      "options": ["6 hrs", "9 hrs", "8 hrs", "10 hrs"],
+      "correctIndex": 0
+    },
+    {
+      "number": 46,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If the range of 16, 15, 21, 28, 48 and a is 34, then a =",
+      "options": ["14", "49", "Either (A) or (B)", "Neither (A) nor (B)"],
+      "correctIndex": 2
+    },
+    {
+      "number": 47,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The Present Ages of 3 persons are in the Proportion of 4:7:9. 8 years ago the sum of their ages was 56. Find their present ages.",
+      "options": ["16, 28 and 36 years", "20, 35 and 45 years", "8, 20 and 28 years", "16, 24 and 32 years"],
+      "correctIndex": 0
+    },
+    {
+      "number": 48,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a frequency distribution, the mid-value of a class is 10 and width of the class is 6. The lower limit of the class is:",
+      "options": ["6", "8", "7", "9"],
+      "correctIndex": 2
+    },
+    {
+      "number": 49,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If the mean of a, b, c, d and e is 5, then the value of (a - 5) + (b - 5) + (c - 5) + (d - 5) + (e - 5) is:",
+      "options": ["25", "5", "10", "0"],
+      "correctIndex": 3
+    },
+    {
+      "number": 50,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The mean, median and mode of a distribution are connected by the following relation :",
+      "options": [
+        "Median = (Mean + Mode) / 2",
+        "Mode = 3 Median - 2 Mean",
+        "Mean = 3 Median - 2 Mode",
+        "Median = 2 Mean - 3 Mode"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

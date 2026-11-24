@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.examprep"
+    namespace = "com.examprep"
     compileSdk = 36
 
     defaultConfig {
@@ -28,11 +28,15 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            ndk {
+                debugSymbolLevel = "SYMBOL_TABLE"
+            }
         }
         debug {
             signingConfig = signingConfigs.getByName("debugConfig")
@@ -66,7 +70,8 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material:material-icons-extended")
-    implementation("androidx.activity:activity-compose:1.9.3")
+    implementation("androidx.activity:activity-compose:1.10.1")
+    implementation("androidx.fragment:fragment-ktx:1.8.6")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
     implementation("androidx.core:core-ktx:1.15.0")
@@ -80,9 +85,11 @@ dependencies {
     implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.9.0")
 
-    // Networking & PDF extraction dependencies removed per user request
-    // implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    // implementation("com.tom-roush:pdfbox-android:2.0.27.0")
+    constraints {
+        implementation("androidx.fragment:fragment:1.8.6") {
+            because("Resolves Google Play Console outdated SDK warning for transitive androidx.fragment:fragment:1.1.0")
+        }
+    }
 
     testImplementation("junit:junit:4.13.2")
 }

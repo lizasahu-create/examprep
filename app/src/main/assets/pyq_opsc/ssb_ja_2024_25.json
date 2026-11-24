@@ -1,0 +1,1072 @@
+{
+  "id": "ssb_ja_2024_25",
+  "categoryId": "pyq_opsc",
+  "title": "SSB Junior Assistant (JA) 2024–25 — Full Paper",
+  "questions": [
+    {
+      "number": 1,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the correct verb form: When I stepped out of the office yesterday evening, it (rain).",
+      "options": ["is raining", "was raining", "has been raining", "rains"],
+      "correctIndex": 1
+    },
+    {
+      "number": 2,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the correct non-finite verb: I saw a young boy ____ on the road.",
+      "options": ["dance", "to dance", "danced", "dancing"],
+      "correctIndex": 3
+    },
+    {
+      "number": 3,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the blank with the right modal: I feared that he ____ catch a cold.",
+      "options": ["might", "will", "can", "should"],
+      "correctIndex": 0
+    },
+    {
+      "number": 4,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the grammatically correct sentence.",
+      "options": [
+        "Lightning as well as thunder were dancing with him then.",
+        "Lightning as well as thunder was dancing with him then.",
+        "Lightning as well as thunder dance with him then.",
+        "Lightning as well as thunder has been dancing with him then."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 5,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the right verb form: I walked over to him and (hold) my open umbrella above his head.",
+      "options": ["holding", "hold", "held", "holds"],
+      "correctIndex": 2
+    },
+    {
+      "number": 6,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Complete the sentence: He gave me an ____ smile.",
+      "options": ["amusing", "amused", "amuse", "amusingly"],
+      "correctIndex": 1
+    },
+    {
+      "number": 7,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which sentence below is grammatically correct?",
+      "options": [
+        "None but the boy was present on the road then.",
+        "None but the boy is present on the road then.",
+        "None but the boy were present on the road then.",
+        "None but the boy have been present on the road then."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 8,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Convert to passive voice: \"He thanked me.\"",
+      "options": ["I am thanked.", "I was thanked.", "I have been thanked.", "I had been thanked."],
+      "correctIndex": 1
+    },
+    {
+      "number": 9,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Transform into an exclamatory sentence: \"It was a very beautiful night.\"",
+      "options": [
+        "How beautiful was the night!",
+        "How beautiful the night was!",
+        "How a very beautiful night!",
+        "How beautiful night!"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 10,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the sentence type: \"A tiger was yawning at the sky.\"",
+      "options": ["Declarative", "Interrogative", "Imperative", "Exclamatory"],
+      "correctIndex": 0
+    },
+    {
+      "number": 11,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Combine using 'not only ... but also': \"The tiger was hungry. The tiger was thirsty.\"",
+      "options": [
+        "Not only the tiger was hungry but also thirsty.",
+        "The tiger was not only hungry but thirsty.",
+        "The tiger was not only hungry but also thirsty.",
+        "The tiger not only was hungry but also thirsty."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 12,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In \"The tiger thought that he would look for a prey\", what is the function of the noun clause \"that he would look for a prey\"?",
+      "options": [
+        "Subject of the sentence",
+        "Object of a transitive verb",
+        "A complement of a verb",
+        "An object of a preposition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 13,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In \"He lazily walked to a stream because he always found animals there\", identify the kind of adverb clause in \"because he always found animals there\".",
+      "options": ["place", "manner", "time", "reason"],
+      "correctIndex": 3
+    },
+    {
+      "number": 14,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Convert to indirect speech: A deer said to his son, \"Keep quiet.\"",
+      "options": [
+        "A deer urged his son to keep quiet.",
+        "A deer urges his son to keep quiet.",
+        "A deer urged his son to keeping quiet.",
+        "A deer urged his son keep quiet."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 15,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Convert to direct speech: The son asked his father if the tiger had seen them.",
+      "options": [
+        "The son said to his father, \"Has the tiger seen them?\"",
+        "The son said to his father, \"Can the tiger see us?\"",
+        "The son said to his father, \"Could the tiger see us?\"",
+        "The son said to his father, \"Did the tiger see us?\""
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 16,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Rewrite in comparative degree: \"The tiger is the most ferocious animal in the forest.\"",
+      "options": [
+        "The tiger is more ferocious than any other animal in the forest.",
+        "No other animal in the forest is as ferocious as the tiger.",
+        "The tiger is more ferocious of all the animals in the forest.",
+        "Very few animals in the forest are more ferocious than the tiger."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 17,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following sentences is grammatically accurate?",
+      "options": [
+        "Ramayana is a holy book.",
+        "Valmiki's Ramayana is written in Sanskrit.",
+        "Ramachandra is the hero of Ramayana.",
+        "Ravan is the villain of Ramayana."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 18,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the sentence in which an abstract noun serves as the subject.",
+      "options": [
+        "The elephant has great strength.",
+        "Solomon was famous for his wisdom.",
+        "Cleanliness is next to godliness.",
+        "A committee was appointed to decide the case."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 19,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In \"We rarely go to the movies on Sundays\", what part of speech does the adverb \"rarely\" modify?",
+      "options": ["a noun", "a pronoun", "a verb", "an adverb"],
+      "correctIndex": 2
+    },
+    {
+      "number": 20,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Fill in the correct preposition: I am grateful ____ you for your help.",
+      "options": ["for", "to", "with", "by"],
+      "correctIndex": 1
+    },
+    {
+      "number": 21,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Choose the right adjective form: Honour is ____ to him than life.",
+      "options": ["dear", "dearer", "dearest", "too dear"],
+      "correctIndex": 1
+    },
+    {
+      "number": 22,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Identify the abstract noun in: \"The President awarded medals to the soldiers for their bravery.\"",
+      "options": ["The President", "medals", "soldiers", "bravery"],
+      "correctIndex": 3
+    },
+    {
+      "number": 23,
+      "section": "General English",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Select the suitable preposition: Children are afraid ____ darkness.",
+      "options": ["for", "to", "about", "of"],
+      "correctIndex": 3
+    },
+    {
+      "number": 24,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): People frequently wear earphones on busy streets, vehicles, and at work for personal entertainment, which can create risky or awkward incidents. The narrator describes an electrician who failed to repair a water pump properly because wearing earphones prevented him from hearing the instructions clearly. On another occasion aboard the Konark Express near Kalupada Ghat, the narrator spotted an unattended large bag under a berth and feared it contained a bomb, until its young owner—who had been leaning by the door with earphones on—came to collect it. The writer warns that using earphones while walking or driving diverts attention from personal safety and causes absentmindedness, concluding that giving in to any addiction degrades quality of life.",
+      "imageAssetPath": null,
+      "questionText": "According to the passage, why do people commonly use earphones?",
+      "options": [
+        "to keep themselves busy",
+        "for personal entertainment",
+        "for adventure",
+        "to show off"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 25,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): People frequently wear earphones on busy streets, vehicles, and at work for personal entertainment, which can create risky or awkward incidents. The narrator describes an electrician who failed to repair a water pump properly because wearing earphones prevented him from hearing the instructions clearly. On another occasion aboard the Konark Express near Kalupada Ghat, the narrator spotted an unattended large bag under a berth and feared it contained a bomb, until its young owner—who had been leaning by the door with earphones on—came to collect it. The writer warns that using earphones while walking or driving diverts attention from personal safety and causes absentmindedness, concluding that giving in to any addiction degrades quality of life.",
+      "imageAssetPath": null,
+      "questionText": "Why did the electrician fail to repair the water pump properly?",
+      "options": [
+        "He could not find any fault with it.",
+        "The pump was beyond repair.",
+        "He had no spare part with him.",
+        "He had not heard the writer's direction clearly."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 26,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): People frequently wear earphones on busy streets, vehicles, and at work for personal entertainment, which can create risky or awkward incidents. The narrator describes an electrician who failed to repair a water pump properly because wearing earphones prevented him from hearing the instructions clearly. On another occasion aboard the Konark Express near Kalupada Ghat, the narrator spotted an unattended large bag under a berth and feared it contained a bomb, until its young owner—who had been leaning by the door with earphones on—came to collect it. The writer warns that using earphones while walking or driving diverts attention from personal safety and causes absentmindedness, concluding that giving in to any addiction degrades quality of life.",
+      "imageAssetPath": null,
+      "questionText": "How did the narrator react upon noticing the large bag beneath a berth?",
+      "options": [
+        "He was curious.",
+        "He was glad.",
+        "He was afraid.",
+        "He was tempted to possess it."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 27,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): People frequently wear earphones on busy streets, vehicles, and at work for personal entertainment, which can create risky or awkward incidents. The narrator describes an electrician who failed to repair a water pump properly because wearing earphones prevented him from hearing the instructions clearly. On another occasion aboard the Konark Express near Kalupada Ghat, the narrator spotted an unattended large bag under a berth and feared it contained a bomb, until its young owner—who had been leaning by the door with earphones on—came to collect it. The writer warns that using earphones while walking or driving diverts attention from personal safety and causes absentmindedness, concluding that giving in to any addiction degrades quality of life.",
+      "imageAssetPath": null,
+      "questionText": "Why is wearing earphones hazardous while walking or driving?",
+      "options": [
+        "It diverts attention away from personal safety.",
+        "It increases concentration on the road.",
+        "It adds to work efficiency.",
+        "It cuts down outside noise."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 28,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): People frequently wear earphones on busy streets, vehicles, and at work for personal entertainment, which can create risky or awkward incidents. The narrator describes an electrician who failed to repair a water pump properly because wearing earphones prevented him from hearing the instructions clearly. On another occasion aboard the Konark Express near Kalupada Ghat, the narrator spotted an unattended large bag under a berth and feared it contained a bomb, until its young owner—who had been leaning by the door with earphones on—came to collect it. The writer warns that using earphones while walking or driving diverts attention from personal safety and causes absentmindedness, concluding that giving in to any addiction degrades quality of life.",
+      "imageAssetPath": null,
+      "questionText": "What diminishes the quality of one's life according to the writer?",
+      "options": ["entertainment", "moments of privacy", "addictions", "love for music"],
+      "correctIndex": 2
+    },
+    {
+      "number": 29,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): People frequently wear earphones on busy streets, vehicles, and at work for personal entertainment, which can create risky or awkward incidents. The narrator describes an electrician who failed to repair a water pump properly because wearing earphones prevented him from hearing the instructions clearly. On another occasion aboard the Konark Express near Kalupada Ghat, the narrator spotted an unattended large bag under a berth and feared it contained a bomb, until its young owner—who had been leaning by the door with earphones on—came to collect it. The writer warns that using earphones while walking or driving diverts attention from personal safety and causes absentmindedness, concluding that giving in to any addiction degrades quality of life.",
+      "imageAssetPath": null,
+      "questionText": "Which word from the passage refers to 'the compulsive habit of doing or using something harmful'?",
+      "options": ["absentmindedness", "addiction", "determination", "efficiency"],
+      "correctIndex": 1
+    },
+    {
+      "number": 30,
+      "section": "Reading Comprehension",
+      "contextText": "Summary of Passage (Q.24–30): People frequently wear earphones on busy streets, vehicles, and at work for personal entertainment, which can create risky or awkward incidents. The narrator describes an electrician who failed to repair a water pump properly because wearing earphones prevented him from hearing the instructions clearly. On another occasion aboard the Konark Express near Kalupada Ghat, the narrator spotted an unattended large bag under a berth and feared it contained a bomb, until its young owner—who had been leaning by the door with earphones on—came to collect it. The writer warns that using earphones while walking or driving diverts attention from personal safety and causes absentmindedness, concluding that giving in to any addiction degrades quality of life.",
+      "imageAssetPath": null,
+      "questionText": "Which word is the antonym of 'dangerous'?",
+      "options": ["safe", "harmful", "unpleasant", "injurious"],
+      "correctIndex": 0
+    },
+    {
+      "number": 31,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Arrange the following historical battles in chronological order:\nI. Battle of Chanderi\nII. Battle of Chausa\nIII. Battle of Daurah\nIV. Battle of Ghagra",
+      "options": ["I, II, III, IV", "I, IV, III, II", "II, III, IV, I", "II, IV, III, I"],
+      "correctIndex": 1
+    },
+    {
+      "number": 32,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which European nation first discovered a direct sea route to India?",
+      "options": ["Danish", "English", "Portuguese", "Spanish"],
+      "correctIndex": 2
+    },
+    {
+      "number": 33,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which Governor-General of British India forged the Triple Alliance against Tipu Sultan?",
+      "options": ["Lord Cornwallis", "Lord Minto", "Lord Wellesley", "Warren Hastings"],
+      "correctIndex": 0
+    },
+    {
+      "number": 34,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which Indian coastal region receives rainfall in two distinct seasons during the year?",
+      "options": [
+        "The Coromandel coast",
+        "The Kanada coast",
+        "The Konkan coast",
+        "The Malabar coast"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 35,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which pair of young fold mountains and continent is incorrectly matched?",
+      "options": [
+        "The Alps – Europe",
+        "The Andes – South America",
+        "The Atlas – Australia",
+        "The Rockies – North America"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 36,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Evaluate the statements about Ladakh:\n(i) It is a high plateau.\n(ii) It is a warm desert.\n(iii) The Indus River cuts through it in a deep gorge.\n(iv) Several saltwater lakes are located there.\nWhich statements are true?",
+      "options": [
+        "(i), (ii) and (iii) are correct",
+        "(i), (iii) and (iv) are correct",
+        "(ii), (iii) and (iv) are correct",
+        "All the four are correct"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 37,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which group does NOT consist exclusively of national capital cities?",
+      "options": [
+        "Accra; Beijing; Brasilia; Prague",
+        "Bangkok; Budapest; Buenos Aires; Nairobi",
+        "Canberra; Rabat; Venice; Vientiane",
+        "Khartoum; Oslo; Phnom Penh; Santiago"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 38,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Three of the following enclaves belong to the same Union Territory of India. Identify the odd one out.",
+      "options": ["Dadra", "Karaikal", "Mahe", "Yanam"],
+      "correctIndex": 0
+    },
+    {
+      "number": 39,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which country is NOT a member of the G-7 grouping?",
+      "options": ["Canada", "Germany", "Japan", "Russia"],
+      "correctIndex": 3
+    },
+    {
+      "number": 40,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who wrote \"Poverty and Un-British Rule in India\"?",
+      "options": [
+        "Bal Gangadhar Tilak",
+        "Dadabhai Naoroji",
+        "Lala Lajpat Rai",
+        "Vinayak Damodar Savarkar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 41,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who authored the famous Nobel-linked study \"Asian Drama\"?",
+      "options": ["Abhijit Banerjee", "Amartya Sen", "Angus S. Deaton", "Gunnar Myrdal"],
+      "correctIndex": 3
+    },
+    {
+      "number": 42,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Three of these books were authored by Arundhati Roy. Identify the one she did NOT write.",
+      "options": [
+        "The God of Small Things",
+        "The Hindu Way: An Introduction to Hinduism",
+        "The Algebra of Infinite Justice",
+        "The Ministry of Utmost Happiness"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 43,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which scientist–honorific title pair is incorrectly matched?",
+      "options": [
+        "Edward Jenner – Father of Immunology",
+        "Gregor Mendel – Father of Modern Genetics",
+        "Louis Pasteur – Father of Bacteriology",
+        "W.M. Stanley – Father of Ecology"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "number": 44,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which technology company introduced the AI coding assistant named 'Studio Bot'?",
+      "options": ["Apple", "Google", "Intel", "Microsoft"],
+      "correctIndex": 1
+    },
+    {
+      "number": 45,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who served as the Chief Election Commissioner of India as of December 2024?",
+      "options": ["Sri Arun Goel", "Sri Gyanesh Kumar", "Sri Rajiv Kumar", "Sri Sushil Chandra"],
+      "correctIndex": 2
+    },
+    {
+      "number": 46,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Simon Harris became the Prime Minister (Taoiseach) of which country in 2024?",
+      "options": ["Iceland", "Ireland", "Netherlands", "Switzerland"],
+      "correctIndex": 1
+    },
+    {
+      "number": 47,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Who became India's 85th Chess Grandmaster in 2024?",
+      "options": [
+        "Nihal Sarin",
+        "P. Shyaamnikhil",
+        "Rameshbabu Praggnanandhaa",
+        "Vaishali Rameshbabu"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 48,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Match events from Buddha's life with their places:\n(a) Birth of Buddha | (b) Death of Buddha | (c) Enlightenment | (d) First Sermon | (e) Forest Monastery\nPlaces: (i) Bodh Gaya, (ii) Kushinagar, (iii) Lumbini, (iv) Rajgriha, (v) Sanchi, (vi) Sarnath",
+      "options": [
+        "(a)-ii, (b)-iii, (c)-i, (d)-v, (e)-iv",
+        "(a)-iii, (b)-ii, (c)-i, (d)-vi, (e)-iv",
+        "(a)-iii, (b)-ii, (c)-iv, (d)-i, (e)-v",
+        "(a)-iii, (b)-iv, (c)-ii, (d)-i, (e)-v"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 49,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Match each river with its dam:\n(a) Beas | (b) Kaveri | (c) Krishna | (d) Narmada | (e) Sutlej\nDams: (i) Bhakra, (ii) Jaikawadi, (iii) Mettur, (iv) Pong, (v) Sardar Sarovar, (vi) Srisailam",
+      "options": [
+        "(a)-ii, (b)-iii, (c)-vi, (d)-v, (e)-iv",
+        "(a)-iv, (b)-ii, (c)-vi, (d)-iii, (e)-i",
+        "(a)-iv, (b)-iii, (c)-vi, (d)-v, (e)-i",
+        "(a)-iv, (b)-iii, (c)-ii, (d)-v, (e)-i"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 50,
+      "section": "General Knowledge",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Match each international organization with its headquarters:\n(a) FAO | (b) IMF | (c) UNESCO | (d) UNICEF | (e) WHO\nCities: (i) Geneva, (ii) London, (iii) New York, (iv) Paris, (v) Rome, (vi) Washington D.C.",
+      "options": [
+        "(a)-v, (b)-vi, (c)-iv, (d)-iii, (e)-i",
+        "(a)-ii, (b)-vi, (c)-iv, (d)-v, (e)-i",
+        "(a)-v, (b)-ii, (c)-iv, (d)-iii, (e)-vi",
+        "(a)-v, (b)-vi, (c)-ii, (d)-iii, (e)-i"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 51,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Evaluate: 9.6 × 3.6 ÷ 7.2 + 10.8 of (1/18) − (1/10)",
+      "options": ["5.1", "5.2", "5.3", "5.4"],
+      "correctIndex": 2
+    },
+    {
+      "number": 52,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The decimal expansion of a rational number can NEVER be:",
+      "options": [
+        "terminating",
+        "non-terminating and non-repeating",
+        "non-terminating",
+        "non-terminating and repeating"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 53,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the smallest multiple of 7 that leaves a remainder of 4 when divided by 6, 9, 15, and 18.",
+      "options": ["74", "94", "184", "364"],
+      "correctIndex": 3
+    },
+    {
+      "number": 54,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Three pairwise co-prime numbers have the product of the first two equal to 551 and the product of the last two equal to 1073. Find the sum of all three numbers.",
+      "options": ["75", "81", "85", "89"],
+      "correctIndex": 2
+    },
+    {
+      "number": 55,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Evaluate the two statements:\nS₁: The square root of an n-digit perfect square has (n+1)/2 digits when n is odd.\nS₂: The square root of an n-digit perfect square has (n+2)/2 digits when n is even.",
+      "options": [
+        "S₁ is true, but S₂ is false",
+        "S₁ is false, but S₂ is true",
+        "Both S₁ and S₂ are true",
+        "Both S₁ and S₂ are false"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 56,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find the cube root of 0.001331.",
+      "options": ["0.111", "0.101", "0.11", "0.011"],
+      "correctIndex": 2
+    },
+    {
+      "number": 57,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Ten men average a salary of Rs. 6,000, while a group of women averages Rs. 5,000. If the combined average of all men and women is Rs. 5,400, how many women are there?",
+      "options": ["10", "15", "20", "25"],
+      "correctIndex": 1
+    },
+    {
+      "number": 58,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If simple interest on Rs. 5,000 over 3 years is Rs. 1,500, what is the annual interest rate?",
+      "options": ["8%", "10%", "11%", "12%"],
+      "correctIndex": 1
+    },
+    {
+      "number": 59,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A bank pays 5% per annum compound interest compounded half-yearly. A depositor puts in Rs. 1,600 on 1 January and another Rs. 1,600 on 1 July. How much total interest is earned by year-end?",
+      "options": ["Rs. 123", "Rs. 122", "Rs. 121", "Rs. 120"],
+      "correctIndex": 2
+    },
+    {
+      "number": 60,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two bicycles are sold for Rs. 3,990 each—one at a 5% gain and the other at a 5% loss. What is the overall percentage gain or loss?",
+      "options": ["0.25% loss", "0.5% gain", "0.65% loss", "Neither loss nor gain"],
+      "correctIndex": 0
+    },
+    {
+      "number": 61,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A seller makes a 12% profit after offering a 10% discount on a book's printed price. Find the ratio of cost price to printed price.",
+      "options": ["45 : 51", "45 : 56", "47 : 51", "47 : 56"],
+      "correctIndex": 1
+    },
+    {
+      "number": 62,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Rice costing Rs. 15/kg and rice costing Rs. 20/kg are blended in the ratio 2 : 3. What is the per-kg price of the blend?",
+      "options": ["Rs. 19.50", "Rs. 19.00", "Rs. 18.50", "Rs. 18.00"],
+      "correctIndex": 3
+    },
+    {
+      "number": 63,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "P and Q invested Rs. 4,000 and Rs. 6,000 respectively in a venture and made Rs. 3,000 profit after 6 months. What is Q's share of the profit?",
+      "options": ["Rs. 1,800", "Rs. 1,500", "Rs. 1,300", "Rs. 1,100"],
+      "correctIndex": 0
+    },
+    {
+      "number": 64,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Positive quantities x and y vary inversely. If x rises by 10%, by what percent does y decrease?",
+      "options": ["100/11 %", "10/11 %", "2/11 %", "10%"],
+      "correctIndex": 0
+    },
+    {
+      "number": 65,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The salaries of P, Q, and R stand in the ratio 1 : 3 : 4. After increments of 5%, 10%, and 15% respectively, what is the new ratio?",
+      "options": ["19 : 66 : 92", "20 : 66 : 95", "21 : 66 : 92", "23 : 66 : 96"],
+      "correctIndex": 2
+    },
+    {
+      "number": 66,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "P and Q accept a Rs. 500 contract. Alone, P takes 30 days and Q takes 60 days. With R's help, all three finish in 9 days. How much should R be paid?",
+      "options": ["Rs. 250.00", "Rs. 275.00", "Rs. 300.00", "Rs. 320.00"],
+      "correctIndex": 1
+    },
+    {
+      "number": 67,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A ship crosses a straight channel at a 30° angle to the shoreline, covering 200 metres to reach the opposite shore. What is the perpendicular width of the channel?",
+      "options": ["150 metres", "110 metres", "100 metres", "50 metres"],
+      "correctIndex": 2
+    },
+    {
+      "number": 68,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "In a dataset, Mean − Mode = 48 and Median = 12. Using the empirical relation, find the Mean.",
+      "options": ["28", "32", "38", "42"],
+      "correctIndex": 0
+    },
+    {
+      "number": 69,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A firm's net profit after tax is Rs. 1,00,000, long-term debt interest is Rs. 20,000, and the income tax rate is 60%. Compute its interest coverage ratio.",
+      "options": ["11 times", "12.5 times", "13 times", "13.5 times"],
+      "correctIndex": 3
+    },
+    {
+      "number": 70,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which statement accurately describes insurance?",
+      "options": [
+        "Insurance is a kind of investment.",
+        "Insurance is nothing but a gamble.",
+        "Insurance is risk transfer through risk pooling.",
+        "Insurance is a charity."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 71,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Three of these two-digit numbers equal seven times the sum of their digits. Pick the odd one out.",
+      "options": ["42", "63", "84", "91"],
+      "correctIndex": 3
+    },
+    {
+      "number": 72,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Calculate the sum of all even integers from 12 to 48 inclusive.",
+      "options": ["285", "300", "570", "600"],
+      "correctIndex": 2
+    },
+    {
+      "number": 73,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Find √308025.",
+      "options": ["545", "555", "565", "575"],
+      "correctIndex": 1
+    },
+    {
+      "number": 74,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which pair of consecutive odd integers has a sum divisible by 11?",
+      "options": ["171, 173", "173, 175", "175, 177", "177, 179"],
+      "correctIndex": 2
+    },
+    {
+      "number": 75,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which of the following numbers is NOT evenly divisible by 9?",
+      "options": ["542925", "639324", "729161", "891549"],
+      "correctIndex": 2
+    },
+    {
+      "number": 76,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Two numbers differ by 3 and the sum of their squares is 225. Identify the numbers.",
+      "options": ["10 and 7", "12 and 9", "15 and 12", "17 and 14"],
+      "correctIndex": 1
+    },
+    {
+      "number": 77,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "The arithmetic mean of 25 numbers is zero. At most how many of them can be positive?",
+      "options": ["1", "13", "24", "25"],
+      "correctIndex": 2
+    },
+    {
+      "number": 78,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Reversing the two digits of number B gives number A. If A exceeds B by 45, which of the following is A?",
+      "options": ["54", "63", "72", "81"],
+      "correctIndex": 2
+    },
+    {
+      "number": 79,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Complete the alphanumeric series: ZA₅, Y₄B, XC₆, W₃D, ____",
+      "options": ["E₇V", "V₂E", "VF₅", "VE₇"],
+      "correctIndex": 3
+    },
+    {
+      "number": 80,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Pick the word that does NOT belong with the others.",
+      "options": ["Bud", "Hibiscus", "Marigold", "Rose"],
+      "correctIndex": 0
+    },
+    {
+      "number": 81,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Statements: (a) No bat is ball. (b) No ball is wicket.\nConclusions: (I) No bat is wicket. (II) All wickets are bats.\nWhich conclusion(s) logically follow?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 82,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Statements: (a) All fishes are grey in colour. (b) Some fishes are heavy.\nConclusions: (I) All heavy fishes are grey in colour. (II) All light fishes are not grey in colour.\nWhich conclusion(s) logically follow?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 83,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Given: K ∈ L means K is mother of L; K α L means K is father of L; K ∂ L means K is daughter of L.\nIf M ∈ N α O ∂ P, how is M related to P?",
+      "options": ["Daughter-in-law", "Grandmother", "Mother-in-law", "Sister-in-law"],
+      "correctIndex": 2
+    },
+    {
+      "number": 84,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If wall is called window, window is called door, door is called floor, floor is called roof, and roof is called ventilator, what does a person stand on?",
+      "options": ["Door", "Floor", "Roof", "Window"],
+      "correctIndex": 2
+    },
+    {
+      "number": 85,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Gita is older than Radha and younger than Sita. Sapna is younger than Sita but older than Gita and Mona, while Mona is younger than Radha. If the two eldest are already married, who is next in age order?",
+      "options": ["Gita", "Mona", "Radha", "Sapna"],
+      "correctIndex": 0
+    },
+    {
+      "number": 86,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Using the digit-to-letter code (9=Q, 8=U, 7=I, 6=C, 5=K, 4=L, 3=Y, 2=R, 1=O, 0=D), encode the number 6080589304.",
+      "options": ["CDUDKUQYDL", "CDUDKQULDL", "CDIDKULYQL", "CDCDKUDYDL"],
+      "correctIndex": 0
+    },
+    {
+      "number": 87,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Which number does NOT belong with the other three?",
+      "options": ["8", "27", "125", "343"],
+      "correctIndex": 0
+    },
+    {
+      "number": 88,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "If the 7th day of a month falls three days before Friday, what day of the week is the 19th?",
+      "options": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+      "correctIndex": 0
+    },
+    {
+      "number": 89,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "A clock is oriented so that at 12:00 both hands point South-West. Where does the minute hand point at 8:45 p.m.?",
+      "options": ["North-east", "North-west", "South-east", "South-west"],
+      "correctIndex": 2
+    },
+    {
+      "number": 90,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Five students P, Q, R, S, and T sit in a row facing South: R is to the immediate right of T, S is to the immediate left of P, and Q sits between P and T. Who sit at the two extreme ends?",
+      "options": ["Q and P", "Q and T", "R and S", "S and T"],
+      "correctIndex": 2
+    },
+    {
+      "number": 91,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Rashid walks from A 40 m North to B, turns left 70 m to C, goes 100 m South to D, turns left 130 m to E, and finally goes 60 m North to F. In which direction from destination F is his starting point A?",
+      "options": ["North", "South", "East", "West"],
+      "correctIndex": 3
+    },
+    {
+      "number": 92,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "For three numbers A, B, and C: A is 20 more than B, C is 55 more than A, and A : C = 13 : 24. Find A + B + C.",
+      "options": ["185", "165", "230", "275"],
+      "correctIndex": 2
+    },
+    {
+      "number": 93,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": "pyq_opsc/figures/ssb_ja_2024_25_q93.png",
+      "questionText": "Numbers 1 to 25 are placed in the 5×5 magic square shown so every row, column, and diagonal has the same sum. Which value replaces 'X'?",
+      "options": ["13", "19", "20", "21"],
+      "correctIndex": 3
+    },
+    {
+      "number": 94,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "You want to sell old textbooks to buy an engineering drawing set. A needy buyer urgently requires the books but is slightly short on funds. What is the best decision?",
+      "options": [
+        "Accept the money he has and thereby meet both the requirements.",
+        "Help him out by donating the books to him.",
+        "Ignore him and look for another buyer.",
+        "Pressurise him to arrange the extra money to take the books."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "number": 95,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "At which management stage does a manager determine what kinds of decisions are required to execute organizational work?",
+      "options": [
+        "Activities analysis",
+        "Decision analysis",
+        "Operation analysis",
+        "Relations analysis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "number": 96,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Intuitive decision-making primarily relies on:",
+      "options": ["Gambling", "Guesswork", "Instinct", "Rationality"],
+      "correctIndex": 2
+    },
+    {
+      "number": 97,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "As an executive, Project A gives a minor benefit to many people while Project B gives a major benefit to a smaller group. Which project should be prioritized?",
+      "options": ["Project A", "Project B", "Both", "None"],
+      "correctIndex": 1
+    },
+    {
+      "number": 98,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Eight football teams play a league where every pair meets twice, followed by 1 qualifier, 2 eliminators, and 1 final. How many matches must be scheduled in total?",
+      "options": ["28", "32", "56", "60"],
+      "correctIndex": 3
+    },
+    {
+      "number": 99,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "Employee Rabi and his son have present ages in the ratio 7 : 3, which becomes 2 : 1 after 5 years. If Rabi passes away now and minimum service entry age is 21 years, when can his son avail the Rehabilitation Assistance Scheme?",
+      "options": [
+        "Avail after one year",
+        "Avail after three years",
+        "Can not avail",
+        "Forthwith"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "number": 100,
+      "section": "Reasoning & Mental Ability",
+      "contextText": null,
+      "imageAssetPath": null,
+      "questionText": "An office chest holds 2,400 coins of Rs. 10, Rs. 5, Rs. 2, and Rs. 1 in the ratio 1 : 3 : 5 : 7. Retaining one coin of each denomination and depositing the rest, how much money (in Rs.) is deposited?",
+      "options": ["5782", "6282", "6300", "7222"],
+      "correctIndex": 1
+    }
+  ]
+}

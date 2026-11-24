@@ -1,13 +1,21 @@
 package com.example.examprep
 
 import android.content.Context
+import android.graphics.Color as AndroidColor
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Assignment
@@ -17,6 +25,7 @@ import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
@@ -28,20 +37,27 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.examprep.data.CategoryCatalog
+import com.example.examprep.data.QuestionAssetRepository
 import com.example.examprep.data.UserFirestoreRepository
 import com.example.examprep.data.authStateFlow
 import com.example.examprep.data.signOutUser
 import com.example.examprep.model.AppThemeMode
 import com.example.examprep.model.ExamCategory
+import com.example.examprep.model.ExamResultSummary
+import com.example.examprep.model.MockTestSetMeta
+import com.example.examprep.model.UiState
 import com.example.examprep.ui.ExamPrepViewModel
 import com.example.examprep.ui.screens.AuthScreen
 import com.example.examprep.ui.screens.CategoryDetailScreen
+import com.example.examprep.ui.screens.ExamResultScreen
+import com.example.examprep.ui.screens.ExamScreen
 import com.example.examprep.ui.screens.HomeScreen
 import com.example.examprep.ui.screens.PracticeSetsScreen
 import com.example.examprep.ui.screens.ProfileScreen
 import com.example.examprep.ui.screens.PyqScreen
 import com.example.examprep.ui.screens.SectionalScreen
 import com.example.examprep.ui.theme.ExamPrepTheme
+import com.examprep.R
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.auth
@@ -53,13 +69,27 @@ private enum class AppScreen {
     SECTIONAL,
     PYQ,
     CATEGORY_DETAIL,
+    EXAM,
+    EXAM_RESULT,
     PROFILE
 }
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        enableEdgeToEdge(
+            statusBarStyle = SystemBarStyle.auto(
+                lightScrim = AndroidColor.TRANSPARENT,
+                darkScrim = AndroidColor.TRANSPARENT
+            ),
+            navigationBarStyle = SystemBarStyle.auto(
+                lightScrim = AndroidColor.TRANSPARENT,
+                darkScrim = AndroidColor.TRANSPARENT
+            )
+        )
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            window.isNavigationBarContrastEnforced = false
+        }
         setContent {
             AppRoot()
         }
@@ -112,6 +142,7 @@ private fun AuthenticatedAppContent(user: FirebaseUser) {
                 val prefs = app.getSharedPreferences(ExamPrepViewModel.PREFS_NAME, Context.MODE_PRIVATE)
                 ExamPrepViewModel(
                     userRepository = UserFirestoreRepository(db),
+                    questionAssetRepository = QuestionAssetRepository(app.assets),
                     prefs = prefs,
                     currentUserId = user.uid,
                     displayName = user.displayName?.takeIf { it.isNotBlank() } ?: "Student",
@@ -123,10 +154,15 @@ private fun AuthenticatedAppContent(user: FirebaseUser) {
 
     val themeMode by viewModel.themeMode.collectAsStateWithLifecycle()
     val examAttemptsState by viewModel.examAttempts.collectAsStateWithLifecycle()
+    val setsByCategory by viewModel.setsByCategory.collectAsStateWithLifecycle()
+    val activeExamState by viewModel.activeExamState.collectAsStateWithLifecycle()
 
     var currentScreen by remember { mutableStateOf(AppScreen.HOME) }
     var previousSectionScreen by remember { mutableStateOf(AppScreen.PRACTICE) }
     var selectedCategory by remember { mutableStateOf<ExamCategory?>(null) }
+    var selectedSetMeta by remember { mutableStateOf<MockTestSetMeta?>(null) }
+    var examAttemptKey by remember { mutableIntStateOf(0) }
+    var lastExamResult by remember { mutableStateOf<ExamResultSummary?>(null) }
 
     val showBottomNav = currentScreen in listOf(
         AppScreen.HOME,
@@ -204,6 +240,7 @@ private fun AuthenticatedAppContent(user: FirebaseUser) {
                         BackHandler { currentScreen = AppScreen.HOME }
                         PracticeSetsScreen(
                             categories = CategoryCatalog.practiceMockCategories,
+                            setCountsByCategory = setsByCategory.mapValues { it.value.size },
                             onBackClick = { currentScreen = AppScreen.HOME },
                             onCategoryClick = { category ->
                                 selectedCategory = category
@@ -230,6 +267,7 @@ private fun AuthenticatedAppContent(user: FirebaseUser) {
                         BackHandler { currentScreen = AppScreen.HOME }
                         PyqScreen(
                             categories = CategoryCatalog.pyqCategories,
+                            setCountsByCategory = setsByCategory.mapValues { it.value.size },
                             onBackClick = { currentScreen = AppScreen.HOME },
                             onCategoryClick = { category ->
                                 selectedCategory = category
@@ -245,9 +283,115 @@ private fun AuthenticatedAppContent(user: FirebaseUser) {
                             currentScreen = previousSectionScreen
                         } else {
                             BackHandler { currentScreen = previousSectionScreen }
+                            val sets = setsByCategory[category.id].orEmpty()
                             CategoryDetailScreen(
                                 category = category,
-                                onBackClick = { currentScreen = previousSectionScreen }
+                                sets = sets,
+                                onBackClick = { currentScreen = previousSectionScreen },
+                                onStartSet = { meta ->
+                                    selectedSetMeta = meta
+                                    examAttemptKey += 1
+                                    viewModel.loadExamSet(meta)
+                                    currentScreen = AppScreen.EXAM
+                                }
+                            )
+                        }
+                    }
+
+                    AppScreen.EXAM -> {
+                        when (val examState = activeExamState) {
+                            null, is UiState.Loading -> {
+                                BackHandler {
+                                    viewModel.clearActiveExam()
+                                    currentScreen = AppScreen.CATEGORY_DETAIL
+                                }
+                                Box(
+                                    modifier = Modifier.fillMaxSize(),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Column(
+                                        horizontalAlignment = Alignment.CenterHorizontally,
+                                        verticalArrangement = Arrangement.Center
+                                    ) {
+                                        CircularProgressIndicator()
+                                        Spacer(modifier = Modifier.height(12.dp))
+                                        Text(
+                                            text = "Loading question paper...",
+                                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                                        )
+                                    }
+                                }
+                            }
+
+                            is UiState.Error -> {
+                                BackHandler {
+                                    viewModel.clearActiveExam()
+                                    currentScreen = AppScreen.CATEGORY_DETAIL
+                                }
+                                Box(
+                                    modifier = Modifier
+                                        .fillMaxSize()
+                                        .padding(24.dp),
+                                    contentAlignment = Alignment.Center
+                                ) {
+                                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                                        Text(
+                                            text = examState.message,
+                                            color = MaterialTheme.colorScheme.error
+                                        )
+                                        Spacer(modifier = Modifier.height(12.dp))
+                                        Button(
+                                            onClick = {
+                                                viewModel.clearActiveExam()
+                                                currentScreen = AppScreen.CATEGORY_DETAIL
+                                            }
+                                        ) {
+                                            Text("Back to Sets")
+                                        }
+                                    }
+                                }
+                            }
+
+                            is UiState.Success -> {
+                                key(examAttemptKey, examState.data.meta.id) {
+                                    ExamScreen(
+                                        mockTestSet = examState.data,
+                                        onExitExam = {
+                                            viewModel.clearActiveExam()
+                                            currentScreen = AppScreen.CATEGORY_DETAIL
+                                        },
+                                        onFinishExam = { resultSummary ->
+                                            lastExamResult = resultSummary
+                                            viewModel.recordPracticeExamAttempt(resultSummary)
+                                            currentScreen = AppScreen.EXAM_RESULT
+                                        }
+                                    )
+                                }
+                            }
+                        }
+                    }
+
+                    AppScreen.EXAM_RESULT -> {
+                        val result = lastExamResult
+                        if (result == null) {
+                            currentScreen = AppScreen.CATEGORY_DETAIL
+                        } else {
+                            BackHandler {
+                                viewModel.clearActiveExam()
+                                currentScreen = AppScreen.CATEGORY_DETAIL
+                            }
+                            ExamResultScreen(
+                                result = result,
+                                onRetakeExam = {
+                                    val meta = selectedSetMeta ?: result.set.meta
+                                    examAttemptKey += 1
+                                    viewModel.loadExamSet(meta)
+                                    currentScreen = AppScreen.EXAM
+                                },
+                                onDoneClick = {
+                                    viewModel.clearActiveExam()
+                                    currentScreen = AppScreen.CATEGORY_DETAIL
+                                }
                             )
                         }
                     }

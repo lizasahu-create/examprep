@@ -22,6 +22,7 @@ import com.example.examprep.model.ExamCategory
 @Composable
 fun PyqScreen(
     categories: List<ExamCategory>,
+    setCountsByCategory: Map<String, Int> = emptyMap(),
     onBackClick: () -> Unit,
     onCategoryClick: (ExamCategory) -> Unit
 ) {
@@ -64,9 +65,11 @@ fun PyqScreen(
             contentPadding = PaddingValues(top = 8.dp, bottom = 24.dp)
         ) {
             items(categories, key = { it.id }) { category ->
+                val count = setCountsByCategory[category.id] ?: 0
                 CategoryListItemCard(
                     title = category.name,
                     icon = pyqCategoryIcon(category.id),
+                    badgeText = if (count > 0) "$count Sets" else null,
                     testTag = "pyq_category_${category.id}",
                     onClick = { onCategoryClick(category) }
                 )
