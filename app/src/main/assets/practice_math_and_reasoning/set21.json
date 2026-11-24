@@ -1,0 +1,1222 @@
+{
+  "id": "practice_math_set21",
+  "categoryId": "practice_math_and_reasoning",
+  "title": "Mathmockset21 Ac8d272e",
+  "questions": [
+    {
+      "number": 1,
+      "text": "The numbers 6, 9, 12, and x are in proportion. If (x + 2), (x + 12), 18, and k are also in proportion,\ncalculate the value of k.",
+      "options": [
+        "24",
+        "30",
+        "20",
+        "36"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 2,
+      "text": "Rajat travels from point A to point B at 28 km/hr and returns from point B to point A at 44 km/hr.\nFind the average speed for the entire trip (approximately up to two decimal places).",
+      "options": [
+        "34.06 km/hr",
+        "34.22 km/hr",
+        "34.76 km/hr",
+        "34.92 km/hr"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 3,
+      "text": "The numbers 40, 60, 32, 70, and 26 have weights 1, 2, 3, 4, and 5 respectively. Find the weighted\nmean.",
+      "options": [
+        "44.4",
+        "44.2",
+        "44.6",
+        "44.8"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 4,
+      "text": "Pipes A and B together can fill an empty tank in 24 minutes. Pipe A takes 40 minutes to fill the\ntank on its own. Find the time taken (in minutes) by Pipe B to fill the tank alone.",
+      "options": [
+        "50",
+        "56",
+        "60",
+        "54"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 5,
+      "text": "If 8 pencils cost ₹24, find the cost of 14 pencils.",
+      "options": [
+        "₹45",
+        "₹42",
+        "₹48",
+        "₹39"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 6,
+      "text": "In how much time (in months) will ₹3,200 fetch a simple interest of ₹360 at 9% per year?",
+      "options": [
+        "13",
+        "15",
+        "19",
+        "12"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 7,
+      "text": "An article is sold at a profit of 20%. If the cost of production goes up by 10% and the selling price\nis raised by 5%, what is the new profit percentage? (Rounded to one decimal place)",
+      "options": [
+        "13.7%",
+        "15.6%",
+        "14.5%",
+        "16.2%\nPage 1 of 15\n--- Page 2 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 8,
+      "text": "If the ratio of two numbers is 6 : 7 and their HCF is 46, then their LCM is:",
+      "options": [
+        "1982",
+        "1954",
+        "1935",
+        "1932"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 9,
+      "text": "After a flat discount of ₹135, a shirt is sold for ₹540. What is the marked price of the shirt?",
+      "options": [
+        "₹700",
+        "₹675",
+        "₹645",
+        "₹600"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 10,
+      "text": "A number whose sixth part increased by 18 equals its fourth part diminished by 12. Find the\nnumber.",
+      "options": [
+        "320",
+        "380",
+        "360",
+        "340"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 11,
+      "text": "The population of a town is 22,000. It increases by 12% in the first year and decreases by 6% in\nthe second year. What is the population at the end of 2 years?",
+      "options": [
+        "23,582",
+        "22,982",
+        "23,162",
+        "23,402"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 12,
+      "text": "A trader buys an article for ₹1,980. After allowing two successive discounts of 20% and 10% on\nthe marked price, he still earns a profit of 20%. Find the marked price.",
+      "options": [
+        "₹3,650",
+        "₹3,300",
+        "₹3,150",
+        "₹3,500"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 13,
+      "text": "Find the difference between the compound interest (compounded annually) and simple interest\non ₹12,000 at 6% per annum for 2 years.",
+      "options": [
+        "₹88",
+        "₹28",
+        "₹68",
+        "₹43"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 14,
+      "text": "A can complete a work in 12 days and B can complete it in 18 days. If they work on alternate days\nstarting with A, in how many days will the work be completed?",
+      "options": [
+        "16 days",
+        "14 1/3 days",
+        "15 1/3 days",
+        "13 days"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 15,
+      "text": "A pipe can fill a tank in 9 hours, while a leak at the bottom can empty the full tank in 13 hours. If\nboth are open together, in how many hours will the empty tank be filled?",
+      "options": [
+        "31.25 hours",
+        "27.75 hours",
+        "29.25 hours",
+        "33.25 hours"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 16,
+      "text": "Two trains of lengths 150 m and 170 m are running on parallel tracks in opposite directions at\nspeeds of 48 km/hr and 42 km/hr respectively. How long will they take to cross each other\ncompletely?",
+      "options": [
+        "14.8 s",
+        "12.8 s",
+        "11.3 s",
+        "16.8 s\nPage 2 of 15\n--- Page 3 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 17,
+      "text": "A boat's speed in still water is 13 km/hr and the speed of the stream is 4 km/hr. Find the total\ntime taken by the boat to go 34 km downstream and 27 km upstream.",
+      "options": [
+        "5 hours",
+        "5.5 hours",
+        "6 hours",
+        "4.5 hours"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 18,
+      "text": "A vessel contains 45 litres of pure milk. 9 litres of milk is drawn out and replaced with water. This\nprocess is repeated once more. How much milk is left in the vessel?",
+      "options": [
+        "28.8 litres",
+        "27.2 litres",
+        "31.2 litres",
+        "32.8 litres"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 19,
+      "text": "A starts a business with ₹14,000 and after 6 months B joins with ₹21,000. Out of an annual profit\nof ₹7,700, what is A's share?",
+      "options": [
+        "₹4,150",
+        "₹4,700",
+        "₹4,400",
+        "₹3,300"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 20,
+      "text": "Five years ago, the ratio of the ages of Ram and Shyam was 3 : 2. If the difference between their\npresent ages is 5 years, find Ram's present age.",
+      "options": [
+        "18 years",
+        "23 years",
+        "15 years",
+        "20 years"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 21,
+      "text": "The average weight of 13 students in a class increases by 1.5 kg when a student weighing 47 kg\nis replaced by a new student. Find the weight of the new student.",
+      "options": [
+        "63.5 kg",
+        "65 kg",
+        "66.5 kg",
+        "71 kg"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 22,
+      "text": "Find the unit digit of (15)^44 + (19)^45.",
+      "options": [
+        "4",
+        "1",
+        "3",
+        "5"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 23,
+      "text": "Three bells toll at intervals of 8, 12, and 18 seconds respectively. If they toll together at 9:00:00\nAM, after how many seconds will they next toll together?",
+      "options": [
+        "96 seconds",
+        "36 seconds",
+        "72 seconds",
+        "84 seconds"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 24,
+      "text": "If x + 1/x = 4, find the value of x³ + 1/x³.",
+      "options": [
+        "64",
+        "58",
+        "48",
+        "52"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 25,
+      "text": "If α and β are the roots of the quadratic equation x² − 9x + 18 = 0, find the value of α² + β².",
+      "options": [
+        "39",
+        "49",
+        "81",
+        "45\nPage 3 of 15\n--- Page 4 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 26,
+      "text": "Find the sum of the first 13 terms of the arithmetic progression: 6, 10, 14, ...",
+      "options": [
+        "390",
+        "403",
+        "416",
+        "386"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 27,
+      "text": "A bag contains 5 red, 6 blue, and 3 green balls. Two balls are drawn at random. What is the\nprobability that both balls are red?",
+      "options": [
+        "10/93",
+        "10/91",
+        "11/91",
+        "5/14"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 28,
+      "text": "From a group of 6 men and 5 women, a committee of 3 persons is to be formed. In how many\nways can it be formed so that it includes at least 2 women?",
+      "options": [
+        "76",
+        "80",
+        "66",
+        "70"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 29,
+      "text": "From a point on the ground 20 m away from the foot of a tower, the angle of elevation of the top\nof the tower is 60°. Find the height of the tower.",
+      "options": [
+        "20/√3 m",
+        "20√3 m",
+        "20√2 m",
+        "40 m"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 30,
+      "text": "Find the distance between the points A(1, -1) and B(9, 14).",
+      "options": [
+        "17 units",
+        "21 units",
+        "19 units",
+        "16 units"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 31,
+      "text": "For a moderately skewed distribution, the mean is 22 and the median is 25. Using the empirical\nrelationship, find the mode.",
+      "options": [
+        "31",
+        "36",
+        "34",
+        "29"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 32,
+      "text": "If the length of a rectangle is increased by 15% and its breadth is decreased by 12%, what is the\nnet percentage change in its area?",
+      "options": [
+        "1.2% increase",
+        "No change",
+        "3.2% increase",
+        "5.2% decrease"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 33,
+      "text": "A solid metallic sphere of radius 9 cm is melted and recast into smaller spheres of radius 3 cm\neach. How many smaller spheres can be formed?",
+      "options": [
+        "13",
+        "36",
+        "21",
+        "27"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 22,
+      "text": "marks. Find the maximum marks of the examination.",
+      "options": [
+        "340",
+        "480",
+        "380",
+        "430\nPage 4 of 15\n--- Page 5 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 35,
+      "text": "A bag contains ₹1, ₹2, and ₹5 coins in the ratio 3 : 4 : 6. If the total amount in the bag is ₹492,\nfind the number of ₹5 coins.",
+      "options": [
+        "36",
+        "82",
+        "72",
+        "48"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 36,
+      "text": "The monthly incomes of A and B are in the ratio 5 : 4 and their expenditures are in the ratio 3 : 2.\nIf each saves ₹4,800 per month, find A's monthly income.",
+      "options": [
+        "₹14,000",
+        "₹9,600",
+        "₹12,000",
+        "₹10,500"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 37,
+      "text": "In the given circle with centre O, ∠BOC = 104°. Find ∠BAC.\nA\nO\n104°\nB C",
+      "options": [
+        "44°",
+        "62°",
+        "52°",
+        "67°"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 38,
+      "text": "A circle is inscribed in a square of side 14 cm as shown. Find the area of the shaded region\noutside the circle. (Use π = 22/7)\na=14cm",
+      "options": [
+        "154 cm²",
+        "56 cm²",
+        "35 cm²",
+        "42 cm²"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 39,
+      "text": "Find the curved surface area of the right circular cylinder shown with radius r = 7 cm and height\nh = 12 cm. (Use π = 22/7)\nr=7\nh=12cm",
+      "options": [
+        "660 cm²",
+        "616 cm²",
+        "528 cm²",
+        "484 cm²\nPage 5 of 15\n--- Page 6 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 40,
+      "text": "Find the area of the trapezium shown with parallel sides 18 cm and 30 cm and height 12 cm.\n18cm\nh=12\n30cm",
+      "options": [
+        "308 cm²",
+        "288 cm²",
+        "320 cm²",
+        "272 cm²"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 41,
+      "text": "Find the hypotenuse of the right-angled triangle shown with perpendicular legs 8 cm and 15 cm.\n?\n8cm\n15cm",
+      "options": [
+        "16 cm",
+        "17 cm",
+        "21 cm",
+        "19 cm"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 43,
+      "text": "How many units correspond to the first two categories combined (35% + 25%)?",
+      "options": [
+        "5,500",
+        "4,700",
+        "4,500",
+        "6,000"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 44,
+      "text": "What is the central angle for the largest category (35%)?",
+      "options": [
+        "108°",
+        "126°",
+        "90°",
+        "144°"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 45,
+      "text": "What is the ratio of the 2nd category (25%) to the 5th category (8%)?",
+      "options": [
+        "5 : 3",
+        "9 : 4",
+        "25 : 8",
+        "7 : 2"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 47,
+      "text": "What is the total across all four categories in 2026?",
+      "options": [
+        "720",
+        "685",
+        "450",
+        "765"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 48,
+      "text": "What is the average value of Cuttack over the 4 years (2023–2026)?",
+      "options": [
+        "160",
+        "145",
+        "165",
+        "150"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 49,
+      "text": "What is the percentage increase in Ganjam from 2023 to 2026?",
+      "options": [
+        "80.0%",
+        "75.0%",
+        "85.0%",
+        "71.0%"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 51,
+      "text": "In a certain code language: A @ B means 'A is the father of B'; A & B means 'A is the wife of B'; A #\nB means 'A is the son of B'; A % B means 'A is the mother of B'. Based on the above, how is P related to\nT if P # Q % R & S @ T?",
+      "options": [
+        "Mother's father",
+        "Father's father",
+        "Wife's father",
+        "Mother's brother"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 53,
+      "text": "Refer to the following series (counting left to right): 5 8 1 6 9 3 4 2 5 6 7 4 9 8 3 5 1 7 8. How\nmany such perfect squares are there, each of which is immediately preceded by an odd digit and\nimmediately followed by a prime digit?",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 54,
+      "text": "Three of the following four letter-cluster pairs are alike in a certain way. Which one does NOT\nbelong to the group?",
+      "options": [
+        "LHY - CDX",
+        "QSF - HQE",
+        "XRD - ONC",
+        "VPL - MLK"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 55,
+      "text": "Munna starts from Point A and drives 43 km North, turns right and drives 51 km, turns right and\ndrives 52 km, turns right and drives 56 km, and takes a final right turn to drive 9 km and stop at Point\nP. How far and towards which direction must he drive to reach Point A again?",
+      "options": [
+        "4 km to the west",
+        "5 km to the east",
+        "3 km to the east",
+        "6 km to the west"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 56,
+      "text": "Which letter-number cluster will replace the question mark (?) in the series: KAC 14, IBE 1, GCG\n-12, EDI -25, ?",
+      "options": [
+        "CEK -38",
+        "NUK -32",
+        "VFG -43",
+        "DFK -38"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 57,
+      "text": "A, B, C, D, E, F, and G are sitting around a circular table facing the centre. A is to the immediate\nright of B. D is to the immediate left of C and immediate right of E. F is second to the right of B. G is\nsecond to the left of A. How many people sit between G and E (counted from the shorter side)?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "0\nPage 8 of 15\n--- Page 9 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 58,
+      "text": "Three of the following four letter-cluster pairs are alike in alphabetical order. Which one does\nNOT belong to the group?",
+      "options": [
+        "KN - RJ",
+        "MP - TK",
+        "OR - VM",
+        "QT - XO"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 59,
+      "text": "Three of the following four letter-cluster pairs are alike in alphabetical order. Which one does\nNOT belong to the group?",
+      "options": [
+        "LN - IK",
+        "MO - JL",
+        "EG - BD",
+        "JL - LP"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 60,
+      "text": "Seven people Q, R, S, T, U, V, and W sit in a row facing north. Only two sit between Q and R. Only\nW sits to the right of T. Only one sits between R and T. U sits to the right of S and to the left of V. How\nmany people sit between V and S?",
+      "options": [
+        "One",
+        "Two",
+        "Four",
+        "Three"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 61,
+      "text": "Find the next number in the series: 4, 9, 20, 43, 90, ?",
+      "options": [
+        "191",
+        "185",
+        "187",
+        "181"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 62,
+      "text": "Find the missing number: 11, 16, 26, 41, 61, ?",
+      "options": [
+        "86",
+        "91",
+        "81",
+        "96"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 63,
+      "text": "Find the next term in the series: 6, 24, 60, 120, 210, ?",
+      "options": [
+        "336",
+        "330",
+        "348",
+        "342"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 64,
+      "text": "Complete the letter series: BD, EG, IK, NP, ?",
+      "options": [
+        "SU",
+        "UW",
+        "VX",
+        "TV"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 65,
+      "text": "In a certain code language, 'SMART' is written as 'VPDUW'. How is 'WORLD' written in that code?",
+      "options": [
+        "ZRUOI",
+        "ZRUOG",
+        "YQTNF",
+        "ASVPH"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 66,
+      "text": "If A = 1, B = 2, ..., Z = 26, what is the sum of the letter values of 'LOGIC'?",
+      "options": [
+        "44",
+        "49",
+        "46",
+        "51\nPage 9 of 15\n--- Page 10 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 70,
+      "text": "A is the father of B, who is the sister of C. D is the mother of C. E is the brother of D. How is E\nrelated to A?",
+      "options": [
+        "Brother",
+        "Uncle",
+        "Brother-in-law",
+        "Cousin"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 71,
+      "text": "If P × Q means P is the mother of Q, P + Q means P is the father of Q, and P − Q means P is the\nsister of Q, then in M + N × R − S, how is M related to R?",
+      "options": [
+        "Father",
+        "Maternal grandfather",
+        "Uncle",
+        "Paternal grandfather"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 72,
+      "text": "Ravi walks 5 m North, turns right and walks 12 m, then stops. What is the shortest distance and\ndirection of his final point from the starting point?",
+      "options": [
+        "17 m North-East",
+        "13 m North-East",
+        "15 m South-East",
+        "13 m North-West"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 73,
+      "text": "Meera faces East. She turns 90° clockwise, then 180° anticlockwise, and finally 45° clockwise.\nWhich direction is she facing now?",
+      "options": [
+        "North-East",
+        "North-West",
+        "South-East",
+        "South-West"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 74,
+      "text": "In a row of students facing North, Amit is 13th from the left end and 16th from the right end. How\nmany students are in the row?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "27\nPage 10 of 15\n--- Page 11 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 75,
+      "text": "In a row of 36 persons, P is 15th from the left and Q is 13th from the right. How many persons sit\nbetween P and Q?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 76,
+      "text": "Six friends A, B, C, D, E, and F sit around a circular table facing the centre. A is opposite D. B is to\nthe immediate right of A. E is to the immediate left of D. C is between B and D. Who sits to the\nimmediate left of A?",
+      "options": [
+        "B",
+        "F",
+        "C",
+        "E"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 77,
+      "text": "Five persons P, Q, R, S, and T sit in a row facing North. Q is to the immediate left of R. P is at one\nof the ends. T is between R and S. S is at the right end. Who sits in the middle?",
+      "options": [
+        "S",
+        "T",
+        "R",
+        "Q"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 79,
+      "text": "Find the smaller angle between the hour hand and the minute hand of a clock at 2:40.",
+      "options": [
+        "145°",
+        "160°",
+        "182.5°",
+        "170°"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 80,
+      "text": "If today is Monday, what day of the week will it be after 49 days?",
+      "options": [
+        "Sunday",
+        "Wednesday",
+        "Monday",
+        "Tuesday"
+      ],
+      "correct_index": null,
+      "correctIndex": 2,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 81,
+      "text": "If '+' means '−', '−' means '+', '×' means '÷', and '÷' means '×', evaluate: 26 × 4 ÷ 6 − 5 + 3.",
+      "options": [
+        "42",
+        "38",
+        "46",
+        "35"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 82,
+      "text": "Select the related number: 6 : 42 :: 9 : ?",
+      "options": [
+        "90",
+        "72",
+        "81",
+        "83"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 83,
+      "text": "Thermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Wind",
+        "Pressure",
+        "Rainfall",
+        "Humidity"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 84,
+      "text": "Find the odd number out: 125, 216, 343, 65.",
+      "options": [
+        "65",
+        "343",
+        "125",
+        "216\nPage 11 of 15\n--- Page 12 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 85,
+      "text": "In a number pattern: (3, 4, 2 → 14), (5, 2, 6 → 16), (5, 3, 5 → ?). Find the missing number.",
+      "options": [
+        "23",
+        "18",
+        "25",
+        "20"
+      ],
+      "correct_index": null,
+      "correctIndex": 3,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 89,
+      "text": "Arrange in dictionary order: 1. Granite 2. Gravity 3. Grateful 4. Graphic 5. Grasp",
+      "options": [
+        "4, 1, 5, 3, 2",
+        "1, 4, 5, 3, 2",
+        "1, 5, 4, 3, 2",
+        "1, 4, 3, 5, 2"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 90,
+      "text": "Arrange in a logical sequence: 1. Seed 2. Fruit 3. Plant 4. Flower 5. Tree",
+      "options": [
+        "1, 5, 3, 4, 2",
+        "1, 3, 5, 4, 2",
+        "1, 3, 4, 5, 2",
+        "3, 1, 5, 4, 2"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 91,
+      "text": "Find the vertical mirror image (mirror placed on the right) of the given figure:",
+      "options": [
+        "",
+        "",
+        "",
+        "Page 12 of 15\n--- Page 13 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 1,
+      "section": "Reasoning",
+      "contextText": null,
+      "imageAssetPath": null
+    },
+    {
+      "number": 95,
+      "text": "How many triangles are there in the given figure?",
+      "options": [
+        "20",
+        "18",
+        "24",
+        "16\nPage 13 of 15\n--- Page 14 ---"
+      ],
+      "correct_index": null,
+      "correctIndex": 0,
+      "section": "Mathematics",
+      "contextText": null,
+      "imageAssetPath": null
+    }
+  ]
+}
